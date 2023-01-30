@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e622ac6ec8ae5c85",
+        "id": "f33155799673010b",
         "type": "tabs",
         "children": [
           {
-            "id": "61f72dd14e1f1b0b",
+            "id": "286cb572fe9e4a17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Algorithms Correctness & Efficency/Lectures/Analysis of Algorithms - Lecture 1 - 30.01.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Group Project/Lecture 1 - 30.01.2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Algorithms Correctness & Efficency/Lectures/Analysis of Algorithms - Lecture 1 - 30.01.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Group Project/Lecture 1 - 30.01.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Algorithms Correctness & Efficency/Lectures/Analysis of Algorithms - Lecture 1 - 30.01.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Group Project/Lecture 1 - 30.01.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Algorithms Correctness & Efficency/Lectures/Analysis of Algorithms - Lecture 1 - 30.01.2023.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Group Project/Lecture 1 - 30.01.2023.md"
               }
             }
           }
@@ -146,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ff59b7b5dafa2be",
+  "active": "286cb572fe9e4a17",
   "lastOpenFiles": [
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Algorithms Correctness & Efficency/Lectures/Analysis of Algorithms - Lecture 1 - 30.01.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Group Project/Lecture 1 - 30.01.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Algorithms Correctness & Efficency/Lectures/Intro to ADE - Lecture 0 - 30.01.2023.md",
     "Pasted image 20230130120248.png",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Algorithms Correctness & Efficency/Lectures/Analysis of Algorithms - Lecture 1 - 30.01.2023.md",
     "Pasted image 20230130120051.png",
     "Pasted image 20230130115948.png",
     "assets/images/lecture slides/Pasted image 20230130110036.png",
     "Pasted image 20230130111555.png",
     "Pasted image 20230130111700.png",
-    "Pasted image 20230130111621.png",
-    "Pasted image 20230130112354.png"
+    "Pasted image 20230130111621.png"
   ]
 }
