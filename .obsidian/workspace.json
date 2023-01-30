@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Group Project/Lecture 1 - 30.01.2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58401d1679ea2f16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Languages and Computation/Lecture 1 - 30.01.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lecture 1 - 30.01.2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 454.5
+    "width": 205.5
   },
   "right": {
     "id": "1ef53200bfd6b17d",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Languages and Computation/Lecture 1 - 30.01.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lecture 1 - 30.01.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Languages and Computation/Lecture 1 - 30.01.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lecture 1 - 30.01.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Languages and Computation/Lecture 1 - 30.01.2023.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lecture 1 - 30.01.2023.md"
               }
             }
           }
@@ -160,11 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b201a3697b97eaba",
+  "active": "286cb572fe9e4a17",
   "lastOpenFiles": [
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Group Project/Lecture 1 - 30.01.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Algorithms Correctness & Efficency/Lectures/Analysis of Algorithms - Lecture 1 - 30.01.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Algorithms Correctness & Efficency/Lectures/Intro to ADE - Lecture 0 - 30.01.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Group Project/Lecture 1 - 30.01.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Analysis of Algorithms - Lecture 1 - 30.01.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Intro to ADE - Lecture 0 - 30.01.2023.md",
     "Pasted image 20230130120248.png",
     "Pasted image 20230130120051.png",
     "Pasted image 20230130115948.png",
