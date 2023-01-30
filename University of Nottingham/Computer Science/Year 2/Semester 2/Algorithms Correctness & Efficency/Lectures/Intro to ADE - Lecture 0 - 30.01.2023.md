@@ -77,6 +77,8 @@
 
 
 
+
+
 ### Content
 #### What are Algorithms?
 	![[Pasted image 20230130111555.png]]
@@ -137,7 +139,7 @@ Objectives
 	
 #### Maths needed includes:
 ![[Pasted image 20230130120102.png]]
-	
+	Revise logs as they will come up a lot
 Properties of Inequalities:
 ![[Pasted image 20230130120228.png]]
 	
