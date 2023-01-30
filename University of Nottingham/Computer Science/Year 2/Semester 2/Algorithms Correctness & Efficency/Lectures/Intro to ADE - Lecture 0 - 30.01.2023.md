@@ -76,6 +76,7 @@
 
 
 
+
 ### Content
 #### What are Algorithms?
 	![[Pasted image 20230130111555.png]]
@@ -97,15 +98,60 @@ Examples:
 Aim
 	![[Pasted image 20230130112354.png]]
 	
-
+Objectives
+	![[Pasted image 20230130115603.png]]
+	
 #### Why care about efficiency?
+![[Pasted image 20230130115649.png]]
+	
+![[Pasted image 20230130115708.png]]
+	
 #### Problem Oriented Approach
+![[Pasted image 20230130115735.png]]
+	
 #### Example Task
-#### Interview Question
-#### Rough Context within "Programming"
-#### Rough Contents of the ADE portion
-#### Maths needed includes:
-#### Summary
+![[Pasted image 20230130115801.png]]
+	
+![[Pasted image 20230130115811.png]]
+	
+![[Pasted image 20230130115820.png]]
+	
+![[Pasted image 20230130115837.png]]
+	
+![[Pasted image 20230130115859.png]]
+	
+![[Pasted image 20230130115913.png]]
+	
+![[Pasted image 20230130115924.png]]
+	
 
+#### Interview Question
+![[Pasted image 20230130115948.png]]
+	
+
+#### Rough Context within "Programming"
+![[Pasted image 20230130120023.png]]
+	
+#### Rough Contents of the ADE portion
+![[Pasted image 20230130120051.png]]
+	
+#### Maths needed includes:
+![[Pasted image 20230130120102.png]]
+	
+Properties of Inequalities:
+![[Pasted image 20230130120228.png]]
+	
+Properties of Exponents:
+![[Pasted image 20230130120248.png]]
+	
+Properties of Logarithms:
+![[Pasted image 20230130120306.png]]
+	
+Geometric and Arithmetic Series:
+![[Pasted image 20230130120324.png]]
+	
+#### Summary
+![[Pasted image 20230130120419.png]]
+	
 
 
