@@ -11,8 +11,12 @@
             "id": "28234caa85d215e0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Distributed Systems/Labs/Lab 0 - 30.01.2023.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Distributed Systems/Labs/Lab 0 - 30.01.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Distributed Systems/Labs/Lab 0 - 30.01.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Distributed Systems/Labs/Lab 0 - 30.01.2023.md"
+              }
             }
           }
         ]
@@ -138,6 +146,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ff59b7b5dafa2be",
-  "lastOpenFiles": []
+  "active": "28234caa85d215e0",
+  "lastOpenFiles": [
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Distributed Systems/Lab 0 - 30.01.2023.md"
+  ]
 }
