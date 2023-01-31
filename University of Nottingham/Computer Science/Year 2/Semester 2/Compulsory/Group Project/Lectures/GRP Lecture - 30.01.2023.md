@@ -1,3 +1,6 @@
+Contents:
+[[Group Project]]
+
 This semester is about deliverables 
 	- building on what we started with our prototype in 1st semester
 Structure of 2nd semester

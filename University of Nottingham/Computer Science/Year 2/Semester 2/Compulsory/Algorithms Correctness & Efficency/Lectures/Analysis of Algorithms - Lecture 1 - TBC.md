@@ -1,3 +1,6 @@
+Contents
+[[Algorithms, Correctness & Efficiency]]
+
 #### Running Time
 ![[Pasted image 20230130121012.png]]
 	

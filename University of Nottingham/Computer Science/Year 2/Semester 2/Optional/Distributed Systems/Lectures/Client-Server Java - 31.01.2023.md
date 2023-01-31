@@ -1,5 +1,5 @@
 Client Server
-[[Contents]]
+[[Distributed Systems]]
 ### Definition of a distributed System
 - We define a distributed system as one in which hardware or software components located at networked computers communicate and coordinate their actions only by passing messages
 Most applications of distributed systems are based on sharing resources
@@ -49,11 +49,6 @@ Sometimes we want to share
 ### Sockets and Ports
 ![[Pasted image 20230131112637.png]]
 - On the client side, we choose any port nobody is using
-- 
-- 
-- 
-- 
-- 
 - Server side, we have an agreed port
 
 ### Message Destinations
