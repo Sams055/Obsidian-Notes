@@ -31,7 +31,6 @@ Contents:
 - Content
 	- Learn modern heuristic search / optimisation techniques
 	- Lean fuzzy systems at the introductory level
-
 - Everything shown, said or done in the lectures or labs is examinable
 - Provisional topic list
 	 ![[Pasted image 20230201102334.png]]
@@ -47,12 +46,16 @@ Contents:
 					Decision Theory
 					Decision Analysis
 					Statistics	
+			- We call this when we have an optimisation problem and we need to make a decision if our solution is suitable or not.
 		- Systems
-			- Closed systems are independent of their environment
+			- Closed systems are totally independent of their environment
 			- Open systems are dependent on their environment
 			- System effectiveness refers to the degree of which goals are achieved
 			- System efficiency is a measure of the use of resources to achieve output
 				- e.g. speed
+			- This is basically a software solution
+			- We are going to implement optimisation algorithms and we need to evaluate them.
+				- Hence we check the system effectiveness and efficiency
 		- Problem and Problem Instance
 			- ![[Pasted image 20230201110658.png]]
 			- Problem Classes
@@ -60,8 +63,8 @@ Contents:
 				- 
 	- Solving Problems by searching
 		- Search for paths to goals
-			- efficiently find actions to go from an initial state to a given goal
-			- central to AI problems
+			- Efficiently find a set of actions that go from an initial state to a given goal
+			- Central to AI problems
 			- Typical algorithms include
 				- Depth First Search (DFS)
 				- Breadth First Search (BFS)
@@ -72,24 +75,36 @@ Contents:
 			- More general than searching for paths to goals
 			- Efficiently finding a solution to a problem in a large space of candidate solutions
 			- Subsumes the first type, since a path through a search tree can be encoded as a candidate solution
+			- If you have a problem, you could end up having to search a huge space for the optimal solution
 	- Global Optimisation
-		- Task of finding the best set of admissible conditions to achieve your objective, formulated in mathematical terms
+		- Task of finding the <b> ABSOLUTE BEST </b> set of admissible conditions to achieve your objective, formulated in mathematical terms
 		- The fundamental problem of optimisation is to arrive at the best possible decision / solution in any given set of circumstances
 		- In most case "the best" (optimal) is unattainable
-
 	- Global and Local Optimum
 		- Global Optimum is a solution better than all other solutions (best)
 		- Local Optimum is a solution better than all solutions in a certain neighbourhood
-			![[Pasted image 20230201110145.png]]
+		- ![[Pasted image 20230201110145.png]]
 		- The graph shows these optimums
+			- The neighbourhood of the certain neighbourhood is $$+- \delta $$
 	- Solving an optimisation problem
 		- ![[Pasted image 20230201110527.png]]
-		- 
+		- Maximise and minimise with respective to a function
+		- We define this function
+		- We will also have a series of variables where X is a vector of variables <x1, x2, ..., xn>
+		- The formula represents our constraints in the system
+		- We could take the derivative of a function to find the minimum or maximise, BUT THIS DOES NOT APPLY TO EVERYTHING, hence it's not a solution we should pursue
 	- Search in Continuous vs Discrete Space
 		- ![[Pasted image 20230201110543.png]]
-		- 
+		- Run the car on 10 tracks and use the 0 - 1.0 as a performance indicator
+		- The x1 variable is essentially taking a real value between 0 and 1
+		- Say we have x buses waiting for the groups with a set of capacity
+		- We have n groups, how are we going to place them into the buses
+		- We want to minimise the number of buses x
+		- Worst case scenario would be that each group has their own bus
 		- ![[Pasted image 20230201110607.png]]
-		-  
+		- The right graph assumes we've generated all possible states
+		- The right graph shows multiple solutions
+		- We will not be covering continuous optimisation (left graph)
 	- Combinatorial Optimisation Problems
 		- ![[Pasted image 20230201110803.png]]
 		- 
