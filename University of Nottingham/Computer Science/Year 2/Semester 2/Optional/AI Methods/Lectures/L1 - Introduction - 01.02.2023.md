@@ -246,6 +246,11 @@ Contents:
 		- Multiple trials/runs should be performed for the experiments/simulations 
 		- Being able to repeat/replicate those multiple trials/runs in the experiments/simulations is crucial in science, and 
 		- This also enables average performance comparison of different stochastic heuristic search algorithms applying statistical tests
+		- We are going to use random number generators for stochastic algorithms
+		- However, despite this randomness, we want to repeat these experiments.
+		- Hence, we have pseudo-random number generators which to some extend is still systematic.
+		- An algorithm needs to be seeded to repeat the experiment.
+		- A single instance repeated multiple times will give different results
 	- Pseudo-random numbers
 		- Definition
 			- A long sequence of numbers that is produced using a deterministic process but which appear to be random.
