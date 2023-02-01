@@ -1,3 +1,6 @@
+Contents
+[[Algorithms, Correctness & Efficiency]]
+
 ### Admin
 #### Creating Code Blocks
 ``` C
