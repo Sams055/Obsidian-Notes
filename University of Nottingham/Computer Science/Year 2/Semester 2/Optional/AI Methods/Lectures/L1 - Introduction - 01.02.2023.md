@@ -58,9 +58,11 @@ Contents:
 				- Hence we check the system effectiveness and efficiency
 		- Problem and Problem Instance
 			- ![[Pasted image 20230201110658.png]]
+			- The example is of the bus problem we saw earlier
 			- Problem Classes
 				- ![[Pasted image 20230201110729.png]]
-				- 
+				- Many real-world problems are in NP-Hard and NP-Complete
+
 	- Solving Problems by searching
 		- Search for paths to goals
 			- Efficiently find a set of actions that go from an initial state to a given goal
@@ -107,40 +109,60 @@ Contents:
 		- We will not be covering continuous optimisation (left graph)
 	- Combinatorial Optimisation Problems
 		- ![[Pasted image 20230201110803.png]]
-		- 
+		- We have x1 to xn discrete values
+		- for each value we need to choose objects
+		- If we want to search for all configurations of solutions in a search space, the size and time taken could be immense
 	- Optimisation / Search Methods
 		- ![[Pasted image 20230201110840.png]]
-		- 
+		- We have two main classes:
+			- Exact
+			- Inexact
+		- We could come up with an efficient exact method which uses the structure of the solutions in the search space and come up with an efficient solution in the search space very quickly
+			- 
 	- Search Paradigms
 		- Single Point (trajectory) based search 
+			- We use just a single solution
 		- Multi-point (population) based search
+			- We will use multiple solutions
+				- We will have additional neighbourhoods
+					- We can define nice neighbourhoods
+					- We can have multiple solutions that interact with each other to create better results than a single solution
+						- This is only up to chance however
 		- Perturbative
 			- Complete solutions
+			- We can assume a black box
+			- We input a complete solution and output a new complete solution
 		- Constructive
 			- Partial Solutions
+			- We input a partial solution
+				- We need to assign some values, but we don't know some of the other values
+				- It will output either a partial solution or a complete solution
 		- Relationships
 			- ![[Pasted image 20230201111004.png]]
-			- 
+			- If you run a deterministic solution multiple times, you will get the same solution
+			- A stochastic solution may provide a different solution after running multiple times
+			- All sequential algorithms we will cover can be parallelised
+			- We can choose to evaluate a decision with single objectives or multiple objectives
+				- e.g. if we want to reduce company costs
+					- We want to spend less money (single objective)
+					- We want to reduce carbon emissions (The above and this one means we have multi-objective)
 	- Example optimisation techniques
 		- ![[Pasted image 20230201111031.png]]
-		- 
+		- Exact/Exhaustive/Deterministic Systematic Methods 
+		- These techniques only work if the problem is structured
+		- Used to solve sub-problems
 		- Bin Packing Problem Instance
 			- ![[Pasted image 20230201111055.png]]
-			- 
+			- This is similar to the bus problem, we need to fit n1 - n33 in space 524
+			- each n has it's own size
+			- How can we minimise this problem?
 			- Solution
 				- ![[Pasted image 20230201111144.png]]
-				- 
-				- 
-				- 
-				- 
-				- 
-				- 
-				- 
-				- 
-				- 
-				- 
+				- We substituted a for x in some places for clarity. 
+				- COMP4038 covers this (not necessary for this module)
+				- Below is the solver for the model above
 				- ![[Pasted image 20230201111156.png]]
-
+				- If we upload the problem instance, the solver should solve the instance automatically
 		- Performance Comparison
 			- ![[Pasted image 20230201111246.png]]
 
@@ -223,4 +245,4 @@ Contents:
 			- 
 		- 4
 			- ![[Pasted image 20230201112831.png]]
-			- 
+
