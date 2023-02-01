@@ -62,7 +62,6 @@ Contents:
 			- Problem Classes
 				- ![[Pasted image 20230201110729.png]]
 				- Many real-world problems are in NP-Hard and NP-Complete
-
 	- Solving Problems by searching
 		- Search for paths to goals
 			- Efficiently find a set of actions that go from an initial state to a given goal
@@ -165,9 +164,12 @@ Contents:
 				- If we upload the problem instance, the solver should solve the instance automatically
 		- Performance Comparison
 			- ![[Pasted image 20230201111246.png]]
-
+			- We have a combinatorial explosion here, causing search size to become massive with just 60 items
+			- You cannot call a solution optimal without using an exact method (which is provable)
+			- This means that a heuristic method will never be truly perfect / optimal
 		- ![[Pasted image 20230201111353.png]]
-		- 
+		- For this course, we will be focusing on Inexact methods
+		- We will solve discrete problems
 - Heuristic Search / Optimisation
 	- Heuristic Search Methods
 		-  A heuristic is a rule of thumb method derived from human intuition.
