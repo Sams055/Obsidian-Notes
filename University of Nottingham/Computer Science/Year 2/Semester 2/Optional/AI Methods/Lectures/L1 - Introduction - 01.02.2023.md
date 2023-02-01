@@ -117,7 +117,6 @@ Contents:
 			- Exact
 			- Inexact
 		- We could come up with an efficient exact method which uses the structure of the solutions in the search space and come up with an efficient solution in the search space very quickly
-			- 
 	- Search Paradigms
 		- Single Point (trajectory) based search 
 			- We use just a single solution
@@ -180,7 +179,7 @@ Contents:
 		- ![[Pasted image 20230201111620.png]]
 		- How would you do it?
 		- ![[Pasted image 20230201111644.png]]
-		- By human intuition, we could start witht he first item, if it can fit into the first bin put it in, otherwise we a new bin for it and move on to the next one.
+		- By human intuition, we could start with the first item, if it can fit into the first bin put it in, otherwise we a new bin for it and move on to the next one.
 		- However, largest item first would be more ideal
 			- If the bin can accommodate the next largest item then put it in the bin, if it cannot, try the next bin / open a new one if none of them fit
 		- Largest item first fit heuristic
@@ -254,7 +253,7 @@ Contents:
 	- Pseudo-random numbers
 		- Definition
 			- A long sequence of numbers that is produced using a deterministic process but which appear to be random.
-			- Note that most computers and programming languages have support to produce pseudorandom numbers, and often with seeding
+			- Note that most computers and programming languages have support to produce pseudorandom numbers, and often with seeding
 			- ![[Pasted image 20230201112613.png]]
 			- 
 		- Problems
