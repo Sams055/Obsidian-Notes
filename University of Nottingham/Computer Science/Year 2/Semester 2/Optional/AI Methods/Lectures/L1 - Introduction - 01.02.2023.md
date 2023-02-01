@@ -173,38 +173,61 @@ Contents:
 - Heuristic Search / Optimisation
 	- Heuristic Search Methods
 		-  A heuristic is a rule of thumb method derived from human intuition.
-		⚫ A heuristic is a problem dependent search method which seeks good, i.e. near-optimal solutions, at a reasonable cost (e.g. speed) without being able to guarantee optimality. 
-		⚫ Good for solving ill-structured problems, or complex well-structured problems (large-scale combinatorial problems that have many potential solutions to explore).
+		-  A heuristic is a problem dependent search method which seeks good, i.e. near-optimal solutions, at a reasonable cost (e.g. speed) without being able to guarantee optimality. 
+		-  Good for solving ill-structured problems, or complex well-structured problems (large-scale combinatorial problems that have many potential solutions to explore).
+		- Heuristics while not the best, are good value solutions
 	- Revisited Bin Packing Problem Instance
 		- ![[Pasted image 20230201111620.png]]
 		- How would you do it?
 		- ![[Pasted image 20230201111644.png]]
+		- By human intuition, we could start witht he first item, if it can fit into the first bin put it in, otherwise we a new bin for it and move on to the next one.
+		- However, largest item first would be more ideal
+			- If the bin can accommodate the next largest item then put it in the bin, if it cannot, try the next bin / open a new one if none of them fit
 		- Largest item first fit heuristic
 			- ![[Pasted image 20230201111706.png]]
-			- 
+			- We cannot prove that this will provide the optimal solution
+			- Things can go wrong
 	- Case Study : Travelling Salesman problem (TSP)
 		- ![[Pasted image 20230201111927.png]]
-		- 
+		- This is an informal description of the problem
+		- What is the shortest possible route which can visit every city?
+		- This represents so many real world problems as contextually, the travelling salesman can be represented by communication and travel
+		- Example Solutions
+			- Instance: city1, city2, city3, city3, city4, where n = 4
+				- example solution
+					- <city3, city1, city 4, city 2> = x
+					- We would be trying to find the combination with the lowest value of x
+			- If we have 5 cities, then we have 5! different solutions = 120 solutions
 		- Heuristic Examples for TSP
 			- Nearest Neighbour (NN) Algorithm
+				- Constructive (Stochastic, Systematic)
 				- ![[Pasted image 20230201112137.png]]
 				- ![[Pasted image 20230201112147.png]]
+				- Choose a random city
 				- ![[Pasted image 20230201112153.png]]
+				- Choose a neighbour with the shortest distance
 				- ![[Pasted image 20230201112201.png]]
 				- ![[Pasted image 20230201112207.png]]
+				- Repeat
 				- ![[Pasted image 20230201112214.png]]
+				- After we have visited all the cities, the algorithm finishes
 				- ![[Pasted image 20230201112223.png]]
-				- 
+				- By starting at a different city, we can end up with a different solution
+				- The algorithm depends on the intial starting point; this means we could local search
 			- A Constructive Stochastic Local Search Algorithm for TSP
 				- ![[Pasted image 20230201112253.png]]
-				- 
+				- Compare the current local solution with the current best solution repeatedly to get the best solution we can find.
+				- The run-time becomes dependent on the number of cities used for the algorithm
 			- Pairwise exchange (2-opt)
 				- ![[Pasted image 20230201112314.png]]
+				- Let's remove two edges and replace them with new edges to different cities
 				- ![[Pasted image 20230201112324.png]]
 				- ![[Pasted image 20230201112333.png]]
 				- ![[Pasted image 20230201112343.png]]
+				- We swap the cities
 				- ![[Pasted image 20230201112357.png]]
-				- 
+				- If the solution has a better output, we will use this new solution
+				- We maintain the same intial city, but change or maintain the order of edges / travel depending on the output
 			- A Perturbative Stochastic Local Search Algorithm for TSP
 				- ![[Pasted image 20230201112416.png]]
 				- 
@@ -213,7 +236,9 @@ Contents:
 		- 
 	- Drawbacks of Heuristic Search
 		- ![[Pasted image 20230201112431.png]]
-		- 
+		- Most of the heuristics in the real world depend on a set of parameters
+		- The algorithms tend to be sensitive to the parameter in terms of performance
+		- We ideally want to find optimal values for those parameters
 - Pseudo-random numbers
 	- Deterministic vs Stochastic Heuristic Search
 		-  Deterministic heuristic search algorithms provide the same solution when run on the given problem instance regardless of how many times.       
