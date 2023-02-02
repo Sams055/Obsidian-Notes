@@ -1,6 +1,5 @@
 Contents
-[[Algorithms, Correctness & Efficiency]]
-
+[[Languages and Computation]]
 ### Admin
 #### Creating Code Blocks
 ``` C
@@ -53,7 +52,7 @@ int x = 7;
 | Type 3 | Regular | Finite DFA & NFA | Regular Expressions |
 | Type 2 | Context-Free | Pushdown Automata PDA | Context-Free Grammar |
 | Type 1 | Context-Sensitive | Turing Machines | Grammar X |
-| Type 0 | Recursively Decideable | | |
+| Type 0 | Recursively Decideable |  | |
 
 ###### Halting-Problem (Undecidability of the...)
 ``` C

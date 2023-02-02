@@ -7,9 +7,12 @@
  [[AI Methods]]
  [[Distributed Systems]]
 
+###### Tomorrow:
+Bring Charger
+11:00 - LAC Lecture
+14:00 - AI Lab
+
 ###### To-do List:
-- ACE Flashcards / Notes
-- LAC Flashcards / Notes
 - Group Project Assignment(s)
 - AI Methods Lecture 1 Exercises
 - LAC Lecture 1 Exercises
