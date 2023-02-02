@@ -9,5 +9,8 @@
  [[LAC Lecture 2 - 02.02.2023]]
  
 
-###### Labs:
- 
+###### Revision:
+[[2 - Formal Languages]]
+
+###### Tutorials:
+

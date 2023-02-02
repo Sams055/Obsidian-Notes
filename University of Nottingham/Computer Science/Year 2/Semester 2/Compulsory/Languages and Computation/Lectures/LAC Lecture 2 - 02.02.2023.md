@@ -31,8 +31,6 @@ Contents:
 		- only 3 words in this language; finite language
 
 	- L9 Sequences of characters with only 'bob'
-
-
 - What is a language?
 	- A language is a set of words.
 		- Predicate over words.
@@ -47,7 +45,7 @@ Contents:
 	- $$ \Sigma n = {a,b,c}  $$
 - Example
 	- ![[Pasted image 20230202112758.png]]
-
+	- 
 - Operations on Languages
 	- ![[Pasted image 20230202114432.png]]
 	- ![[Pasted image 20230202115203.png]]
