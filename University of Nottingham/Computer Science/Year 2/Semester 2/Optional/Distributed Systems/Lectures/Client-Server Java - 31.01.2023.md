@@ -30,15 +30,6 @@ Sometimes we want to share
 - Senders send messages and they are received by receiver queues / buffers
 - Socket is the OS's view of these endpoints
 
-
-
-
-
-
-
-
-
-
 ### Sockets
 ![[Pasted image 20230131112436.png]]
 - In order to use a socket object it needs to be associated with key relevant information in the relevant protocol
@@ -89,10 +80,6 @@ Sometimes we want to share
 Continued
 	![[Pasted image 20230131113846.png]]
 	The write could block if you pass enough data fast enough; reason why we `try catch`
-
-
-
-
 ### TCP Consideration
 ![[Pasted image 20230131114137.png]]
 - In TCP, if the receiver needs to know how many bytes it needs to wait for

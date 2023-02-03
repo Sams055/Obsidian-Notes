@@ -3,7 +3,7 @@
  
 ###### Lectures:
  [[Client-Server Java - 31.01.2023]]
- IP Networking & virtual machines (recap)
+ [[Networking - 03.02.2023]]
  Request/response and Java UDP
  Network Security
  RPC and RMI

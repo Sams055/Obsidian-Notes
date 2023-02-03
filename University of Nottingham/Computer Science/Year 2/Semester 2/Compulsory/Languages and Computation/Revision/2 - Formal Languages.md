@@ -41,3 +41,7 @@ Contents:
 			- from which we can concatenate the 'given symbol' and 'word' to form a new word xw
 				- xw ∈ Σ ∗ 
 					- Which is also an element of the alphabet set
+
+		- These are all the ways that elements on $\Sigma$* can be constructed
+			- This is called an inductive definition
+- Kleene star

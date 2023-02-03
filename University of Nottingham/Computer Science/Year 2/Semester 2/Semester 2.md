@@ -9,8 +9,8 @@
 
 ###### Tomorrow:
 Bring Charger
-11:00 - LAC Lecture
-14:00 - AI Lab
+12:00 - DSys Lecture 
+17:00 - ACE Lecture
 
 ###### To-do List:
 - Find out what the fuck happened in LAC lecture 2
