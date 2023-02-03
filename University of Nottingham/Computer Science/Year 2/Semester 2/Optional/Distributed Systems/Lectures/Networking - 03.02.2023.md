@@ -12,16 +12,31 @@ Contents:
 		- UDP
 	- Network Configuration
 	- VMs, Containers and the Cloud
+- General Networking
+	- Networks are complex and use a layering pattern
+	- Lower layers provide services for higher layers to build on
 - Network Models
 	- Internet Layer
 		- ![[Pasted image 20230203092948.png]]
+		- 
 	- ISO Model
 		- ![[Pasted image 20230203093002.png]]
+		- People rarely use this anymore, but if you work on older machines, you may find yourself using this
 - Layer 1 / Layer 2
 	- Graphical representation of Layer 1 / 2
 		- ![[Pasted image 20230203112219.png]]
-		- 
+		- If you look on your DSys you'll find all kinds of devices
+			- phones
+			- servers
+			- laptops
+			- network printers
+			- routers
+			- any end systems you can think of
+		- They are all connected via routers which connect to other routers which connect to other machines
+		- WiFi, LAN and Ethernet are usually for Local technologies
+		- MAN and WAN are for more widespread networks
 	- Each network can use different technology, which can have different levels of bandwidth, latency and reliability.
+		- You are limited to your bandwidth and latency and reliability, no matter how much more efficient you make your application
 	- A single computer can connect to several different networks
 		- e.g. a phone on both WiFi and mobile data (3g, 4g)
 		- e.g. a server on two different ethernets
@@ -29,67 +44,110 @@ Contents:
 	- Some (not all) networks allow a single message to be sent to all machines on the network.
 		- Like what James Harvey did on Bann during the OSC coursework
 		- Can be done through ethernet, wifi, broadcast or multicast
+
+	- Usually not possible on wider networks
 - The Internet
-	- This is an illusion of a single network provided to users and applications.
-	- It's an underlying physical structure with routers interconnecting networks
+	- What is it?
+		- The illusion of a single network provided to users and applications.
+		- It's an underlying physical structure with routers interconnecting networks
+		- Inter-Network == InterNet == Internet
 	- Largely based on Layer 3, 4 & supporting layer 5 protocols such as DNS and Routing.
+		- TCP, UDP, IP
 	- Acts as a unifying point for almost any network application
+		- Physical and Linked layer protocols underneath
 	- Does not care about what it's built on, or what it's used for, (layers 1,2 and 5 aren't really considered)
 - Typical Network Protocol Stack
 	- ![[Pasted image 20230203111412.png]]
-
+	- Physical involved voltages, currents etc.
+	- Network involves ethernet and wifi
+	- Internet IP has some complementary protocols like Controller management protocol.
+	- TCP and UDP... you know this well
 - How layer 4 sees layer 3
 	- ![[Pasted image 20230203112119.png]]
-	- 
+	- Between layer 3 and 4, we don't see the routers
+	- We see the end systems such as laptops etc. with their own IPs
 - The Internet Model
 	- Every networked machine is either seen as a node or a host
-	- Every host machine has an Internet (IP) Address
+	- Every host machine has *at least one* Internet (IP) Address
 		- One for each network interface
 			- e.g. 128.243.22.73
 			- Could have a longer one if we're using IPv6
+		- If we had ethernet cards, each one would have their own ip address
 	- Any machine can send a packet of data to another machine
 		- e.g. a datagram
 		- Usually a packet is limited to 64kB or less
 	- Sometimes packets are lost, delayed, corrupted or duplicated, but there is some checking for corruption
 		- This is referred to as a best effort service
-
+		- Works *most* of the time
 - How layer 5 sees layer 4
 	- ![[Pasted image 20230203112045.png]]
-
+	- Contextually you'll see web browsers talking to web servers
+	- Processes will have a port number
+	- Client and Server applications
+	- Using TCP and UDP
+	- What we usually encounter as a programmer
+	- Can implement / make up our own protocols from here
 - TCP and UDP: Streams and Messages
 	- Applications don't use IP directly; they use one or more tranport protocols such as UDP or TCP
+	- TCP is the most widely used protocol due to it's reliability
 	- TCP is a bi-directional connection-oriented service for streams of bytes
 		- Uses failure masking techniques
+		- TCP doesn't distinguish between client and server once the connection is established, or how you send the bytes.
+		- Whichever format you sent the data is how the format in which the data is received.
 	- UDP is a 'best effort' connectionless service for packets of bytes (messages)
 		- Uses IP directly
 		- Is one to one, but can use multicast
-
-	- Each application in the host is identified with a protocol-specific port number
+	- Each application in the host is identified with a protocol-specific port number regardless of whether you are using TCP or UDP
 		- e.g. TCP port 80
-		- Clients usually use random unused ports
-
+			- TCP port 80 could be completely different from UDP port 80
+		- Clients usually use random unused ports 
 - Routing and configuration
 	- Layer 2/3 networks and routing
 		- Visualised
 			- ![[Pasted image 20230203112733.png]]
-
+			- We have a range of different physical networks
+			- Have a range of devices
+			- Devices have an IP address
+			- Use IP addresses to find where something needs to be sent next
+			- All of the public IP addresses that UoN has have the same starting values of 128.443. We use these numbers to figure out which network we need to connect to next.
+			- Each time you move to the next closest network, you need to get a new IP address
+			- We do this as it means we don't have to store the entire world's IP addresses on each machine
+			- We use IP ranges to reduce the number of IP's we need to store
 	-  Routing and forwarding
 		 - Routers have interfaces on two or more networks and forward packets from one network to the next 
-		 - Host and routers have routing tables; these identify for each destination IP address which interface/host to send it to next 
-		 - Hosts and routers work together to deliver each packet to its destination “hop by hop” (aka store and forward
+			 - e.g. in the exchange building, we could have a router with addresses to some Jubilee networks and a few addresses which will connect to University Park networks.
+		 - Host and routers have routing tables; these identify for each destination IP address which interface/host to send it to next
+			 - Usually indexed by IP address
+			 - Router works out which direction it needs to be sent
+		 - Hosts and routers work together to deliver each packet to its destination “hop by hop” (aka store and forward)
 	- Host Configuration
 		- ![[Pasted image 20230203112920.png]]
-
+		- As a host there's not a great range of options to go to
+		- It needs a minimum amount of information to get going
+		- Needs:
+			- It's own IP address
+			- The address range on it's local network
+			- Figure out which bits in it's address actually matter for the local network it's directly connected to
+			- A gateway / route to get where it needs to go if it's not directly connected
+				- Figures out which router would be the best for forwarding the packet further
+		- Most hosts run DHCP so when a machine connects to a local network, it gets the information it needs to communicate.
+		- If you have a server that never moves, you can manually configure a server with an IP address etc.
+			- However you need to get whoever manages your network to do so for you.
 	- Router Configuration
 		- ![[Pasted image 20230203112936.png]]
-
+		- Routers have a hard job of managing routing across the whole internet
+		- Need to tell a router explicity that interface x goes to interface y with IP address z
+		- Each router is manually configured with the basic information, but to communicate with it's neighbours they use routing protocols.
+			- OSPF is used for an organisation
+			- BGP is used between organisations
+			- Construct a bigger network with these protocols
 - Java TCP example revisited
 	- Parsing Arguments
 		- ![[Pasted image 20230203113006.png]]
-
+		- In the above figure, we follow the numbered steps to communicate between the sockets
 	- Looking across the layers
 		- ![[Pasted image 20230203113040.png]]
-
+		- If we trace the message from the client we can see data fragments embedded within the message for each layer of the stack which is interpreted and used the to find the next place the data needs to go.
 - Virtual Machines, containers, the cloud and SSH
 	- Machines, Virtual Machines & Containers
 		- ![[Pasted image 20230203113127.png]]
@@ -106,9 +164,6 @@ Contents:
 	- SSH (Secure SHell)
 		- ![[Pasted image 20230203113302.png]]
 		- 
-		  
-		  
-
 - Low Level Networking Summary
 	- ![[Pasted image 20230203113403.png]]
 	- 
