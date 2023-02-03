@@ -92,4 +92,55 @@ Contents:
 			- $u, v, w$ are words
 - Exponent
 	- We use exponent notation to denote concatenation of a word with itself.
-	- 
+		- $u^2 = uu$  
+		- $u^3 = uuu$
+		- and so on...
+	- We can just use the logic from MCS1
+	- Concatenation of words is extended to concatenation of languages by: 
+		- MN = {uv | u ∈ M ∧ v ∈ N} 
+		- For example: 
+			- M = {ϵ, a, aa} 
+			- N = {b, c} 
+			- MN = {uv | u ∈ {ϵ, a, aa} ∧ v ∈ {b, c}} = 
+			- {ϵb, ϵc, ab, ac, aab, aac} 
+			- {b, c, ab, ac, aab, aac}
+		- We essentially create every single possible combination of words that can be made from combining the sets.
+
+- Properties of Concatenation
+	- Concatenation of languages is associative: 
+		- L(MN) = (LM)N
+	- Concatenation of languages has zero ∅: 
+		- L∅ = ∅ = ∅L 
+	- Concatenation of languages has unit {ϵ}: 
+		- L{ϵ} = L = {ϵ}L 
+	- Concatenation distributes through set union: 
+		- L(M ∪ N) = LM ∪ LN 
+		- (L ∪ M)N = LN ∪ MN
+
+	- NOTE: Concatenation does not distribute by intersection $\cap$ 
+		- Example 
+			- Let L = {ϵ, a}, M = {ϵ}, N = {a}
+				- L(M ∩ N) = L∅ = ∅ 
+				- LM ∩ LN = {ϵ, a} ∩ {a, aa} = {a}
+- Exponent Notation
+	- $L 1 = L, L 2 = LL, L 3 = LLL,$
+	- and so on...
+	- $L^0 =$ {$\epsilon$}
+		- For ***Any*** language
+			- Even $\emptyset$ 
+	- This is simply the version of $u^0 =$ ϵ for concatenation of languages
+
+- The Kleene star can also be applied to languages
+	- Intuitively, this means language concatenation iterated 0 or more times: 
+		- $L$* = $L^n$, which is for all values of $n$ between 0 and infinity
+
+	- Moreover, the same rules concerning $\epsilon$ apply
+		- $\epsilon$ $\in$ $L*$, for any language
+			- Including $L$ = $\emptyset$
+		- If $L*$ = {a, ab}	 
+			- Then $L*$ = {ϵ, a, ab, aab, aba, aaab, aaba, . . . }
+
+	- $L$* can also be described as the "least language" with respect to $\subseteq$ which contains $L$ and the empty word, $\epsilon$ and is closed under concatenation
+		- $u$ ∈ $L$∗ ∧ $v$ ∈ $L$∗ $\implies$ $uv$ ∈ $L$∗
+	- The difference between using the Kleene star on an alphabet and a language is the arguments.
+	- In both cases, the result is a set of words, but the types of the arguments to the two variants of the kleen star operation differ.
