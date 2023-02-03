@@ -7,10 +7,10 @@ Contents
 
 #### Experimental Studies
 ![[Pasted image 20230130121102.png]]
-	
+	If we increase input size from 50 to 100, the time will increase from 3000 - 9000
 #### Limits of Experiments
 ![[Pasted image 20230130121142.png]]
-	
+	Implementing the algorithm may be difficult or time-consuming
 #### Limitations of Theory
 ![[Pasted image 20230130121154.png]]
 	
@@ -33,7 +33,7 @@ Contents
 	
 #### Limitations of RAM model
 ![[Pasted image 20230130121414.png]]
-	
+	- Using relative sizes helps deal with big numbers
 #### Counting Primitive Operations
 ![[Pasted image 20230130121426.png]]
 	
