@@ -1,47 +1,85 @@
 Contents:
 [[Languages and Computation]]
 
-- Definitions
-	- A language is a set of words.
-	- A word is a sequence of symbols.
-- Let's build our notation
-	- Let's represent an empty word with $\epsilon$
-		- $\epsilon$ is a symbol sequence of length 0.
-	- We now have definitions for a word, so let's talk about the symbols that make up a word.
-	- What is a symbol?
-		- Anything that comes from an alphabet.
-	- Lets represent the alphabet with $\Sigma$ which represents a finite set.
-		- A common and important instance of this is $\Sigma =$ {0, 1}.
-		- NOTE: $\epsilon$ will *never* be a symbol
-			- avoids confusion
-	- Lets define $\Sigma$* as a 'set of words' where a 'set of words' can also be a 'sequence of symbols'
-		- This is essentially making a set of the alphabet
-- Notation summary
-	- Empty Word = $\epsilon$
-	- Alphabet = $\Sigma$
-	- Alphabet Set = $\Sigma$*
-	- Element of = $\in$ 
-- Example of notation in action
-	- Example
-		- Mathematically we say: Given an alphabet Σ we define the set Σ ∗ as set of words (or sequences) over Σ: the empty word ϵ ∈ Σ ∗ and given a symbol x ∈ Σ and a word w ∈ Σ ∗ we can form a new word xw ∈ Σ ∗ .
-		- Let's break it down: 
-			- Given an alphabet Σ 
-			- we define the set Σ ∗ 
-				- as a set of words
-			- over the alphabet Σ, where we have 
-				- the empty word
-					- ϵ ∈ Σ ∗ 
-						- which is an element of the alphabet set
-				- a given symbol 
-					- x ∈ Σ 
-						- Which is an element of the alphabet
-				- a word 
-					- w ∈ Σ ∗ 
-						- Which is an element of the alphabet s
-			- from which we can concatenate the 'given symbol' and 'word' to form a new word xw
-				- xw ∈ Σ ∗ 
-					- Which is also an element of the alphabet set
-
-		- These are all the ways that elements on $\Sigma$* can be constructed
-			- This is called an inductive definition
-- Kleene star
+- Pre-requisite understanding
+	- Definitions
+		- A language is a set of words.
+		- A word is a sequence of symbols.
+	- Let's build our notation
+		- Let's represent an empty word with $\epsilon$
+			- $\epsilon$ is a symbol sequence of length 0.
+		- We now have definitions for a word, so let's talk about the symbols that make up a word.
+		- What is a symbol?
+			- Anything that comes from an alphabet.
+		- Lets represent the alphabet with $\Sigma$ which represents a finite set.
+			- A common and important instance of this is $\Sigma =$ {0, 1}.
+			- NOTE: $\epsilon$ will *never* be a symbol
+				- avoids confusion
+		- Lets define $\Sigma$* as a 'set of words' where a 'set of words' can also be a 'sequence of symbols'
+			- This is essentially making a set of the alphabet
+	- Notation summary
+		- Empty Word = $\epsilon$
+		- Alphabet = $\Sigma$
+		- Alphabet Set = $\Sigma$*
+		- Element of = $\in$ 
+	- Example of notation in action
+		- Example
+			- Mathematically we say: Given an alphabet Σ we define the set Σ ∗ as set of words (or sequences) over Σ: the empty word ϵ ∈ Σ ∗ and given a symbol x ∈ Σ and a word w ∈ Σ ∗ we can form a new word xw ∈ Σ ∗ .
+			- Let's break it down: 
+				- Given an alphabet Σ 
+				- we define the set Σ ∗ 
+					- as a set of words
+				- over the alphabet Σ, where we have 
+					- the empty word
+						- ϵ ∈ Σ ∗ 
+							- which is an element of the alphabet set
+					- a given symbol 
+						- x ∈ Σ 
+							- Which is an element of the alphabet
+					- a word 
+						- w ∈ Σ ∗ 
+							- Which is an element of the alphabet s
+				- from which we can concatenate the 'given symbol' and 'word' to form a new word xw
+					- xw ∈ Σ ∗ 
+						- Which is also an element of the alphabet set
+			- These are all the ways that elements on $\Sigma$* can be constructed
+				- This is called an inductive definition
+	
+	- The * in $\Sigma$* is known as the Kleene star
+	- Lets say we have an alphabet $\Sigma$ {0,1}
+		- We can use this alphabet in an Alphabet Set $\Sigma$* to create sequences such as 0010 or 00000000, $\epsilon$
+		- $\epsilon$ is a special case in that when we display our set e.g. {00, $\epsilon$} we do not write 00$\epsilon$, but rather 00.
+		- The only time we display $\epsilon$ is when it is the only member of the set e.g. {$\epsilon$} would be displayed as $\epsilon$ 
+	
+	- Understanding Non-Empty and Empty Sets
+		- $\Sigma$* always has $\epsilon$ 
+		- This means $\Sigma$* is always Non-Empty as $\epsilon$ still counts as a member of the set
+		- Even $\Sigma$* for  $\Sigma$ = $\emptyset$, still has $\epsilon$, and is considered non-empty
+		- The key difference is, $\Sigma$* for $\Sigma$ = $\emptyset$, is a **Finite** set. Since the only possible sequence is $\epsilon$ 
+		- For every other set with an alphabet that isn't just the empty word, the set $\Sigma$* is an **Infinite** set.
+	- So what do we need to know about Infinite sets?
+		- Despite infinite sets having possibly infinite elements, each element will still have a finite length.
+		- We can think of an infinite set as a process that can generate a new element any time, as many times as we want, but the element itself would have to be finite since we'd be requesting to generate x elements, not requesting for infinite elements.
+		- Alternatively, we could make a set with a single "infinite" element, but since it would still only contain exactly one element.
+- We can now define the notion of a language $L$ over an alphabet $\Sigma$ precisely as one of the following:
+	- $L \subseteq \Sigma$*  
+	- $L \in \mathcal{P}$ ( $\Sigma$* )
+- Informal examples of languages
+	![[Pasted image 20230203135359.png]]
+	![[Pasted image 20230203135500.png]]
+	- You should note that there's a distinction between $\epsilon$, $\emptyset$, {$\epsilon$} 
+		- $\epsilon$ denotes the empty word, a sequence of symbols of length 0.
+		- $\emptyset$ denotes the empty set, a set with no elements
+		- {$\epsilon$} is a set with exactly *one* element: the empty word
+	- Also note that while $\epsilon$ is a sequence while the other two are sets.
+- Concatenation
+	- Concatenation on $\Sigma$* can be denoted by what we refer to as 'juxtapositioning' or an 'invisible operator':
+		- Given $u, v \in \Sigma*$, we can construct a new word $uv \in \Sigma*$  by concatenating the 'words', 'u' and 'v'
+	- We can define this with primitive recursion
+		- Base case
+			- $\epsilon v = v$
+		- Recursion
+			- $(xu)v = x(uv)$ 
+	- 
+		
+- Exponent
