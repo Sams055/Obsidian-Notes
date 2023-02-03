@@ -163,13 +163,24 @@ Contents:
 				- Example hypervisors are VMware and VirtualBox
 			- Multiple OS's
 			- Each OS has it's own place to run prcoesses and applications
-		- 
+			- If we're emulating an old machine, our computer is fast enough to make up for the slowness of the virtual machine
+			- However for things like google and amazon's cloud, efficiency is very important as we need high performance
+
+		- On a container you have
+			- Instead of a bunch of virtual machines, you run containers on the same OS
+			- With containers we can have the same kernel, but multiple file system images in which we can run different types of processes / application by encapsulating the environment with the container.
+			- We still have a hypervisor, so we can still run several OS's on a single machine.
 	- Virtual Machine & Container Networking Components
 		- ![[Pasted image 20230203113209.png]]
+		- Each VM has it's own virtual network card.
+		- A container has it's own virtual network card as well, allowing for  another layer of networks
 	- Virtual Machine & Container (main) Networking Options
 		- ![[Pasted image 20230203113232.png]]
+		- With some virtualisation, we can take our virtual interface and say we want to use our device as a physical interface
+			- e.g. virtualbox
 	- The Cloud
 		- ![[Pasted image 20230203113248.png]]
+		- Really just servers on demand
 	- SSH (Secure SHell)
 		- ![[Pasted image 20230203113302.png]]
 		- 
