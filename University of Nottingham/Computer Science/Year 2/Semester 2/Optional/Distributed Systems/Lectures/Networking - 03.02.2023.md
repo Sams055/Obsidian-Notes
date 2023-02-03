@@ -44,7 +44,6 @@ Contents:
 	- Some (not all) networks allow a single message to be sent to all machines on the network.
 		- Like what James Harvey did on Bann during the OSC coursework
 		- Can be done through ethernet, wifi, broadcast or multicast
-
 	- Usually not possible on wider networks
 - The Internet
 	- What is it?
@@ -165,7 +164,6 @@ Contents:
 			- Each OS has it's own place to run prcoesses and applications
 			- If we're emulating an old machine, our computer is fast enough to make up for the slowness of the virtual machine
 			- However for things like google and amazon's cloud, efficiency is very important as we need high performance
-
 		- On a container you have
 			- Instead of a bunch of virtual machines, you run containers on the same OS
 			- With containers we can have the same kernel, but multiple file system images in which we can run different types of processes / application by encapsulating the environment with the container.
