@@ -13,7 +13,6 @@ Bring Charger
 17:00 - ACE Lecture
 
 ###### To-do List:
-- DSys Flashcards
 - Group Project Assignment(s)
 - AI Methods Lecture 1 Exercises
 - LAC Lecture Exercises

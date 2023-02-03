@@ -38,4 +38,62 @@ Contents
 ![[Pasted image 20230130121426.png]]
 	
 ![[Pasted image 20230130121441.png]]
-	
+
+![[Pasted image 20230203161825.png]]
+
+![[Pasted image 20230203161847.png]]
+
+#### Counting is underspecified
+	![[Pasted image 20230203161945.png]]
+
+![[Pasted image 20230203161954.png]]
+
+#### Correctness vs. Efficiency
+	![[Pasted image 20230203162027.png]]
+
+#### Estimated Running Time
+	![[Pasted image 20230203162053.png]]
+
+#### Remarks
+	![[Pasted image 20230203162124.png]]
+
+#### Growth Rate of Running Time
+![[Pasted image 20230203162152.png]]
+
+#### Exercise
+![[Pasted image 20230203162246.png]]
+
+![[Pasted image 20230203162259.png]]
+
+![[Pasted image 20230203162324.png]]
+
+![[Pasted image 20230203162334.png]]
+
+![[Pasted image 20230203162341.png]]
+
+![[Pasted image 20230203162421.png]]
+
+![[Pasted image 20230203162427.png]]
+
+![[Pasted image 20230203162442.png]]
+
+![[Pasted image 20230203162504.png]]
+
+![[Pasted image 20230203162523.png]]
+
+![[Pasted image 20230203162529.png]]
+
+![[Pasted image 20230203162536.png]]
+
+![[Pasted image 20230203162552.png]]
+
+![[Pasted image 20230203162621.png]]
+
+#### Remarks
+![[Pasted image 20230203162647.png]]
+
+#### Removing Details
+![[Pasted image 20230203162707.png]]
+
+#### Advanced Exercise
+![[Pasted image 20230203162725.png]]
