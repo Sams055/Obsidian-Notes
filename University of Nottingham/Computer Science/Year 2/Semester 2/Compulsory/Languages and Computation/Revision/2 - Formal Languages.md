@@ -65,8 +65,13 @@ Contents:
 	- $L \subseteq \Sigma$*  
 	- $L \in \mathcal{P}$ ( $\Sigma$* )
 - Informal examples of languages
-	![[Pasted image 20230203135359.png]]
-	![[Pasted image 20230203135500.png]]
+	- The set {0010, 00000000, ϵ} is a language over Σ = {0, 1}. This is an example of a finite language. 
+	- The set of words with odd length over Σ = {1}. 
+	- The set of words that contain the same number of 0s and 1s is a language over Σ = {0, 1}.
+	- The set of words that contain the same number of 0s and 1s modulo 2 (i.e., both are even or odd) is a language over Σ = {0, 1}. 
+	- The set of palindromes using the English alphabet, e.g. words that read the same forwards and backwards like abba. This is a language over {a, b, . . . , z}. 
+	- The set of correct Java programs. This is a language over the set of UNICODE “characters” (which correspond to numbers between 0 and 17 · 2 16 − 1, less some invalid subranges, 1112062 valid encodings in all). 
+	- The set of programs that, if executed on a Windows machine, prints the text “Hello World!” in a window. This is a language over Σ = {0, 1}.
 	- You should note that there's a distinction between $\epsilon$, $\emptyset$, {$\epsilon$} 
 		- $\epsilon$ denotes the empty word, a sequence of symbols of length 0.
 		- $\emptyset$ denotes the empty set, a set with no elements
@@ -80,6 +85,11 @@ Contents:
 			- $\epsilon v = v$
 		- Recursion
 			- $(xu)v = x(uv)$ 
-	- 
-		
+	- Concatenation is associative and has unit $\epsilon$
+		- Example
+			- $u(vw) = (uv)w$ 
+			- $\epsilon u = u = u \epsilon$ 
+			- $u, v, w$ are words
 - Exponent
+	- We use exponent notation to denote concatenation of a word with itself.
+	- 
