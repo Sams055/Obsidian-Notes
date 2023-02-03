@@ -151,16 +151,25 @@ Contents:
 - Virtual Machines, containers, the cloud and SSH
 	- Machines, Virtual Machines & Containers
 		- ![[Pasted image 20230203113127.png]]
-
+		- Lets consider a world without virtual machines
+		- We flip the stack upside down so the hardware is at the top
+		- On a regular physical machine you have
+			- Hardware
+			- single OS
+			- multiple processes and application that run
+		- On a Virtual Machine you have
+			- Hardware
+			- Layer of abstraction to manage multiple OS's called the hypervisor
+				- Example hypervisors are VMware and VirtualBox
+			- Multiple OS's
+			- Each OS has it's own place to run prcoesses and applications
+		- 
 	- Virtual Machine & Container Networking Components
 		- ![[Pasted image 20230203113209.png]]
-
 	- Virtual Machine & Container (main) Networking Options
 		- ![[Pasted image 20230203113232.png]]
-
 	- The Cloud
 		- ![[Pasted image 20230203113248.png]]
-
 	- SSH (Secure SHell)
 		- ![[Pasted image 20230203113302.png]]
 		- 
