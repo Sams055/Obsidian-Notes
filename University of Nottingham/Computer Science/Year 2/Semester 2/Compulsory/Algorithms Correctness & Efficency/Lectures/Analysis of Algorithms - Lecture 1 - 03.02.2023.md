@@ -100,16 +100,18 @@ Contents
 - There can be multiple right answers, you just need to make sure you can justify your answer.
 #### Correctness vs. Efficiency
 	![[Pasted image 20230203162027.png]]
-
+- Efficiency can still be measured for incorrect algorithms
 #### Estimated Running Time
 	![[Pasted image 20230203162053.png]]
-
+- Java doesn't tell you about the constant garbage collection it does
+- Despite doing the same primitive operations in Java as you would do in C, the efficiency is NOT the same
+- We can use inequalities to represent the different case scenarios
 #### Remarks
 	![[Pasted image 20230203162124.png]]
 
 #### Growth Rate of Running Time
 ![[Pasted image 20230203162152.png]]
-
+- If you change the hardware or software on your computer; affects $T(n)$
 #### Exercise
 ![[Pasted image 20230203162246.png]]
 
@@ -124,21 +126,21 @@ Contents
 ![[Pasted image 20230203162421.png]]
 
 ![[Pasted image 20230203162427.png]]
-
+- How do you justify this?
+- To someone who does not initially believe you?
 ![[Pasted image 20230203162442.png]]
-
-![[Pasted image 20230203162504.png]]
-
+- The bitshift is probably faster for binary values
+- The divide is probably faster for other values
 ![[Pasted image 20230203162523.png]]
 
 ![[Pasted image 20230203162529.png]]
-
+- Half n until it's less than or equal to 2
 ![[Pasted image 20230203162536.png]]
 
 ![[Pasted image 20230203162552.png]]
 
 ![[Pasted image 20230203162621.png]]
-
+- logs make it easier to track passes
 #### Remarks
 ![[Pasted image 20230203162647.png]]
 

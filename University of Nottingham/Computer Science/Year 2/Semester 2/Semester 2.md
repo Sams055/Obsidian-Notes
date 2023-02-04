@@ -7,13 +7,16 @@
  [[AI Methods]]
  [[Distributed Systems]]
 
-###### Tomorrow:
+###### Monday:
 Bring Charger
-12:00 - DSys Lecture 
-17:00 - ACE Lecture
+12:00 - ACE Lecture 
+13:00 - GRP Lecture
+15:00 - LAC Lecture
+16:00 - DSys Lab
 
 ###### To-do List:
-- ACE Lecture 2 Notes / Flashcards
+- ACE Lecture 2 Notes
+- ACE Lecture 2 Flashcards
 - LAC Lecture 1 Exercises
 - ACE Lecture Exercises / Exam Questions / Interview questions
 - ACE Lecture 2 Exercises
