@@ -13,7 +13,9 @@ Bring Charger
 17:00 - ACE Lecture
 
 ###### To-do List:
-- Group Project Assignment(s)
-- AI Methods Lecture 1 Exercises
-- LAC Lecture Exercises
+- ACE Lecture 2 Notes / Flashcards
+- LAC Lecture 1 Exercises
 - ACE Lecture Exercises / Exam Questions / Interview questions
+- ACE Lecture 2 Exercises
+- AI Methods Lecture 1 Exercises
+- Group Project Assignment(s)
