@@ -15,6 +15,5 @@ Bring Charger
 16:00 - DSys Lab
 
 ###### To-do List:
-- AI Methods Lecture 1 Exercises
 - Group Project Assignment(s)
 - ACE Lecture 3 Skeleton
