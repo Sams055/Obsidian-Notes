@@ -53,4 +53,43 @@ Enumerate the words in the following languages, showing your calculations in som
 	- L4 = {$\epsilon$b, bb, acb}
 	- L4 = {b, bb, acb}
 3. L5 = L3 $\emptyset$ L4
+	- L3 $\emptyset$ L4 = $\emptyset$ L4
+	- $\emptyset$ L4 = $\emptyset$ 
 	- L5 = $\emptyset$ 
+
+###### 2.3
+Let the alphabet 
+Σ = {a, b, c} and let 
+L1 = {ϵ, b, bb} and 
+L2 = {a, ab, abc} 
+be two languages over Σ. 
+Enumerate the words in the following languages, showing your calculations in some detail:
+
+1. L3 = L1 ∩ L2 
+	- L3 = {b}
+2. L4 = (L2{ϵ}L1) ∩ Σ∗
+	-  {L2 {$\epsilon$} L1}
+		- {a$\epsilon$, ab$\epsilon$, abc$\epsilon$,
+		-  ab abb, abcb,
+		-  abb abbb, abcbb}
+		- {a, ab, abb, abbb, abc, abcb, abcbb}
+	- Σ∗
+		- {Anything which has a, b, c}
+	-  {L2 {$\epsilon$} L1} ∩ Σ∗
+		- {a, ab, abb, abbb, abc, abcb, abcbb}
+	- L4 = {a, ab, abb, abbb, abc, abcb, abcbb}
+3. L5 = L3∅ ∩ L4
+	- L3∅  = ∅ 
+	- ∅  ∩ L4 = {ϵ}
+	- L5 = {ϵ}
+
+###### 2.4
+Let the alphabet 
+Σ = {a, b, c}. 
+Enumerate the words in 
+L = {w | w ∈ {ϵ, a, b, bc} ∗ , |w| ≤ 3}
+- 0, 1, 2, 3
+- {a, aa, ab, abc, aaa, aab, aba, abb,
+-  b, ba, bb, bbc, bba, bbb, bab, baa
+-  bc, bca, bcb}
+

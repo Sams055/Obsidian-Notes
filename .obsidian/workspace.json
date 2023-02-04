@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 2.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md"
               }
             }
           }
@@ -158,46 +158,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "60cb9e58392990ef",
-    "type": "floating",
-    "children": [
-      {
-        "id": "112f403f9ac4f37d",
-        "type": "window",
-        "children": [
-          {
-            "id": "3e38f14df6a6a31d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0c4b51a0123b8837",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "assets/pdf/Languages and Computation/g52lac-notes.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 853,
-        "y": 0,
-        "width": 854,
-        "height": 1027,
-        "maximize": false,
-        "zoom": -0.5
-      }
-    ]
-  },
   "active": "0e87e97c2f6f2d77",
   "lastOpenFiles": [
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 2 - 02.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 2.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 2 - 02.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/DSYS Intro - 31.01.2023.md",
