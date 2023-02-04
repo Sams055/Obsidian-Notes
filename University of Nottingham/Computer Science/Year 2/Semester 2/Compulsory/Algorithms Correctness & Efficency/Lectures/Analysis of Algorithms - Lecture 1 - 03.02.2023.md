@@ -149,3 +149,25 @@ Contents
 
 #### Advanced Exercise
 ![[Pasted image 20230203162725.png]]
+- Line 1
+	- Assignment
+	- 1 Operation
+- Line 2
+	- load n
+	- load 2
+	- compare
+	- 3 operations per pass
+- Line 3
+	- load n
+	- sqrt n
+	- assign n
+	- 3 operations per pass
+- Line 4
+	- load m
+	- addition operation with m & 1
+	- assign m
+	- 3 operations per pass
+- Line 5
+	- return
+	- 1 operation
+- = 9n + 2, where n is the number of passes it takes for n to go below 2.
