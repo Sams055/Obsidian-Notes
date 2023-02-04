@@ -66,12 +66,38 @@ Contents
 - We use 1 primitive operation to set i to 1
 - The reason why we only consider that one part of the for loop, is because the rest of the operations are hidden elsewhere as can be seen in the image below
 ![[Pasted image 20230203161847.png]]
+- ` currentMax <- A[0] 
+	- Look up for $A[0]$ = 1
+	- currentMax variable assignment = 1
+	- hence it is 2 operations long
+- the 'if' statement
+	- happens every loop which is $n-1$ 
+	- consists of looking up $A[i]$ and comparing two numbers which is 2
+	- hence, it is $2(n-1)$ operations long
 
+- Hidden increment counter
+	- The increment for the for loop happens for each loop $n-1$
+	- i++ atomically is `i <- i + 1`,
+		- Addition = 1
+		- Assignment = 1
+		- Total = 2
+	- Total = $2(n-1)$
+- Test counter
+	- Inside the for loop, so it happens (n-1) times
+	- Consists of a comparison and a subtraction so has 2 operations
+	- Hence, there is a total of 2(n-1) operations
+- Return
+	- A single operation
+- Total
+	- $2 + 1 + (4 * 2(n-1)) + 1$
+	- $2 + 1 + (8(n-1)) + 1$
+	- 2 + 1 + 8n - 8 + 1
+	- 8n - 4
 #### Counting is underspecified
 	![[Pasted image 20230203161945.png]]
-
+- The previous counting technique does not work in reality, as the process usually isn't actually atomic when the processor performs the operation.
 ![[Pasted image 20230203161954.png]]
-
+- There can be multiple right answers, you just need to make sure you can justify your answer.
 #### Correctness vs. Efficiency
 	![[Pasted image 20230203162027.png]]
 
