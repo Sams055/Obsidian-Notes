@@ -12,5 +12,9 @@
 ###### Revision:
 [[2 - Formal Languages]]
 
+###### Exercises:
+[[LAC Exercise 2]]
+
+
 ###### Tutorials:
 

@@ -15,10 +15,9 @@ Bring Charger
 16:00 - DSys Lab
 
 ###### To-do List:
-- ACE Lecture 2 Notes
-- ACE Lecture 2 Flashcards
 - LAC Lecture 1 Exercises
-- ACE Lecture Exercises / Exam Questions / Interview questions
-- ACE Lecture 2 Exercises
+- ACE Lecture 0 Exercises / Exam Questions / Interview questions
+- ACE Lecture 1 Exercises / Exam Questions
 - AI Methods Lecture 1 Exercises
 - Group Project Assignment(s)
+- ACE Lecture 3 Skeleton
