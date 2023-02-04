@@ -28,10 +28,6 @@ Contents
 		- Interpretations 
 		- Every day usage
 		- e.g. What would a software development team want to know?
-
-
-
-
 #### Assessment
 - 12.5% of the module is coursework
 	- Coursework 1
@@ -60,27 +56,15 @@ Contents
 - ADE sessions will just be some weeks (not all)
 	- We will be notified on moodle and by email
 - These are essentialf or understanding the material, and will help with eh C/Ws, etc.
-
-
-
-
 #### Labs
 - Labs will be sessions for doing some formative exercises and getting help as needed in preparation for the C/Ws.
 	- ADE Sessions will just be some weeks (not all)
 		- Will be notified on moodle and by email
-
-
 #### Exercises & Hints
 - There will be exercises in the slides
 - Do them as they will be a vital part of an exam question
 - If stuck on an algebra question, then generate your own examples and simply insert small numbers
-	- e.g. put a = 
-
-
-
-
-
-
+	- e.g. a=2
 ### Content
 #### What are Algorithms?
 	![[Pasted image 20230130111555.png]]
@@ -127,12 +111,14 @@ Objectives
 ![[Pasted image 20230130115913.png]]
 	
 ![[Pasted image 20230130115924.png]]
-	
-
+- Let's use big(O) notation to express the calculations and base the solution on the array access
+- If you think about it, the way the array is accessed is almost identical to bubblesort
+- This means our big(O) is O($n^2$)
+- if n is $10^9$ then $n^2 = (10^9)^2 = 10^{18}$ 
+- O($10^{18}$)
 #### Interview Question
 ![[Pasted image 20230130115948.png]]
 	
-
 #### Rough Context within "Programming"
 ![[Pasted image 20230130120023.png]]
 	
