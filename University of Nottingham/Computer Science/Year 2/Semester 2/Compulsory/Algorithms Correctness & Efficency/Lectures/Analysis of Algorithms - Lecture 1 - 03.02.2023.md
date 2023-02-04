@@ -64,7 +64,7 @@ Contents
 - Hence, we have $2(n-1)$ operations on that line
 ![[Pasted image 20230203161825.png]]
 - We use 1 primitive operation to set i to 1
-- 
+- The reason why we only consider that one part of the for loop, is because the rest of the operations are hidden elsewhere as can be seen in the image below
 ![[Pasted image 20230203161847.png]]
 
 #### Counting is underspecified
