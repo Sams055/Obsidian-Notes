@@ -18,3 +18,4 @@ Bring Charger
 - Group Project Assignment(s)
 - AI Methods Lab 1
 - ACE Lecture Notes
+- ACE Self-Study Revision
