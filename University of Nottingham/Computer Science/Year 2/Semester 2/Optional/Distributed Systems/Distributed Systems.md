@@ -27,4 +27,5 @@
  
 ###### Labs:
  [[Lab 0 - Usage Guide - 30.01.2023]]
+ [[Lab 1 - Java TCP - 07.02.2023]]
  

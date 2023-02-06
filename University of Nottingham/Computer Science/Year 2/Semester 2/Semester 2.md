@@ -31,8 +31,8 @@
 17:00 - ACE lecture
 
 ###### To-do List:
-- ACE 1 Flashcards
-- DSys Lab Task
+- ACE 1 Flashcards - Done
+- DSys Lab Task - In Progress
 - DSys 1 Lecture Notes
 - Group Project Assignment 1
 - DSys 1 Flashcards
