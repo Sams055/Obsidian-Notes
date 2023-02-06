@@ -26,7 +26,7 @@
 11:00 - LAC Lecture
 14:00 - AIM Lab
 
-Friday:
+###### Friday:
 12:00 - DSys Lecture
 17:00 - ACE lecture
 
