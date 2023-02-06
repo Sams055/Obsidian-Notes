@@ -11,4 +11,15 @@ Q3. What does the Connection object do? Why is it a thread?
 	The connection object creates a specific connection with the client socket.
 	<b> The above is wrong, ask why </b>
 	It's a thread because we may want to create multiple connections for multiple clients to connect to the server simultaneously
-	
+
+Q4.
+	It sends the request to the host (my IP) and port 7896
+Q5.
+	Received hello
+Q6. 
+	A Socket using UDP
+Q7.
+	It sends the request to the localhost and Port 7896
+Q8.
+- Bound to pord 7896
+Q9.

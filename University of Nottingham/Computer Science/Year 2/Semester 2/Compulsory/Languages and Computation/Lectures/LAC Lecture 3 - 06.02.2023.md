@@ -50,7 +50,16 @@ Contents:
 	δ Q3 _ = Q3
 
 - Language of a DFA A, L(A) $\subseteq \Sigma$*
-- L(A) : $\Sigma$* $\implies$ Prop
-- Extended transition function
-- $\delta : Q$ x $\Sigma* \implies Q$ 
-- 
+	- L(A) : $\Sigma$* $\implies$ Prop
+	- Extended transition function
+	- $\hat{\delta} : Q$ x $\Sigma* \implies Q$ 
+	- $\hat{\delta}(q, \epsilon) = q$ 
+	- $\hat{\delta}(q, xw) = \hat{\delta}(\delta(q,x),w)$ 
+	- L(A) = { $w = \Sigma* | \hat{\delta}(q_0,w)\in F$}
+	- L(A)w = $F(\hat{\delta}(q_0,w))$
+- Example: binary sequences divisible by 3, $\Sigma =${$0,1$}
+- 0 o
+- 1 x
+- 11 o
+- 111 x
+- 1111 x
