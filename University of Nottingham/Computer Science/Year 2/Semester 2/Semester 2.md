@@ -8,14 +8,41 @@
  [[Distributed Systems]]
 
 ###### Monday:
-Bring Charger
 12:00 - ACE Lecture 
 13:00 - GRP Lecture
 15:00 - LAC Lecture
 16:00 - DSys Lab
 
+###### Tuesday:
+09:00 - GRP Lab
+11:00 - DSys Lecture
+
+###### Wednesday:
+10:00 - ACE Lab
+11:00 - AI Lecture
+
+###### Thursday:
+10:00 - ACE Tutorial
+11:00 - LAC Lecture
+14:00 - AIM Lab
+
+Friday:
+12:00 - DSys Lecture
+17:00 - ACE lecture
+
 ###### To-do List:
-- Group Project Assignment(s)
-- AI Methods Lab 1
-- ACE Lecture Notes
+- ACE 1 Flashcards
+- DSys Lab Task
+- DSys 1 Lecture Notes
+- Group Project Assignment 1
+- DSys 1 Flashcards
+- AI Methods lecture notes & Flashcards
+- LAC 1 Revision Notes & Flashcards
+- ACE Exercises & Flashcards
 - ACE Self-Study Revision
+- LAC 2 Revision Notes & Flashcards
+- AI Methods labs
+- Group Project Assignment 2
+- DSys 2 Lecture Notes
+- DSys 2 Flashcards
+- ACE 2 Lecture Notes
