@@ -16,4 +16,5 @@ Bring Charger
 
 ###### To-do List:
 - Group Project Assignment(s)
-- ACE Lecture 3 Skeleton
+- AI Methods Lab 1
+- ACE Lecture Notes
