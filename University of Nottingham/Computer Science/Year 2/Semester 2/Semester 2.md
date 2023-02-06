@@ -16,6 +16,7 @@
 ###### Tuesday:
 09:00 - GRP Lab
 11:00 - DSys Lecture
+13:00 - ACE Tutorial BSS A06
 
 ###### Wednesday:
 10:00 - ACE Lab
