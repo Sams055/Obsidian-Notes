@@ -33,10 +33,11 @@
 
 ###### To-do List:
 - ACE 1 Flashcards - Done
-- DSys Lab Task - In Progress
+- DSys Lab Task - Done
 - DSys 1 Lecture Notes - Done
-- Group Project Assignment 1
-- DSys 1 Flashcards
+- Group Project Assignment 1 - In Progress
+- DSys 1 Flashcards - In Progress
+- DSys Tutorial Notes - In Progress
 - AI Methods lecture notes & Flashcards
 - LAC 1 Revision Notes & Flashcards
 - ACE Exercises & Flashcards
