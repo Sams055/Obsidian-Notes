@@ -34,7 +34,7 @@
 ###### To-do List:
 - ACE 1 Flashcards - Done
 - DSys Lab Task - In Progress
-- DSys 1 Lecture Notes
+- DSys 1 Lecture Notes - Done
 - Group Project Assignment 1
 - DSys 1 Flashcards
 - AI Methods lecture notes & Flashcards

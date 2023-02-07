@@ -23,7 +23,6 @@ Contents:
 				- top 4 marks will be taken
 				- 5% for each quiz
 				- Each quiz will have 4-5 multiple choice, fill in the blanks or True/False questions
-		- 
 			- 30% - mini project in Java
 				- Report
 				- Demo

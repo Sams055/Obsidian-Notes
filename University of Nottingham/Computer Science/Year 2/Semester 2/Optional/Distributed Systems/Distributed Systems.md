@@ -4,7 +4,7 @@
 ###### Lectures:
  [[Client-Server Java - 31.01.2023]]
  [[Networking - 03.02.2023]]
- Request/response and Java UDP
+ [[Request-Reply and Java UDP - 07.02.2023]]
  Network Security
  RPC and RMI
  Java RMI example
