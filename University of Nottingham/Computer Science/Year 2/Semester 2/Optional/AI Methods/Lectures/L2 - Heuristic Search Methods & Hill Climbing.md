@@ -233,12 +233,14 @@ Objectives:
 ##### Performance Analysis
 ###### Which Stochastic Search Algorithm Performs Better for Solving Problem X?
 ![[Pasted image 20230208104901.png]]
-
+- We need to run them multiple times to understand the search behaviour
+- We have an objective value at the end
 ![[Pasted image 20230208104909.png]]
-
+- It's very clearly A performing the best in **this instance**
+- We can't say it performs well on X in general unless that's a consistent conclusion across multiple instances
 ![[Pasted image 20230208104915.png]]
 
 ![[Pasted image 20230208104924.png]]
-
+- A box plot works, but you can use other tools to represent the performance
 ###### Performance Analyisis Using Plots - Other Methods
 ![[Pasted image 20230208104932.png]]
