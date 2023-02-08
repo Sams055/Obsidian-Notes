@@ -128,7 +128,8 @@ Objectives:
 - The pairwise operator only changes adjacent bits, hence we only have n-1 size
 - The Insertion operator broadens the number of ways we can swap bits, hence the large size covering the whole set; n(n-1)
 ![[Pasted image 20230208104356.png]]
-
+- Exchange is *any* two items
+- The inversion operator reverses the sequence
 ##### Hill Climbing Algorithms
 ###### Search Paradigms - Perturbative Heuristics / Operators
 ![[Pasted image 20230208104418.png]]
