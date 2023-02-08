@@ -244,3 +244,6 @@ Objectives:
 - A box plot works, but you can use other tools to represent the performance
 ###### Performance Analyisis Using Plots - Other Methods
 ![[Pasted image 20230208104932.png]]
+- We can use a progress plot to show how the algorithms perform over time.
+- We can observe that A is always choosing the best solution
+- We can observe that B is choosing alternative solutions as well
