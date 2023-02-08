@@ -36,8 +36,9 @@
 - DSys Lab Task - Done
 - DSys 1 Lecture Notes - Done
 - Group Project Assignment 1 - In Progress
-- DSys 1 Flashcards - In Progress
-- DSys Tutorial Notes - In Progress
+- DSys 1 Flashcards - Done
+-  LAC Tutorial - Done
+- ACE Labs - in progress
 - AI Methods lecture notes & Flashcards
 - LAC 1 Revision Notes & Flashcards
 - ACE Exercises & Flashcards

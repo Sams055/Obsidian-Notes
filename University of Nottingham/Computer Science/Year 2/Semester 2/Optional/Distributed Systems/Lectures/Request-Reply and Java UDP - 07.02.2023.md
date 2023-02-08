@@ -32,7 +32,7 @@ Contents:
 - Security - protection from threats
 - Scalability - good performance as systems grow
 - Transparency - selective abstraction
-- Quality of Service - performance & other non-functional character
+- Quality of Service - performance & other non-functional characteristics
 ###### Heterogeneity
 - All the parts of a distributed system have to work together, even if some are made differently
 - Typically this means using common protocols, interfaces and encodings

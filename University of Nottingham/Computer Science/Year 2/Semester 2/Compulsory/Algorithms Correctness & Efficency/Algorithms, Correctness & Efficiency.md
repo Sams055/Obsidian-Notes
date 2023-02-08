@@ -6,3 +6,4 @@
  [[Intro to big-Oh - Lecture 2a - 06.02.2023]]
 
 ###### Labs:
+[[Lab 1 - Primitive Operations]]
