@@ -23,7 +23,7 @@
 11:00 - AI Lecture
 
 ###### Thursday:
-10:00 - ACE Tutorial
+10:00 - ACE Tutorial - Not on this week
 11:00 - LAC Lecture
 14:00 - AIM Lab
 
@@ -35,18 +35,20 @@
 - ACE 1 Flashcards - Done
 - DSys Lab Task - Done
 - DSys 1 Lecture Notes - Done
-- Group Project Assignment 1 - Done
 - DSys 1 Flashcards - Done
 -  LAC Tutorial - Done
-- ACE Labs - in progress
+- ACE Labs - Done
 - AI Methods lecture notes - Done
 - AI Methods Flashcards - Done
-- LAC 1 Revision Notes & Flashcards - Priority
-- ACE Exercises & Flashcards
-- ACE Self-Study Revision
-- LAC 2 Revision Notes & Flashcards
+- LAC 1 Revision Notes - Done
+- LAC 1 Flashcards - Done
+- ACE Exercises - Done
+- LAC 2 Revision Notes
 - AI Methods labs
-- Group Project Assignment 2
-- DSys 2 Lecture Notes
+- DSys 2 Lecture Notes - In Progress
 - DSys 2 Flashcards
 - ACE 2 Lecture Notes
+
+###### On-going Tasks:
+- Group Project Assignment
+- ACE Self-Study Revision

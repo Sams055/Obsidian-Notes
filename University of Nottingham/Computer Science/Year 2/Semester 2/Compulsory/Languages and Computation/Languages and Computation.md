@@ -11,7 +11,7 @@
 
 ###### Revision:
 [[2 - Formal Languages]]
-
+[[3 - Finite Automata]]
 ###### Exercises:
 [[LAC Exercise 2]]
 

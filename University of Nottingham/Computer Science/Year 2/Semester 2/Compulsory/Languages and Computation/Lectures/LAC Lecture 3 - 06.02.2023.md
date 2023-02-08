@@ -28,8 +28,6 @@ Contents:
 		- we will always move to `Q3` regardless of whether we see a `0` or `1` 
 		- `Q3` will also always move to `Q3`, it is the error state (we've parsed leading zeros, which is invalid, so the rest of the binary num will also be invalid)
 		- from `Q2` we always move back to `Q2` again this is the "happy" state
-
-
 - DFA A is given by
 	- a finite set of states Q
 	- An alphabet $\Sigma$ (finite set)
@@ -48,7 +46,6 @@ Contents:
 	δ Q1 _ = Q3 
 	δ Q2 _ = Q2 
 	δ Q3 _ = Q3
-
 - Language of a DFA A, L(A) $\subseteq \Sigma$*
 	- L(A) : $\Sigma$* $\implies$ Prop
 	- Extended transition function
