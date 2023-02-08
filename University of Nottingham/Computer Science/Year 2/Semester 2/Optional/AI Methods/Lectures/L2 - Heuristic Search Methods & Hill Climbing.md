@@ -8,11 +8,12 @@ Objectives:
 	4. Hill climbing methods 
 	5. Reading: Performance Analysis of Stochastic Local Search Methods – Preliminaries
 
+
 ##### Main Components
 ###### Search for an optimal solution
 - ![[Pasted image 20230208103816.png]]
 - When we do optimisation, we want to find an optimal or near-optimal solution in the search landscape
-- Based on representation, the search landscape is all possible solutions for a problem instane
+- Based on representation, the search landscape is all possible solutions for a problem instance
 - Each nucleotides has 4 options and we have 3 nucleotides
 	- So we have 4^3 == 64 possible solutions; this is our search landscape
 - In a flowshop with 10 jobs and 7 machines, we want to sequence 10 jobs and find the optimal sequence with respect to some criteria
