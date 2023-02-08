@@ -43,13 +43,18 @@
 - LAC 1 Revision Notes - Done
 - LAC 1 Flashcards - Done
 - ACE Exercises - Done
-- LAC 2 Revision Notes
-- AI Methods labs - Done
 - DSys 2 Lecture Notes - Done
+- AI Methods labs - In Progress
+- LAC 2 Revision Notes
 - DSys 2 Flashcards
-- ACE 2 Lecture Notes - In progress
+- ACE 2 Lecture Notes
 - ACE 2 Flashcards
 
 ###### On-going Tasks:
 - Group Project Assignment
 - ACE Self-Study Revision
+	- Inequalities
+	- Exponents & Logarithms
+	- Arithmetic and Geometric Series
+	- Induction Proofs
+	- Graphs and trends
