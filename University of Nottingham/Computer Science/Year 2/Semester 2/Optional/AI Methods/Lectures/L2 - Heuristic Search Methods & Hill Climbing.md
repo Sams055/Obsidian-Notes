@@ -11,15 +11,36 @@ Objectives:
 ##### Main Components
 ###### Search for an optimal solution
 - ![[Pasted image 20230208103816.png]]
-- 
+- When we do optimisation, we want to find an optimal or near-optimal solution in the search landscape
+- Based on representation, the search landscape is all possible solutions for a problem instane
+- Each nucleotides has 4 options and we have 3 nucleotides
+	- So we have 4^3 == 64 possible solutions; this is our search landscape
+- In a flowshop with 10 jobs and 7 machines, we want to sequence 10 jobs and find the optimal sequence with respect to some criteria
+	- We are looking among 10! solutions; over 3 million
+	- We ideally only want to take a sample of the 10! solutions for our algorithm
+
+- The TSP diagram has >1000 cities, and there are so many solutions that occur with the combinatorial explosion
+	- By reducing our sample size, we can find local optimums, even for a big problem like this
+- Researches make use of benchmark functions to "discretise" a problem to find a local optimum
+- We can compare these local optimums to others
 ###### Main Components
 - ![[Pasted image 20230208103828.png]]
-- 
+- We have candidate solutions and we need to represent them somehow
+	- We can use encoding
+
+- The neighbourhood relation is the main difference between algorithms, as this is how we identify which area we are searching
+- We want to compare the quality of our solutions
+	- How can we say solution A > solution B
+	- This is our evaluation function
+- We need an intial point to start searching from
 ###### Representation (Encoding of a solution) - Characteristics
 - ![[Pasted image 20230208103838.png]]
-- 
+- All solutions should be able to be represented with the encoding scheme we choose.
+- We need to make sure there is a search path to all solutions in our search space (all solutions should be reachable from other solutions)
+- A faster / easy to manipulate algorithm can provide better results
 ###### Representation 
 - ![[Pasted image 20230208103847.png]]
+- 
 - ![[Pasted image 20230208103854.png]]
 - ![[Pasted image 20230208103911.png]]
 - ![[Pasted image 20230208103923.png]]
