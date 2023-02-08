@@ -5,7 +5,7 @@
  [[Client-Server Java - 31.01.2023]]
  [[Networking - 03.02.2023]]
  [[Request-Reply and Java UDP - 07.02.2023]]
- Network Security
+ [[Network Security - 10.02.2023]]
  RPC and RMI
  Java RMI example
  Q&A, revision

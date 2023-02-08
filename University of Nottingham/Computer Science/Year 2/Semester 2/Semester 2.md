@@ -44,10 +44,11 @@
 - LAC 1 Flashcards - Done
 - ACE Exercises - Done
 - LAC 2 Revision Notes
-- AI Methods labs
-- DSys 2 Lecture Notes - In Progress
+- AI Methods labs - Done
+- DSys 2 Lecture Notes - Done
 - DSys 2 Flashcards
-- ACE 2 Lecture Notes
+- ACE 2 Lecture Notes - In progress
+- ACE 2 Flashcards
 
 ###### On-going Tasks:
 - Group Project Assignment
