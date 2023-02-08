@@ -35,13 +35,13 @@
 - ACE 1 Flashcards - Done
 - DSys Lab Task - Done
 - DSys 1 Lecture Notes - Done
-- Group Project Assignment 1 - In Progress
+- Group Project Assignment 1 - Done
 - DSys 1 Flashcards - Done
 -  LAC Tutorial - Done
 - ACE Labs - in progress
 - AI Methods lecture notes - Done
 - AI Methods Flashcards - Done
-- LAC 1 Revision Notes & Flashcards
+- LAC 1 Revision Notes & Flashcards - Priority
 - ACE Exercises & Flashcards
 - ACE Self-Study Revision
 - LAC 2 Revision Notes & Flashcards

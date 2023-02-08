@@ -1,7 +1,7 @@
 Contents:
 [[Algorithms, Correctness & Efficiency]]
 
-A.
+##### A.
 ``` Java
 static int arrayMax(int[] A) {  
     int n = A.length;  
@@ -22,7 +22,7 @@ static int arrayMax(int[] A) {
     return currentMax;  
 }
 ```
-B.
+##### B.
 maxN = 10
 numRuns = 1
 maxVal = 1000
@@ -39,7 +39,14 @@ We can see on the graph that you could draw a linear line which bounds all of th
 Given the number of primitive operations (2 + n(2 + 2 + 3) + 2) = 7n + 4 in the worst case for the loop
 for n = 5, we would get 39, which if we look on the graph just fits all the data points.
 We can say f(n) = 7n + 3 is the line which acts as a bound for the datapoints
-
-C.
 The best run time would be 3n + 4, which as can be seen from the graph, just barely encompassed all the data points
 
+##### C.
+![[Pasted image 20230208141236.png]]
+The apparent scaling is impossible to tell; however this is to be expected as we are using random values and so the data isn't expected to have an identifiable pattern.
+
+##### D.
+![[Pasted image 20230208141715.png]]
+Graph:
+![[Pasted image 20230208142901.png]]
+As can be seen, the graph follows a log(n) pattern
