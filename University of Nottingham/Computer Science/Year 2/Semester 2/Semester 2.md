@@ -39,7 +39,8 @@
 - DSys 1 Flashcards - Done
 -  LAC Tutorial - Done
 - ACE Labs - in progress
-- AI Methods lecture notes & Flashcards
+- AI Methods lecture notes - In Progress
+- AI Method Flashcards
 - LAC 1 Revision Notes & Flashcards
 - ACE Exercises & Flashcards
 - ACE Self-Study Revision
