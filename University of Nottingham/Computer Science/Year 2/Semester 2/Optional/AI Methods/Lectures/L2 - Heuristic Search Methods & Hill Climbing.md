@@ -98,21 +98,66 @@ Objectives:
 ![[Pasted image 20230208104516.png]]
 
 ###### Simple Hill Climbing Heuristics
+![[Pasted image 20230208104537.png]]
+
 ###### Best Improvement (Steepest descent/ascent) Hill-climbing
+![[Pasted image 20230208104548.png]]
+
 ###### Exercise - Applying best improvement to a MAX-SAT problem instance
+![[Pasted image 20230208104559.png]]
+
 ###### First Improvement (next descent/ascent) Hill-climbing
+![[Pasted image 20230208104607.png]]
+
 ###### Exercise - Apply First Improvement to a MAX-SAT Problem Instance
+![[Pasted image 20230208104615.png]]
+
 ###### Davis's (Bit) Hill-climbing
+![[Pasted image 20230208104622.png]]
+
 ###### Exercise - Applying Davis's Bit Hill Climbing to a MAX-SAT Problem Instance
+![[Pasted image 20230208104632.png]]
+
 ###### Random Mutation Hill-Climbing
+![[Pasted image 20230208104640.png]]
+
 ###### Applying Random Mutation Hill Climbing to a MAX-SAT Problem Instance
+![[Pasted image 20230208104653.png]]
+
 ###### Hill Climbing Algorithm - Improving vs Non-worsening
-###### Exercise - Applying Best Improvement to a MAX-SAT Problem Insrtance (Accepting non-worsening Moves)
+![[Pasted image 20230208104702.png]]
+
+###### Exercise - Applying Best Improvement to a MAX-SAT Problem Instance (Accepting non-worsening Moves)
+![[Pasted image 20230208104716.png]]
+
 ###### Hill Climbing - When to stop
+![[Pasted image 20230208104722.png]]
+
+![[Pasted image 20230208104730.png]]
+
 ###### Hill Climbing versus Random Walk
+![[Pasted image 20230208104756.png]]
+
 ###### Strengths of Hill Climbing
+![[Pasted image 20230208104817.png]]
+
 ###### Weaknesses of Hill Climbing
+![[Pasted image 20230208104827.png]]
+
+![[Pasted image 20230208104835.png]]
+
 ###### Home Exercise
+![[Pasted image 20230208104843.png]]
+
 ##### Performance Analysis
 ###### Which Stochastic Search Algorithm Performs Better for Solving Problem X?
+![[Pasted image 20230208104901.png]]
+
+![[Pasted image 20230208104909.png]]
+
+![[Pasted image 20230208104915.png]]
+
+![[Pasted image 20230208104924.png]]
+
 ###### Performance Analyisis Using Plots - Other Methods
+![[Pasted image 20230208104932.png]]
