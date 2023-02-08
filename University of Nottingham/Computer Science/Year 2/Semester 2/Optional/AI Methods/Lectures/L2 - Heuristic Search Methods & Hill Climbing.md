@@ -40,25 +40,47 @@ Objectives:
 - A faster / easy to manipulate algorithm can provide better results
 ###### Representation 
 - ![[Pasted image 20230208103847.png]]
-- 
+- A thief steals items from a store
+- Only 1 knapsack with capacity x
+- We need to maximise the number of items we can fit in this problem
+- We need to decide which items to take
+- We could represent the problem with a binary string representing the price of each.
+- our search space is based on the string length
 - ![[Pasted image 20230208103854.png]]
+- How can we take a tour and visit all the pubs in the city centre?
+- We want to travel the shortest total distance
 - ![[Pasted image 20230208103911.png]]
+- All the variables can get discrete values
+- The order which we stack the materials matters in terms of performance
+- Instead of binary values, we have integers (in this case 1-5) to represent the layers
 - ![[Pasted image 20230208103923.png]]
+- How do we create the optimal DNA sequence?
+- We can form this into an optimisation problem
+- The planning instructions could be the optimal set of commands for a robot
 - ![[Pasted image 20230208103931.png]]
+- Your computer encodes such expressions into trees
 - ![[Pasted image 20230208103938.png]]
+- 
+###### Boolean Satisfiability Problem
+- This is the first problem proven to be NP-Complete
+- h = (not(x0) or not(x1)) and (x1 or not(x2)) and (x0) and (x2)
+- This is conjunctive normal  form
 - 
 ###### Maximum Satisfiability Problem - Real-world Applications
 - ![[Pasted image 20230208103954.png]]
 - 
 ###### Exercise for MSP
 - ![[Pasted image 20230208104020.png]]
-- 
+- Is there such a truth assignment which maximises the number of clauses satisfied?
 ###### MAX-SAT Problem - Candidate Solution representation
 - ![[Pasted image 20230208104038.png]]
-- 
+- We have the variables represented in binary
+- We say how many of the clauses in the expression are satisfied
+- This works for binary
+- but what happens if we have n variables or x clauses?
 ###### MAX-SAT problem - Search Space Size
 - ![[Pasted image 20230208104050.png]]
-- 
+- This is not satisfiable; 3 clauses can be satisied by any assignment
 ##### Evaluation / Objective Function
 ###### Evaluation Function
 ![[Pasted image 20230208104122.png]]
@@ -84,16 +106,27 @@ Objectives:
 ##### Neighbourhoods
 ###### Neighbourhoods
 ![[Pasted image 20230208104315.png]]
-
+- The move operator is an operator which will limit the scope of a search to certain bounds based on x
 ###### Example Neighbourhood for Binary Representation
 ![[Pasted image 20230208104329.png]]
-
+- Bitflip
+- Hamming distance is the number of bits which differ
+	- e.g. in HD(011,010) there is only 1 differing bit
+	- e.g. in HD(0101,0010) there are 3 differing bits
+- Neighbourhood size is the size of the string as that's how many bits can be flipped
+- This operator only flips one bit at a time
+- We would have a larger hamming distance if the operator flipped more than one bit
 ###### Example Neighbourhood for Integer/Value Representation
 ![[Pasted image 20230208104339.png]]
-
+- For each variable we are assigning a value
+- If we referred back to the layers problem, we would have n layers and assign k as the number of different kinds of layers
+- (k-1)n represents how we have n layers, and we have k different types of layers. 
+- so say we had copper, silver and gold layers, and we have 6 layers total
+	- The neighbourhood size would be (3-1)x6 = 12 neighbouring solutions 
 ###### Example Neighbourhood for Permutation Representation
 ![[Pasted image 20230208104349.png]]
-
+- The pairwise operator only changes adjacent bits, hence we only have n-1 size
+- The Insertion operator broadens the number of ways we can swap bits, hence the large size covering the whole set; n(n-1)
 ![[Pasted image 20230208104356.png]]
 
 ##### Hill Climbing Algorithms
