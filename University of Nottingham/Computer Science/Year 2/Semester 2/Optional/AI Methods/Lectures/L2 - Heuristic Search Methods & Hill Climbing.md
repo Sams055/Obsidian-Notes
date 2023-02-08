@@ -84,25 +84,34 @@ Objectives:
 ##### Evaluation / Objective Function
 ###### Evaluation Function
 ![[Pasted image 20230208104122.png]]
-
+- We use this to indicate the quality of our solution
+- We usually use fitness for evolutionary algorithms
+- Cost is used as a business measure
+- The feedback it provides is integral to optimising the search process
 ![[Pasted image 20230208104138.png]]
-
+- We need to run a simulation to figure out how much value we can get out of a solution
+- However, this can get expensive
+- We could use a parameter to change resolution of a simulation which can save / increase cost and quality of solution
+- We don't need an exact evolution function, as long as it's approximately what we need, we are fine
 ###### MAX-SAT Problem - Evaluation function
 ![[Pasted image 20230208104149.png]]
+- We don't have just 1 solution here
 ###### TSP - Evaluation function
 ![[Pasted image 20230208104200.png]]
-
+- We have to go through all the permutations and calculate the distances between the cities, summing up the total distance travelled in our path
 ###### Evaluation Function - Delta (Incremental) Evaluation
 ![[Pasted image 20230208104209.png]]
-
+- How do we make things faster?
+- We don't need to calculate everything from scratch, we can just use the differences between solutions
+- Can we make the calculation of the contribution of the change of representation any faster?
+- This is $\Delta$ 
 ###### Delta Evaluation for TSP
 ![[Pasted image 20230208104223.png]]
-
+- $\Delta$ = The change of the distance sum from the old model to the new model
 ![[Pasted image 20230208104243.png]]
 
 ![[Pasted image 20230208104250.png]]
-
-
+- We may have to change our delta evaluation depending on our move operator
 ##### Neighbourhoods
 ###### Neighbourhoods
 ![[Pasted image 20230208104315.png]]
@@ -133,46 +142,56 @@ Objectives:
 ##### Hill Climbing Algorithms
 ###### Search Paradigms - Perturbative Heuristics / Operators
 ![[Pasted image 20230208104418.png]]
-
+- Mutational operators let us explore the search space; can jump from one point in the search space to another
+- Hill Climbing looks at a certain defined neighbourhood and picks the best one
 ###### Mutational Heuristic / Operator
 ![[Pasted image 20230208104426.png]]
-
+- Mutational Heuristics are like blackboxes
+- They accept a solution, and the output solution will  be some random modifications on the solution which could be worse than the previous solution
 ###### Hill Climbing Heuristic / Operator
 ![[Pasted image 20230208104439.png]]
-
+- Systematic analysis of the neighbourhood solutions results in the output being the same or better than the input.
+- Hill climbing algorithms ensure the output is never worse than the input
 ###### Hill Climbing Algorithm - Minimisation Problem
 ![[Pasted image 20230208104452.png]]
-
+- For now, consider hill climbing as a local search algorithm
 ###### Hill Climbing Algorithm - Maximisation problem
 ![[Pasted image 20230208104500.png]]
 
 ###### Pseudocode of a Generic Hill Climbing Algorithm
 ![[Pasted image 20230208104509.png]]
-
+- For now, we assume we are doing this fully randomly
+- We generate each variable assignment randomly
 ###### More on Hill Climbing
 ![[Pasted image 20230208104516.png]]
-
+- We pick an initial solution and then repeat to get better and better solutions.
+- We could choose our initial starting point by any methods
 ###### Simple Hill Climbing Heuristics
 ![[Pasted image 20230208104537.png]]
-
+- There is also shotgun hill climbing
 ###### Best Improvement (Steepest descent/ascent) Hill-climbing
 ![[Pasted image 20230208104548.png]]
-
+- We flip a bit
+- We evaluate the function
+- If the function has improved, we need to remember this bit flip as our current best case scenario for the solution
 ###### Exercise - Applying best improvement to a MAX-SAT problem instance
 ![[Pasted image 20230208104559.png]]
-
+- The number of initial unsatisfied clauses as 1
+- We bitflip; if we find we have less unsatisfied clauses, we should remember what bit was flipped to get this solution.
+- We did this with one pass; we could do multiple passes if we chose to do so
 ###### First Improvement (next descent/ascent) Hill-climbing
 ![[Pasted image 20230208104607.png]]
-
+- In this strategy, we use our new improvement to find the next possible improvement, rather than returning to the initial state
 ###### Exercise - Apply First Improvement to a MAX-SAT Problem Instance
 ![[Pasted image 20230208104615.png]]
-
+- As can be seen, we accept the first improvement and move on from said improvement
 ###### Davis's (Bit) Hill-climbing
 ![[Pasted image 20230208104622.png]]
-
+- The problem with the previous algorithm is that we only start from the first bit, which can lead to us missing bits.
+- We can use Random values to make this more fair.
 ###### Exercise - Applying Davis's Bit Hill Climbing to a MAX-SAT Problem Instance
 ![[Pasted image 20230208104632.png]]
-
+- Could stop at 1,**2**,0,3 considering it's already at 0 unsatisfied solutions
 ###### Random Mutation Hill-Climbing
 ![[Pasted image 20230208104640.png]]
 
@@ -181,26 +200,33 @@ Objectives:
 
 ###### Hill Climbing Algorithm - Improving vs Non-worsening
 ![[Pasted image 20230208104702.png]]
-
+- We can define the equality to accept anything that's non-worsening; includes alternative same quality solutions
 ###### Exercise - Applying Best Improvement to a MAX-SAT Problem Instance (Accepting non-worsening Moves)
 ![[Pasted image 20230208104716.png]]
-
+- Accepts iteration 3, rather than iteration 2; accepts 3 despite 2 offering the same quality of solution.
+- This is the difference between strict improvement and accepting anything that's not worse.
 ###### Hill Climbing - When to stop
+![[Pasted image 20230208104730.png]]
+- If the system returns a zero value, we have a perfect solution. We have to say perfect, not optimal, as this is a heuristic which will almost certainly not return the exact optimal solution
+- No point applying improvements if there is no initial improvement from the first pass
 ![[Pasted image 20230208104722.png]]
 
-![[Pasted image 20230208104730.png]]
 
 ###### Hill Climbing versus Random Walk
 ![[Pasted image 20230208104756.png]]
-
+- Hill-climbing exploits the best available solution, but neglects exploring a large amount of the search space
+- Random walk explores a large amount of the search space, but doesn't really check or exploit a promising region.
+- We ideally want to balance the exploration and exploitation
 ###### Strengths of Hill Climbing
 ![[Pasted image 20230208104817.png]]
-
+- Easy to implement
 ###### Weaknesses of Hill Climbing
 ![[Pasted image 20230208104827.png]]
-
+- The flat region on the graph is a plateau, which means the solutions there have the same quality.
+- We could get stuck in a plateau if our exploration parameter isn't strong enough
 ![[Pasted image 20230208104835.png]]
-
+- Strictly hill climbing can cause us to get stuck
+- We don't know where the global optimum is, so success and failure is only able to be based on our intial point, rather than the best point.
 ###### Home Exercise
 ![[Pasted image 20230208104843.png]]
 
