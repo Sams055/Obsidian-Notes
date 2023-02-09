@@ -75,3 +75,18 @@ $\hat{S}$ q xw q' = $\exists q'' : Q,$  S q x q' $\land$ $\hat{S}$
 ###### Language Interpretation
 L(A) = $\subseteq \Sigma*$
 L(A) w = $\exists$ $q_0,q_E$ : Q, S $q_0$ $\land$ F $q_E$ $\land$ $\hat{S}$ $q_0$ w $q_E$ 
+
+###### Easy Question
+Given a DFA A
+There is an NFA N(A)
+such.that (s.t.) $L_A$ = $L_{N(A)}$ 
+$N(A) = (Q,\Sigma,S_D)$
+$S_D : Q \implies \Sigma \implies Q \implies Prop$ 
+$S_D$ q x q' = (q' = S q x)
+S q = (q = $q_0$)
+###### Relation
+f : A $\implies$ B
+$R_f : A \implies B \implies Prop$
+$R_f$  $a$ $b = (b = fa)$
+
+
