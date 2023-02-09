@@ -66,8 +66,12 @@ Example:
 |5|{}|{}|{4}
 S = {0,4}
 F $\subseteq$ Q    (F : Q $\implies$ Prop)
-
+F = {1,2,4}
 ###### Better NFA Example
 $\hat{S}:Q \implies \Sigma* \implies Q \implies Prop$ 
 $\hat{S} q \in q' = (q = q')$ 
 $\hat{S}$ q xw q' = $\exists q'' : Q,$  S q x q' $\land$ $\hat{S}$
+
+###### Language Interpretation
+L(A) = $\subseteq \Sigma*$
+L(A) w = $\exists$ $q_0,q_E$ : Q, S $q_0$ $\land$ F $q_E$ $\land$ $\hat{S}$ $q_0$ w $q_E$ 
