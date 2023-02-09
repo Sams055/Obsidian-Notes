@@ -26,7 +26,6 @@
 10:00 - ACE Tutorial - Not on this week
 11:00 - LAC Lecture
 14:00 - AIM Lab
-
 ###### Friday:
 12:00 - DSys Lecture
 17:00 - ACE lecture
@@ -44,8 +43,10 @@
 - LAC 1 Flashcards - Done
 - ACE Exercises - Done
 - DSys 2 Lecture Notes - Done
-- AI Methods labs - In Progress
+- AI Methods labs - NEED LAB ASSISTANCE
 - LAC 2 Revision Notes
+- LAC 2 Flashcards
+- LAC 2 Exercises
 - DSys 2 Flashcards
 - ACE 2 Lecture Notes
 - ACE 2 Flashcards
