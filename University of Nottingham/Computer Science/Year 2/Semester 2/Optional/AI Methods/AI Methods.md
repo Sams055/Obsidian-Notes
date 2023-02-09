@@ -7,4 +7,3 @@
 ##### Labs:
  [[Lab 0 - Introduction 02.02.2023]]
  [[Lab 1 - Hill Climbing]]
- 
