@@ -64,29 +64,38 @@ Contents:
 - You can send the public key to a certification agency to a certification agency which will sign the message to show that the public key can be trusted
 ###### Private Networks
 ![[Pasted image 20230208155037.png]]
-- 
+- We can lease **Physical** dedicated circuits to connect all your servers.
+- The only way to intercept the data is to find the fibre optic cable connecting the sites.
+- However, this is very expensive e.g. Nottingham -> London
 ###### Virtual Private Networks
 ![[Pasted image 20230208155053.png]]
-
+- A VPN arranges for every packet to be encrypted and scrambled until it gets to the destination sit.
+- We need to build in an authentication to make sure our packets are from where they're supposed to be from.
 
 ###### Personal VPN
 ![[Pasted image 20230208155104.png]]
-
+- Can run VPN software on your laptop or phone
+- We connect to the VPN server
+- The VPN client inserts itself into the normal network stack.
+- Our machine on the network looks like it always belonged to the network, rather than a foreign machine connected to the network.
 #### Firewalls and NAT
 ###### Routers
 ![[Pasted image 20230208155122.png]]
 
 ###### Firewalls
 ![[Pasted image 20230208155133.png]]
-
+- A firewall is a router with security
+- Decides whether a packet should be sent or discarded.
 ![[Pasted image 20230208155139.png]]
-
+- A firewall will decide whether you have permission to interact with a program on the other side of the firewall
 ###### Firewall Implementation with a Packet Filter
 ![[Pasted image 20230208155148.png]]
-
+- Deep Packet Inspection looks further than just the header
 ###### Network Address Translation (NAT)
 ![[Pasted image 20230208155200.png]]
-
+- Lots of addresses are wasted when we claim address ranges, as we don't tend to use every single address in a range.
+- We have private addresses that can be re-used
+- All the machines in our house are private ip addresses.
+- they can't be use outside our house; we encapsulate the private IP address so only our single public IP address NAT device interacts with them.
 ![[Pasted image 20230208155207.png]]
-
-
+- Using the same private IP address on a new network will connect to a different machine.
