@@ -99,3 +99,5 @@ Contents:
 - they can't be use outside our house; we encapsulate the private IP address so only our single public IP address NAT device interacts with them.
 ![[Pasted image 20230208155207.png]]
 - Using the same private IP address on a new network will connect to a different machine.
+- Therefore, we usually can only communicate with the NAT device.
+- This can be bypassed by port forwarding (you did this to set up the minecraft server)
