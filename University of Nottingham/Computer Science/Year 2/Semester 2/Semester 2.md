@@ -43,7 +43,7 @@
 - LAC 1 Flashcards - Done
 - ACE Exercises - Done
 - DSys 2 Lecture Notes - Done
-- AI Methods labs - NEED LAB ASSISTANCE
+- AI Methods labs - Done
 - LAC 2 Revision Notes
 - LAC 2 Flashcards
 - LAC 2 Exercises

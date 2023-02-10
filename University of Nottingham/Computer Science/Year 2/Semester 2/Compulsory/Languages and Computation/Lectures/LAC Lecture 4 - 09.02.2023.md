@@ -84,6 +84,7 @@ $N(A) = (Q,\Sigma,S_D)$
 $S_D : Q \implies \Sigma \implies Q \implies Prop$ 
 $S_D$ q x q' = (q' = S q x)
 S q = (q = $q_0$)
+
 ###### Relation
 f : A $\implies$ B
 $R_f : A \implies B \implies Prop$
