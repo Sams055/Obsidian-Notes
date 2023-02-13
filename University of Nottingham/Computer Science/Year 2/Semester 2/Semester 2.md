@@ -8,8 +8,7 @@
  [[Distributed Systems]]
 
 ###### Monday:
-ACE 1 Lecture Notes - To do
-Last Friday ACE Notes & Flashcards - To do
+ACE 1 Lecture Notes - Done
 DSys 1 Lecture Notes - To do
 12:00 - ACE Lecture 
 13:00 - GRP Lecture
@@ -45,8 +44,8 @@ LAC 2 Exercises -
 17:00 - ACE lecture
 
 
-###### To-do List:
-- GRP
+###### Back-log:
+- Last Friday ACE Notes & Flashcards - To do
 ###### On-going Tasks:
 - Group Project Assignment
 - ACE Self-Study Revision
