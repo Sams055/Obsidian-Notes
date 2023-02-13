@@ -7,7 +7,7 @@ Contents:
 ![[Pasted image 20230213115645.png]]
 
 ![[Pasted image 20230213115653.png]]
-
+- if c=0 f(n) wil be strictly positive
 ##### Exercise
 ![[Pasted image 20230213114119.png]]
 
@@ -33,10 +33,10 @@ Contents:
 
 #### Paradox of big-Omega
 ![[Pasted image 20230213115850.png]]
-
+We still want the part of the function that dominates the most, but we take it as if it's at least as fast as that
 #### Omega usage
 ![[Pasted image 20230213115859.png]]
-
+- 
 #### Big-Theta: Definition
 ![[Pasted image 20230213115908.png]]
 
