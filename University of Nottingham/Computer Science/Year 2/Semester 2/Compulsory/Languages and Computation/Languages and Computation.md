@@ -9,14 +9,14 @@
  [[LAC Lecture 2 - 02.02.2023]]
  [[LAC Lecture 3 - 06.02.2023]]
  [[LAC Lecture 4 - 09.02.2023]]
-[[LAC Lecture 5 - 13.02.2023]]
+ [[LAC Lecture 5 - 13.02.2023]]
 ###### Revision:
 [[2 - Formal Languages]]
 [[3 - Finite Automata]]
 
 ###### Exercises:
 [[LAC Exercise 2]]
-
+[[LAC Exercise 3]]
 
 ###### Tutorials:
 
