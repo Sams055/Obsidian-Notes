@@ -9,7 +9,7 @@
 
 ###### Monday:
 ACE 1 Lecture Notes - Done
-DSys 1 Lecture Notes - To do
+DSys 1 Lecture Notes - Done
 12:00 - ACE Lecture 
 13:00 - GRP Lecture
 ACE 1 Flashcards - To do
