@@ -12,7 +12,7 @@ ACE 1 Lecture Notes - Done
 DSys 1 Lecture Notes - Done
 12:00 - ACE Lecture 
 13:00 - GRP Lecture
-ACE 1 Flashcards - To do
+ACE 1 Flashcards - Done
 15:00 - LAC Lecture
 16:00 - DSys Lab 
 DSys Lab Task - Done
@@ -22,8 +22,7 @@ DSys Lab Task - Done
 DSys 1 Flashcards - 
 13:00 - LAC Tutorial BSS A06
 AI Methods lecture notes -
-LAC 1 Revision Notes - 
-LAC 1 Flashcards - 
+LAC 1 Revision - 
 ###### Wednesday:
 10:00 - ACE Lab
 11:00 - AI Lecture
@@ -45,7 +44,7 @@ LAC 2 Exercises -
 
 
 ###### Back-log:
-- Last Friday ACE Notes & Flashcards - To do
+- Last Friday ACE Notes & Flashcards - Done
 ###### On-going Tasks:
 - Group Project Assignment
 - ACE Self-Study Revision
