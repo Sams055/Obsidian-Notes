@@ -15,7 +15,7 @@ DSys 1 Lecture Notes - Done
 ACE 1 Flashcards - To do
 15:00 - LAC Lecture
 16:00 - DSys Lab 
-DSys Lab Task - To do
+DSys Lab Task - Done
 ###### Tuesday:
 09:00 - GRP Lab
 11:00 - DSys Lecture
