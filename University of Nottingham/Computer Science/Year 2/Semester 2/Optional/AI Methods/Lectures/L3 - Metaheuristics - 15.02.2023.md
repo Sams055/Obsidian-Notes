@@ -1,3 +1,5 @@
+Contents:
+[[AI Methods]]
 #### Performance Comparison of Stochastic Search Algorithms
 ##### Which Stochastic Search Algorithm Performs better for Solving Problem X?
 ![[Pasted image 20230215095457.png]]
