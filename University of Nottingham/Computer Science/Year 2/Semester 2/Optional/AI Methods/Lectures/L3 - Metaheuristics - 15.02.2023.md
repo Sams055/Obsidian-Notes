@@ -33,21 +33,63 @@ Contents:
 
 #### Metaheuristics
 ##### What is a Metaheuristic?
+![[Pasted image 20230215110433.png]]
+
 ##### Metaheuristics
+![[Pasted image 20230215110452.png]]
+
 ##### Main Components of a Metaheuristic Search Method (r.v)
+![[Pasted image 20230215110504.png]]
+
 ##### Mechanisms for escaping from local optima
+![[Pasted image 20230215110537.png]]
+
+![[Pasted image 20230215110544.png]]
+
 ##### Termination Criteria
+![[Pasted image 20230215110556.png]]
+
 ##### Feasibility Example
+![[Pasted image 20230215110607.png]]
+
 ##### How to deal with infeasible solutions
+![[Pasted image 20230215110620.png]]
+
 #### Local Search Metaheuristics and Iterated Local Search
 ##### Stochastic Local Search - Single Point Based Iterative Search (Local Search Metaheuristics)
+![[Pasted image 20230215110641.png]]
+
 ##### The Art of Searching
+![[Pasted image 20230215110649.png]]
+
 ##### Iterated Local Search (ILS)
+![[Pasted image 20230215110702.png]]
+
+![[Pasted image 20230215110713.png]]
+
+![[Pasted image 20230215110721.png]]
+
 ##### Exercise: Designing an ILS Algorithm for MAX-SAT
+![[Pasted image 20230215110842.png]]
+
 ##### Applying an ILS algorithm to a MAX-SAT Problem Instance - Exercise
+![[Pasted image 20230215110732.png]]
+
+![[Pasted image 20230215110739.png]]
+
+![[Pasted image 20230215110744.png]]
+
 ##### Designing another ILS for MAX-SAT
+![[Pasted image 20230215110858.png]]
+
 ##### ILS for TSP
+![[Pasted image 20230215110907.png]]
+
 ##### ILS Guidelines
+![[Pasted image 20230215110915.png]]
+
+![[Pasted image 20230215110920.png]]
+
 #### Tabu Search
 ##### Tabu Search 
 ##### Tabu Search Algorithm
