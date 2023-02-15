@@ -8,89 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c260b32e6d1fc991",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Rules for Big-Oh - Lecture 3 - 10.02.2023 - 13.02.2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ddea0a8c7e7014a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 5 - 13.02.2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63fc6f34e37aa0e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf6cf3d586e96d0c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "assets/pdf/Languages and Computation/g52lac-notes.pdf"
-              }
-            }
-          },
-          {
-            "id": "c0a079fbe9d5c3c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "010d7ca703461f47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ccd6d76f7d5a30bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6540b1f4a013874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "subset",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md"
               }
             }
           }
@@ -219,17 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "63fc6f34e37aa0e0",
+  "active": "f6540b1f4a013874",
   "lastOpenFiles": [
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Intro to big-Oh - Lecture 2b - 10.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 3.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 5 - 13.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
     "assets/pdf/Languages and Computation/g52lac-notes.pdf",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Revision/3 - Finite Automata.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md"
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Labs/Lab 1 - Primitive Operations.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Intro to big-Oh - Lecture 2a - 06.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Intro to big-Oh - Lecture 2b - 10.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md"
   ]
 }
