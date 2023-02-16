@@ -1,3 +1,6 @@
+Contents:
+[[Algorithms, Correctness & Efficiency]]
+
 ###### Q1. Prove 5 is O(1)
 - f(n) = 5
 - g(n) = 1
@@ -84,4 +87,4 @@
 - We can't choose a value of c as it would have to be based on n, but we can't choose a value of n before choosing a value of c.
 - This means it's unprovable
 
-###### Q12. Given that $f(n) =$ IF even(n) Then n + 3 ELSE $n^2 + 5$, state of Big-Oh behaviour and prove it from the definition  
+###### Q12. Given that $f(n) =$ IF even(n) Then n + 3 ELSE $n^2 + 5$, state the Big-Oh behaviour and prove it from the definition 
