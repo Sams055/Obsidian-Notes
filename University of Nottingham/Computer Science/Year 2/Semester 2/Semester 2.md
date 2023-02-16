@@ -26,7 +26,7 @@ LAC 1 Revision - Done
 ###### Wednesday:
 10:00 - ACE Lab
 11:00 - AI Lecture
-AI Methods Flashcards - In Progress
+AI Methods Flashcards - Done
 ACE Exercises - Done
 ###### Thursday:
 10:00 - ACE Tutorial
