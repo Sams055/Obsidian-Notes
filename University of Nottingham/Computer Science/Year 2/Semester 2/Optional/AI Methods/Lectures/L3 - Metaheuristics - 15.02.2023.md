@@ -154,7 +154,6 @@ Contents:
 ![[Pasted image 20230215120914.png]]
 - It's all about allocating certain resources to people / tasks
 - We want to optimize our objectives
-- 
 ##### Framework and Notation
 ![[Pasted image 20230215120924.png]]
 - We have n jobs and m machines

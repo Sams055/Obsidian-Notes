@@ -68,3 +68,9 @@ $L* (wv)$
 
 
 
+- For every $E : RE \Sigma$ we construct an NFA, $N^{RE} E : NFA \Sigma$ such that:
+	- $L^{RE} E = L^{NFA} (N^{RE} E)$
+	- $N^{RE} \emptyset =$ nothing
+	- $N^{RE} \epsilon =$ entry state = accepting state
+	- $N^RE a .. \Sigma$ = entry state ->(a) accepting state
+- 
