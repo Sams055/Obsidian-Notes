@@ -58,11 +58,22 @@
 - The highest $\frac{1}{n^2}$ can be is 1; hence, 2 <= c is the worst case
 - c = 2, n0 = 1 (trivially true - means we could put anything for n0)
 
+###### Q9. Prove or Disprove that 1 is $O(n)$
+- f(n) = 1
+- g(n) = n
+- Pick c, n0 s.t. 1 <= c($n$) forall n >= n0  
+- Pick c, n0 s.t. $\frac{1}{n}$ <= c forall n >= n0  (divided by n)
+- $\frac{1}{n}$  can be no bigger than 1, hence:
+- c = 1, n0 = 1 (trivially true - means we could put anything for n0)
 
-
-
-
-
+###### Q10. Prove or disprove that $n$ is $O(1)$
+- f(n) = n
+- g(n) = 1
+- Pick c, n0 s.t. $n$ <= c(1) forall n >= n0 
+- Pick c, n0 s.t. $n$ <= c forall n >= n0 
+- c = , n = ,
+- We can't choose a value of c as it would have to be based on n, but we can't choose a value of n before choosing a value of c.
+- This means it's unprovable
 
 
 
