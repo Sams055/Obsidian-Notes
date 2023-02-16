@@ -21,13 +21,13 @@ DSys Lab Task - Done
 11:00 - DSys Lecture
 DSys 1 Flashcards - Done
 13:00 - LAC Tutorial BSS A06
-AI Methods lecture notes - In Progress
-LAC 1 Revision - 
+AI Methods lecture notes - Done
+LAC 1 Revision - Done
 ###### Wednesday:
 10:00 - ACE Lab
 11:00 - AI Lecture
 AI Methods Flashcards -
-ACE Exercises - 
+ACE Exercises - Done
 ###### Thursday:
 10:00 - ACE Tutorial
 11:00 - LAC Lecture

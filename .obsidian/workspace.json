@@ -13,38 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6540b1f4a013874",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Labs/Lab 1 - Primitive Operations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46eb5d064dd19d67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dd5f077435d6a44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5,
-    "collapsed": true
+    "width": 413.5
   },
   "right": {
     "id": "1ef53200bfd6b17d",
@@ -111,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md"
               }
             }
           }
@@ -172,14 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46eb5d064dd19d67",
+  "active": "9dd5f077435d6a44",
   "lastOpenFiles": [
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Labs/Lab 2 - More Primitive Operations.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Labs/Lab 1 - Primitive Operations.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
     "assets/pdf/Languages and Computation/g52lac-notes.pdf",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md",

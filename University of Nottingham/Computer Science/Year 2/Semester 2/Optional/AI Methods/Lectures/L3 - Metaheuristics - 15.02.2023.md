@@ -75,30 +75,37 @@ Contents:
 #### Local Search Metaheuristics and Iterated Local Search
 ##### Stochastic Local Search - Single Point Based Iterative Search (Local Search Metaheuristics)
 ![[Pasted image 20230215110641.png]]
-
+- 
 ##### The Art of Searching
 ![[Pasted image 20230215110649.png]]
 
 ##### Iterated Local Search (ILS)
 ![[Pasted image 20230215110702.png]]
-
+- Very general pseudocode, but we choose the components
+- We create a solution, first apply perturbation and then the perturbed solution has the local search solution applied to it (hill climbing).
+- We then choose whether to accept the solution or not
 ![[Pasted image 20230215110713.png]]
-
+- An example would be doing a bitflip 10 times or 100 times
+- or do a hill climbing pass once or 10 times.
+- The perturbation strength is what we use to refer to this
+- We want to find an optimal perturbation strength
 ![[Pasted image 20230215110721.png]]
 
 ##### Exercise: Designing an ILS Algorithm for MAX-SAT
 ![[Pasted image 20230215110842.png]]
-
+- Need to satisfy all of this
 ##### Applying an ILS algorithm to a MAX-SAT Problem Instance - Exercise
 ![[Pasted image 20230215110732.png]]
-
+- This is initialisation
 ![[Pasted image 20230215110739.png]]
-
+- These are the steps; using random bit flip in this case.
+- We keep going till termination criteria is met.
 ![[Pasted image 20230215110744.png]]
 
 ##### Designing another ILS for MAX-SAT
 ![[Pasted image 20230215110858.png]]
-
+- We use Davis instead of steepest descent.
+- Even with one component change, we can definitely expect differences.
 ##### ILS for TSP
 ![[Pasted image 20230215110907.png]]
 
@@ -106,17 +113,22 @@ Contents:
 ![[Pasted image 20230215110915.png]]
 
 ![[Pasted image 20230215110920.png]]
-
+- We can apply methods for tuning
 #### Tabu Search
 ##### Tabu Search 
 ![[Pasted image 20230215120643.png]]
 
 ##### Tabu Search Algorithm
 ![[Pasted image 20230215120649.png]]
-
+- The tabu list array gets updated based on how the solution is.
 ##### Overview
 ![[Pasted image 20230215120658.png]]
-
+- Forbidding strategy
+	- What do we put in the array?
+- Freeing Strategy
+	- When do we take something out of the array?
+- Short-term strategy
+	- How do we select our trial solutions
 ##### Fundamentals
 ![[Pasted image 20230215120741.png]]
 
@@ -126,7 +138,7 @@ Contents:
 
 ##### Tabu Search for MAX-SAT
 ![[Pasted image 20230215120808.png]]
-
+- For each variable we can store the search step when it's value last changed within the for loop
 ##### Iteration of Tabu Search for MAX-SAT
 ![[Pasted image 20230215120814.png]]
 
@@ -136,23 +148,27 @@ Contents:
 
 ##### Practical Considerations
 ![[Pasted image 20230215120857.png]]
-
+- Similarly to perturbative strength, we don't want something too high or too low.
 #### Introduction to Scheduling
 ##### Scheduling
 ![[Pasted image 20230215120914.png]]
-
+- It's all about allocating certain resources to people / tasks
+- We want to optimize our objectives
+- 
 ##### Framework and Notation
 ![[Pasted image 20230215120924.png]]
-
-##### Classification of Scheudling Problems - Notation
+- We have n jobs and m machines
+- We are performing operation of job j on machine i
+##### Classification of Scheduling Problems - Notation
 ![[Pasted image 20230215120943.png]]
-
+- The objective is the minimise and maximise relevant characteristics
 ##### Sample Machine Characteristics
 ![[Pasted image 20230215120954.png]]
-
+- The processes time will vary for Qm 
 ##### Sample Job Characteristics
 ![[Pasted image 20230215121004.png]]
-
+- We need to consider these characteristics
+- 
 ![[Pasted image 20230215121015.png]]
 
 ##### Sample Optimality Criteria
@@ -163,7 +179,7 @@ Contents:
 
 ##### A single Machine Scheduling Problem
 ![[Pasted image 20230215121045.png]]
-
+- This should be sufficient notation for illustrating performance.
 ##### Computing Weighted Tardiness
 ![[Pasted image 20230215121053.png]]
 
