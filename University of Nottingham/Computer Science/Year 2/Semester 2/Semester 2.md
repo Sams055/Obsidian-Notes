@@ -37,7 +37,7 @@ DSys 2 Lecture Notes - Done
 ACE 2 Lecture Notes -
 LAC 2 Revision Notes -
 12:00 - DSys Lecture
-DSys 2 Flashcards - 
+DSys 2 Flashcards - Done
 LAC 2 Flashcards -
 LAC 2 Exercises -
 17:00 - ACE lecture
