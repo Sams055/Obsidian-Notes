@@ -7,7 +7,7 @@
  [[Intro to big-Oh - Lecture 2b - 10.02.2023]]
  [[Rules for Big-Oh - Lecture 3 - 10.02.2023 - 13.02.2023]]
  [[Big-Oh family - Lecture 4a - 13.02.2023]]
- 
+ Big-Oh family - Lecture 4b - 17.02.2023
 ###### Labs:
 [[Lab 1 - Primitive Operations]]
 
