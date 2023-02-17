@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Java RMI Example - 17.02.2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Java RMI Example - 17.02.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Java RMI Example - 17.02.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Java RMI Example - 17.02.2023.md"
               }
             }
           }
@@ -198,15 +198,15 @@
   },
   "active": "40aca92bd723e2d7",
   "lastOpenFiles": [
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Java RMI Example - 17.02.2023.md",
     "assets/images/Pasted image 20230217111123.png",
     "assets/images/Pasted image 20230217111044.png",
     "assets/images/Pasted image 20230217111015.png",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 2 - Application of Iterated Local Search - 16.02.2023.md"
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md"
   ]
 }
