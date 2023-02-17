@@ -31,7 +31,7 @@ ACE Exercises - Done
 ###### Thursday:
 10:00 - ACE Tutorial
 11:00 - LAC Lecture
-DSys 2 Lecture Notes - 
+DSys 2 Lecture Notes - Done
 14:00 - AIM Lab
 ###### Friday:
 ACE 2 Lecture Notes -

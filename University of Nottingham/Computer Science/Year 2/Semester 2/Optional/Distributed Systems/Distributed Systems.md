@@ -7,7 +7,7 @@
  [[Request-Reply and Java UDP - 07.02.2023]]
  [[Network Security - 10.02.2023]]
  [[Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023]]
- Java RMI example
+ [[Java RMI Example - 17.02.2023]]
  Q&A, revision
  DNS
  WWW
