@@ -8,8 +8,8 @@
  [[Distributed Systems]]
 
 ###### Monday:
-ACE 1 Lecture Notes -
-DSys 1 Lecture Notes -
+ACE 1 Lecture Notes - In Progress
+DSys 1 Lecture Notes - 
 12:00 - ACE Lecture 
 ACE 1 Flashcards -
 15:00 - LAC Lecture
@@ -43,7 +43,7 @@ LAC 2 Exercises -
 
 
 ###### Back-log:
-- Last Friday ACE Notes & Flashcards - 
+- Last Friday ACE Notes & Flashcards - Done
 ###### On-going Tasks:
 - Group Project Assignment
 - ACE Self-Study Revision

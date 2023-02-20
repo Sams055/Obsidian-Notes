@@ -10,8 +10,12 @@
  [[Big-Oh family - Lecture 4b - 17.02.2023]]
  [[Extra Little-Oh - Lecture 5 - 17.02.2023]]
  [[Linked Lists and their efficiency - Lecture 6 - 20.02.2023]]
+ [[Simple Sorting Algorithms - Lecture 7 - 20.02.2023]]
 ###### Labs:
 [[Lab 1 - Primitive Operations]]
-
+[[Lab 2 - More Primitive Operations]]
 ###### Tutorials:
 [[ACE Tutorial 1 - 16.02.2023]]
+
+###### Revision Document:
+[[Revision Doc]]

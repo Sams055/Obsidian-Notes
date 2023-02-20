@@ -1,5 +1,5 @@
 Contents:
-[[Lab 2 - More Primitive Operations]]
+[[Algorithms, Correctness & Efficiency]]
 
 ``` java
 static int p(int[] A) {  
