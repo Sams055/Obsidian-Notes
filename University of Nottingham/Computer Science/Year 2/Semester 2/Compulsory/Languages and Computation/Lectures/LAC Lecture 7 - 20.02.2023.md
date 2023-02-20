@@ -46,3 +46,10 @@ How does Kleene algebra work?
 	- $\epsilon*$ = {$\epsilon$}
 	- $\epsilon \epsilon = \epsilon$
 The Bigger Picture
+	- Given $L \subseteq \Sigma*$ TFAE
+	1. L is the language of a DFA A
+		$L = L^{DFA} A$ 
+	2. L is the language of an NFA A
+		$L = L^{NFA} A$ 
+	3. L is the language of an RE E
+		$L = L^{RE} E$ 
