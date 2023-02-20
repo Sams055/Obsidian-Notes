@@ -53,3 +53,19 @@ The Bigger Picture
 		$L = L^{NFA} A$ 
 	3. L is the language of an RE E
 		$L = L^{RE} E$ 
+
+More on regular expressions
+	- Given a RE E, we construct $N^{RE} E:NFA \Sigma$ 
+	- s.t. $L^{RE}E = L^{NFA}(N^{RE} E)$ 
+	- Diagram
+		![[Pasted image 20230220153737.png]]
+		![[Pasted image 20230220153844.png]]
+		![[Pasted image 20230220153955.png]]
+		![[Pasted image 20230220154324.png]]
+		![[Pasted image 20230220154619.png]]
+	N(a* b*)
+		![[Pasted image 20230220154912.png]]
+		![[Pasted image 20230220154954.png]]
+		![[Pasted image 20230220155029.png]]
+		![[Pasted image 20230220155113.png]]
+		
