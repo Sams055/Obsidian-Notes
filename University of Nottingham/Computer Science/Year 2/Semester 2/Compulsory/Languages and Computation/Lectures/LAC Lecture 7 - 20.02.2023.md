@@ -68,4 +68,3 @@ More on regular expressions
 		![[Pasted image 20230220154954.png]]
 		![[Pasted image 20230220155029.png]]
 		![[Pasted image 20230220155113.png]]
-		
