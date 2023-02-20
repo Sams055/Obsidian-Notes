@@ -44,7 +44,7 @@ LAC 2 Exercises -
 
 
 ###### Back-log:
-- Last Friday ACE Notes & Flashcards - Done
+- Last Friday ACE Notes & Flashcards - 
 ###### On-going Tasks:
 - Group Project Assignment
 - ACE Self-Study Revision
