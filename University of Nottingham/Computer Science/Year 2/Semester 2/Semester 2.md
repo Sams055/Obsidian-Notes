@@ -9,7 +9,7 @@
 
 ###### Monday:
 ACE 1 Lecture Notes - Done
-DSys 1 Lecture Notes - Done?
+DSys 1 Lecture Notes - N/A
 12:00 - ACE Lecture 
 ACE 1 Flashcards -
 15:00 - LAC Lecture
@@ -20,7 +20,7 @@ DSys Lab Task -
 11:00 - DSys Lecture
 DSys 1 Flashcards -
 13:00 - LAC Tutorial BSS A06
-AI Methods lecture notes -
+AI Methods lecture notes - Done
 LAC 1 Revision -
 ###### Wednesday:
 10:00 - ACE Lab
@@ -33,7 +33,7 @@ ACE Exercises -
 DSys 2 Lecture Notes -
 14:00 - AIM Lab
 ###### Friday:
-ACE 2 Lecture Notes -
+ACE 2 Lecture Notes - Done
 LAC 2 Revision Notes -
 12:00 - DSys Lecture
 DSys 2 Flashcards
