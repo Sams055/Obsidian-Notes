@@ -4,95 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "b2c400744e207b90",
+        "id": "3c0cbec30b0d589e",
         "type": "tabs",
         "children": [
           {
-            "id": "ccd6d76f7d5a30bc",
+            "id": "356267dfc3966ffc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e3dc44118cb4da21",
+            "id": "3bdb353e197a0f45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dd78a3f2055dcaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04d7fde742cb1c02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40aca92bd723e2d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9dd5f077435d6a44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e1a27f57bccbc63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 6 - 16.02.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md"
               }
             }
           }
@@ -220,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "04d7fde742cb1c02",
+  "active": "356267dfc3966ffc",
   "lastOpenFiles": [
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Simple Sorting Algorithms - Lecture 7 - 20.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Labs/Lab 2 - More Primitive Operations.md",
+    "assets/images/Pasted image 20230220112237.png",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Intro to big-Oh - Lecture 2a - 06.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Exam CW Revision/Revision Doc.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Linked Lists and their efficiency - Lecture 6 - 20.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Extra Little-Oh - Lecture 5 - 17.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Big-Oh family - Lecture 4b - 17.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Big-Oh family - Lecture 4a - 13.02.2023.md"
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 6 - 16.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Simple Sorting Algorithms - Lecture 7 - 20.02.2023.md"
   ]
 }
