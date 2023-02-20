@@ -11,7 +11,6 @@
 ACE 1 Lecture Notes -
 DSys 1 Lecture Notes -
 12:00 - ACE Lecture 
-13:00 - GRP Lecture
 ACE 1 Flashcards -
 15:00 - LAC Lecture
 16:00 - DSys Lab 

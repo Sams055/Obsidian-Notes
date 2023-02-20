@@ -9,6 +9,7 @@
  [[Big-Oh family - Lecture 4a - 13.02.2023]]
  [[Big-Oh family - Lecture 4b - 17.02.2023]]
  [[Extra Little-Oh - Lecture 5 - 17.02.2023]]
+ [[Linked Lists and their efficiency - Lecture 6 - 20.02.2023]]
 ###### Labs:
 [[Lab 1 - Primitive Operations]]
 
