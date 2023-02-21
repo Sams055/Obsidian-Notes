@@ -8,7 +8,7 @@
  [[Network Security - 10.02.2023]]
  [[Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023]]
  [[Java RMI Example - 17.02.2023]]
- Q&A, revision
+ [[Q&A and Exam Revision]]
  DNS
  WWW
  HTTP servers and APIs
