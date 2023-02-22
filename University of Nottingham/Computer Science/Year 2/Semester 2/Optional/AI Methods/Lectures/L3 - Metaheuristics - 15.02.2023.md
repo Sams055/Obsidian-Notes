@@ -179,9 +179,12 @@ Contents:
 ##### A single Machine Scheduling Problem
 ![[Pasted image 20230215121045.png]]
 - This should be sufficient notation for illustrating performance.
+- Tardiness is 0 if our job completes on time
 ##### Computing Weighted Tardiness
 ![[Pasted image 20230215121053.png]]
-
+- Each job requires some processing time
+- If the order changes, the shortest processing time changes
+- max(x,y) returns the largest value between x and y
 ##### Home Exercise
 ![[Pasted image 20230215121120.png]]
 

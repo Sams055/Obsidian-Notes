@@ -11,17 +11,17 @@
 ACE 1 Lecture Notes - Done
 DSys 1 Lecture Notes - N/A
 12:00 - ACE Lecture 
-ACE 1 Flashcards -
+ACE 1 Flashcards - N/A
 15:00 - LAC Lecture
 16:00 - DSys Lab 
-DSys Lab Task - 
+DSys Lab Task - Done
 ###### Tuesday:
 09:00 - GRP Lab
 11:00 - DSys Lecture
-DSys 1 Flashcards -
+DSys 1 Flashcards - N/A
 13:00 - LAC Tutorial BSS A06
 AI Methods lecture notes - Done
-LAC 1 Revision -
+LAC 1 Revision - Done
 ###### Wednesday:
 10:00 - ACE Lab
 11:00 - AI Lecture

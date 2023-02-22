@@ -8,53 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "356267dfc3966ffc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "assets/pdf/Languages and Computation/g52lac-notes.pdf"
-              }
-            }
-          },
-          {
-            "id": "f250142ac91eef90",
+            "id": "23c1f8ac8a64d845",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49f51ea30f3c1561",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Revision/LAC Exercise 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c377b22094b0650",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 413.5,
+    "collapsed": true
   },
   "right": {
     "id": "1ef53200bfd6b17d",
@@ -120,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Revision/LAC Exercise 4.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Revision/LAC Exercise 4.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Revision/LAC Exercise 4.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md"
               }
             }
           }
@@ -181,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49f51ea30f3c1561",
+  "active": "23c1f8ac8a64d845",
   "lastOpenFiles": [
-    "assets/pdf/Languages and Computation/g52lac-notes.pdf",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Revision/LAC Exercise 4.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L3 - Metaheuristics - 15.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Labs/Lab 2 - Encoding and UDP - 13.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Request-Reply and Java UDP - 07.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Labs/Lab 1 - Java TCP - 07.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Java RMI Example - 17.02.2023.md"
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 7 - 20.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Revision/LAC Exercise 4.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 6 - 16.02.2023.md",
+    "assets/pdf/Languages and Computation/g52lac-notes.pdf"
   ]
 }

@@ -10,3 +10,6 @@ Contents:
 5. a$*$(ba$*$c + ca$*$b) a* 
 6. c$*$(a + b)((a+b)c$*$(a+b)+c)*
 7. (a + b + c)* abba(a + b + c)
+
+###### Exercise 4.3
+![[Pasted image 20230221134455.png]]

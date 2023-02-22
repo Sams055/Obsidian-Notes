@@ -11,6 +11,7 @@
  [[LAC Lecture 4 - 09.02.2023]]
  [[LAC Lecture 5 - 13.02.2023]]
  [[LAC Lecture 6 - 16.02.2023]]
+ [[LAC Lecture 7 - 20.02.2023]]
 ###### Revision:
 [[2 - Formal Languages]]
 [[3 - Finite Automata]]

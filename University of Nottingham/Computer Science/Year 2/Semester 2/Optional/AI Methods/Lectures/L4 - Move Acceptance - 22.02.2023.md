@@ -4,41 +4,44 @@ Contents:
 #### Local Search Meta Heuristics and Move Acceptance Methods
 ##### Single Point Based Iterative Search - Revisited
 ![[Pasted image 20230220112039.png]]
-
+- This is a high level pseudocode for these heuristics
+- It is possible to accept non-improving moves
 ##### Move Acceptance Methods - A Taxonom
 ![[Pasted image 20230220112046.png]]
-
+- It could be stochastic or non-stochastic
 ##### Parameter Setting Mechanisms in Move Acceptance
 ![[Pasted image 20230220112105.png]]
-
+- Static, Dynamic and Adaptive parameter setting are all valid
 ##### Non-stochastic Basic Move Acceptance Methods
 ![[Pasted image 20230220112113.png]]
-
+- based on memory, late acceptance makes a comparison to solution quality fro L steps before
 ##### Late Acceptance Algorithm
 ###### Pseudocode
 ![[Pasted image 20230220112133.png]]
 
 ###### Sample run
 ![[Pasted image 20230220112149.png]]
-
+- If there is an improvement we accept it
 ![[Pasted image 20230220112155.png]]
-
+- Our current solution becomes that solution
 ![[Pasted image 20230220112202.png]]
 
 ![[Pasted image 20230220112211.png]]
-
+- They all get the perfect solution, but it's very clear by their graph curves which one we would prefer.
 ##### Non-stochastic Threshold Move Acceptance - minimising
 ![[Pasted image 20230220112225.png]]
-
+- You decide on the threshold and that threshold changes in time
 ##### Non-stochastic Threshold Move Acceptance - Examples
 ![[Pasted image 20230220112237.png]]
-
+- We use a fixed value with static approaches
 ##### Great Deluge - minimisation
 ![[Pasted image 20230220112317.png]]
-
+- We decide on the decay rate, but the graph should be similar.
+- You linearly decrease the value of fitness.
 ##### Extended Great Deluge - minimisation
 ![[Pasted image 20230220112335.png]]
-
+- In time, the value is changed
+- You can see the system relaxing it's threshold at the plateaus on the graph
 ##### Stochastic Move Acceptance
 ###### Idea
 ![[Pasted image 20230220112345.png]]
@@ -48,7 +51,8 @@ Contents:
 
 ##### Simulated Annealing
 ![[Pasted image 20230220112501.png]]
-
+- Nature inspired algorithm
+- 
 ##### Analogy
 ![[Pasted image 20230220112511.png]]
 
