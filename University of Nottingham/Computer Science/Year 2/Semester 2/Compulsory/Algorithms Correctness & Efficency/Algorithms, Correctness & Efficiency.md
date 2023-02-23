@@ -17,6 +17,6 @@
 [[Lab 2 - More Primitive Operations]]
 ###### Tutorials:
 [[ACE Tutorial 1 - 16.02.2023]]
-
+[[ACE Tutorial 2 - 23.02.2023]]
 ###### Revision Document:
 [[Revision Doc]]
