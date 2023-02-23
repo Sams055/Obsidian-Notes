@@ -76,6 +76,7 @@ Recap:
 8.
 	Prove or disprove that 5 is o(n)
 	5 < n(c), forall n >= $n_0$, c > 0
+	We can have n0 be dependent on c
 	c = 1, $n_0$ = $\frac{5}{c} + 1$
 	5 <= c($\frac{5}{c} + 1 + x)$ will hold for all values of c greater than 0, 
 	as 5 <= $5 + c + x$, where c and x are both > 0   
