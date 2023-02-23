@@ -11,14 +11,16 @@ Contents:
 	As n -> inf, $\frac{logn}{n} \implies 0$ 
 	= $n^3(1)$ 
 	= $n^3$ 
+	
 
-Big omega recap
-$f(n) >= c . g(n), \forall n >= n_0$ 
-
-Big theta recap
-$f(n) <= c' . g(n)$, 
-$f(n) >= c'' . g(n)$,
-$\forall n >= n_0$.
+2.
+	Big omega recap
+	$f(n) >= c . g(n), \forall n >= n_0$ 
+	
+	Big theta recap
+	$f(n) <= c' . g(n)$, 
+	$f(n) >= c'' . g(n)$,
+	$\forall n >= n_0$.
 
 3.
 	Prove 5 is $\Omega(1)$ and hence that 5 is $\Theta(1)$
@@ -30,30 +32,52 @@ $\forall n >= n_0$.
 4.
 	Prove that 4 is $\Omega(2)$ and hence that 4 is $\Theta(2)$
 	Pick c'', n0 s.t. 4 >= c . 2 $\forall n >= n_0$
-	c'' = 2, n0 = 1
+	c'' = 1, n0 = 1
 	Pick c', s.t. 4 <= c . 2 $\forall n >= 1$
 	c' = 2, n0 = 1
-	n0 = 1, c' = 2, c'' = 2
+	n0 = 1, c' = 2, c'' = 1
+	4 <= 4, 4 >= 2, $\forall n >= 1$ 
 	Hence, 4 is $\Theta(2)$
 
 5.
 	Prove that 2n + 1 is $\Omega(3n)$
 	Pick c, n0 s.t. 2n+1 >= c . 3n, forall n > n0
-	Pick c, n0 s.t. $\frac{2}{3}$ +$\frac{1}{3n}$ >= c, forall n > n0 (divide by 3n)
-	$\frac{1}{3n}$ will never be greater than $\frac{1}{3}$, hence:
+	Pick 1/3, n0 s.t. 2n+1 >= n forall n > n0
+	n0 = 1: Trivially true
 	c = 1, n0 = 1
-	1 >= 1: 2n+1 is $\Omega(3n)$
+	1 >= 1/3
+	2n+1 is $\Omega(3n)$
 
 6.
 	Prove that 2n + 1 is $\Omega(n)$ and hence that 2n + 1 is $\Theta(n)$
 	Pick c'', n0 s.t. 2n + 1 >= c . n forall n > n0
-	Pick c'', n0 s.t. 2 + $\frac{1}{n}$ >= c  forall n > n0 (divide by n)
-	$\frac{1}{n}$ will never exceed 1, hence:
-	c'' = 3, n0 = 1: 3 >= 3
+	Pick 1, n0 s.t. 2n + 1 >= n  forall n > n0
+	c'' = 1, n0 = 1: 3 >= 3
 	2n + 1 is $\Omega(n)$
 	Pick c' s.t. 2n + 1 <= c . n forall n > 1
 	Pick c' s.t. 2 + $\frac{1}{n}$ <= c  forall n > 1 (divide by n)
+	$\frac{1}{n}$ will never exceed 1, hence:
 	c' = 3: 3 <= 3
-	c' = 3, c'' = 3, n0 = 1
+	c' = 3, c'' = 1, n0 = 1
 	2n + 1 is $\Theta(n)$
-	
+
+
+Recap:
+	Given f(n) and g(n) is o(g(n)) iff for all positive real constant c > 0 there exists $n_0$ such that:
+	f(n) < c . g(n), $\forall n >= n_0$
+	$\frac{f(n)}{g(n)} \implies 0$ as $n \implies \inf.$ 
+
+7.
+ Prove or disprove that 5 is o(1)
+ 5 < c, forall n >= $n_0$, c > 0
+ This must hold for all c > 0, but c >= 5 will fail.
+ Hence, 5 is o(1) is disproved
+
+8.
+	Prove or disprove that 5 is o(n)
+	5 < n(c), forall n >= $n_0$, c > 0
+	c = 1, $n_0$ = $\frac{5}{c} + 1$
+	5 <= c($\frac{5}{c} + 1 + x)$ will hold for all values of c greater than 0, 
+	as 5 <= $5 + c + x$, where c and x are both > 0   
+	hence:
+	5 is o(n) is proved
