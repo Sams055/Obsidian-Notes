@@ -9,7 +9,7 @@
  [[Remote Procedure Calls (RPCs)  and Remote Method Invocation  (RMI) - 14.02.2023]]
  [[Java RMI Example - 17.02.2023]]
  [[Q&A and Exam Revision]]
- DNS
+ [[Name Services and DNS - 24.02.2023]]
  WWW
  HTTP servers and APIs
  Physical & Architectural models
