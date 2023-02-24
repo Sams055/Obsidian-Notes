@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3c0cbec30b0d589e",
+        "id": "32fd54b68414e1b0",
         "type": "tabs",
         "children": [
           {
-            "id": "23c1f8ac8a64d845",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c210f6decadedeb2",
+            "id": "40d49413f0a81594",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,43 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "051e162132602e7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 3 - Simulated Annealing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "081b38a2dd2652de",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "assets/pdf/Languages and Computation/g52lac-notes.pdf"
-              }
-            }
-          },
-          {
-            "id": "1835f1e45760e972",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,8 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c210f6decadedeb2",
+  "active": "40d49413f0a81594",
   "lastOpenFiles": [
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
+    "assets/pdf/Languages and Computation/g52lac-notes.pdf",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 3 - Simulated Annealing.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Name Services and DNS - 24.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
     "assets/images/Pasted image 20230224113512.png",
     "assets/images/Pasted image 20230224113457.png",
     "assets/images/Pasted image 20230224113432.png",
@@ -206,17 +164,11 @@
     "assets/images/Pasted image 20230224113151.png",
     "assets/images/Pasted image 20230224113140.png",
     "assets/images/Pasted image 20230224113131.png",
-    "assets/images/Pasted image 20230224113122.png",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Name Services and DNS - 24.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 8 - 23.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 3 - Simulated Annealing.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
-    "assets/pdf/Languages and Computation/g52lac-notes.pdf",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 2 - 23.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Year 2.md",
     "University of Nottingham/Computer Science/Computer Science.md",
