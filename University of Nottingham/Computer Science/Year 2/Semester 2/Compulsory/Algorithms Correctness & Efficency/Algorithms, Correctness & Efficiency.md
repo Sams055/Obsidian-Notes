@@ -12,6 +12,7 @@
  [[Linked Lists and their efficiency - Lecture 6 - 20.02.2023]]
  [[Simple Sorting Algorithms - Lecture 7 - 20.02.2023]]
  [[Trees - Terminology, Traversals, Representations, and Properties - Lecture 8 - 20.02.2023]]
+ [[Merge Sort - Lecture 9 - 27.02.2023]]
 ###### Labs:
 [[Lab 1 - Primitive Operations]]
 [[Lab 2 - More Primitive Operations]]

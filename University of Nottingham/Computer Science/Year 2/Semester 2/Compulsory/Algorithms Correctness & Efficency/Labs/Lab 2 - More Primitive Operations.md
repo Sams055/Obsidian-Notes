@@ -8,17 +8,13 @@ static int p(int[] A) {
   
     int sum = 0;                           c += 1;  
     int max = 0;                          c += 1 ;  
-    for (int p=0; p < n; p++) {           c += 6 ;  
+    for (int p=0; p < n; p++) {           c += 6 ; 
         int k = A[p];                      c += 3 ;  
         sum += k;                         c += 4;  
         B[p] = sum;                        c += 4;  
         int m = 0;                         c += 1 ;  
-        int s;                            c += 1 ;  
+        int s;                            c += 0 ;  
         s = ( n%2 == 0 ? sum : k );         c += 6 ; 
-        if (n%2 == 0)
-	        s = sum
-        else
-	        s = k
         while ( s >= 2 ) {                c += 2 ;  
             s /= 2;                        c += 3 ;  
             m++;                           c += 3 ;  
