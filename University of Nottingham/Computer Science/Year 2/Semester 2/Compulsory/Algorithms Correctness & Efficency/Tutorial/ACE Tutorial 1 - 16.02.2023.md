@@ -9,6 +9,10 @@ Contents:
 - Pick c, n0 s.t. 5 <= c forall n >= n0
 - c=5, n0=1 (anything)
 
+Pick c, $n_0$ s.t. 5 <= c(1) $\forall$ n >= $n_0$
+5 <= c
+c = 5, n0 = 1 (trivially true)
+5 <= 5
 ###### Q2. Prove 4 is O(2)
 - f(n) = 4
 - g(n) = 2
@@ -23,6 +27,14 @@ Contents:
 - Pick c, n0 s.t. 2+1/n <= c(3) forall n >= n0 (we divided by n)
 - (Given n >= 1, (2 + 1/n) will never be greater than 3)
 - c = 1, n0 = 1 (trivially true - means we could put anything for n0)
+
+f(n) = 2n +  1
+g(n) = 3n
+Pick c, $n_0$ s.t. 2n+1 <= c(3n) forall n >= n0
+2n+1 <= 3n
+1 <= n (-2n from both sides)
+1 <= 1
+c = 1, n0 = 1,
 
 ###### Q4. Prove 2n+1 is O(n)
 - f(n) = 2n+1
@@ -39,12 +51,18 @@ Contents:
 - Pick c, n0 s.t. $\frac{1}{2}$<= c forall n >= n0 (divided by $n^2$)
 - c = 1, n0 = 1 (trivially true - means we could put anything for n0)
 
+f(n) = $n^2$
+g(n) = $2n^2$
+Pick c, $n_0$ s.t. $n^2 <= c(2n^2)$ forall n >= n0
+(divide by $n^2$) 1 <= 2c 
+1 <= 2
+c = 1, n0 = 1, (trivially true)
 ###### Q6. $n^2 - 3$ is $O(n^2)$
 - f(n) = $n^2 - 3$
 - g(n) = $n^2$
 - Pick c, n0 s.t. $n^2 - 3$ <= c($n^2$) forall n >= n0
 - Pick c, n0 s.t. $1 - \frac{3}{n^2}$ <= c forall n >= n0 (divided by $n^2$)
-- c = 1, n0 = 1 (trivially true - means we could put anything for n0)
+- c = 1, n0 = 1 
 
 ###### Q7. $n^2 - 5n$ is $O(n^2)$
 - f(n) = $n^2 - 5n$ 
@@ -64,7 +82,7 @@ Contents:
 ###### Q9. Prove or Disprove that 1 is $O(n)$
 - f(n) = 1
 - g(n) = n
-- Pick c, n0 s.t. 1 <= c($n$) forall n >= n0  
+- Pick c, n0 s.t. 1 <= c($n$) forall n >= n0 
 - Pick c, n0 s.t. $\frac{1}{n}$ <= c forall n >= n0  (divided by n)
 - $\frac{1}{n}$  can be no bigger than 1, hence:
 - c = 1, n0 = 1 (trivially true - means we could put anything for n0)
@@ -74,7 +92,7 @@ Contents:
 - g(n) = 1
 - Pick c, n0 s.t. $n$ <= c(1) forall n >= n0 
 - Pick c, n0 s.t. $n$ <= c forall n >= n0 
-- c = , n = ,
+- c = , n0 = ,
 - We can't choose a value of c as it would have to be based on n, but we can't choose a value of n before choosing a value of c.
 - This means it's unprovable
 

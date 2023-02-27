@@ -14,7 +14,11 @@ static int p(int[] A) {
         B[p] = sum;                        c += 4;  
         int m = 0;                         c += 1 ;  
         int s;                            c += 1 ;  
-        s = ( n%2 == 0 ? sum : k );         c += 6 ;  
+        s = ( n%2 == 0 ? sum : k );         c += 6 ; 
+        if (n%2 == 0)
+	        s = sum
+        else
+	        s = k
         while ( s >= 2 ) {                c += 2 ;  
             s /= 2;                        c += 3 ;  
             m++;                           c += 3 ;  

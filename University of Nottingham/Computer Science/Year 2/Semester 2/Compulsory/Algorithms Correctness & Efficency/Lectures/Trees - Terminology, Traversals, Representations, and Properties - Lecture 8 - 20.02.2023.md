@@ -3,7 +3,7 @@ Contents:
 
 #### What is a (Rooted) Tree?
 ![[Pasted image 20230220114151.png]]
-
+- Rooted trees have a root node
 #### Tree Terminology
 ![[Pasted image 20230220114203.png]]
 
@@ -31,7 +31,7 @@ Contents:
 
 #### Proper Binary Trees
 ![[Pasted image 20230220114315.png]]
-
+- You can't have a single child
 ![[Pasted image 20230220114319.png]]
 
 #### Arithmetic Expression Tree

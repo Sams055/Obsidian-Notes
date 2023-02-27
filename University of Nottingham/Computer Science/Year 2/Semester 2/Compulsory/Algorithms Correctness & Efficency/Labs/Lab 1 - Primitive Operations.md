@@ -6,17 +6,17 @@ Contents:
 static int arrayMax(int[] A) {  
     int n = A.length;  
     if ( n == 0 ) {return -1;}  
-  
+    
     // start counting primitive operations from here  
     int currentMax = A[0];                  c += 2 ;  
     for (int p=1; p < n; p++) {  
         c += 0; // for 'anything else'  
-        if ( A[p] > currentMax ) {       c += 2;  
+        if ( A[p] > currentMax ) {       how many primitives operations in total = 2(n-1)  
             currentMax = A[p];          c += 2;  
         }  
-        c += 3; // for 'for loop comparison and increment'  
+        c += 3; // for 'for loop comparison and increment' 
     }  
-    c += 1; // for initialising 'p'  
+    c += 1; // for doing ???  
   
     c += 1; // for the 'return'  
     return currentMax;  
