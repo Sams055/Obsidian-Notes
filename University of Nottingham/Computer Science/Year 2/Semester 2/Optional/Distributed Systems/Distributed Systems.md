@@ -10,7 +10,7 @@
  [[Java RMI Example - 17.02.2023]]
  [[Q&A and Exam Revision]]
  [[Name Services and DNS - 24.02.2023]]
- WWW
+ [[WWW and HTTP - 28.02.2023]]
  HTTP servers and APIs
  Physical & Architectural models
  Indirect Comm'n: Group Comm'n and Pub-Sub
