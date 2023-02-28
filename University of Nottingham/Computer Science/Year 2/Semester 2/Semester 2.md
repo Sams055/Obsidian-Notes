@@ -8,7 +8,7 @@
  [[Distributed Systems]]
 
 ###### Monday:
-ACE 1 Lecture Notes - 
+ACE 1 Lecture Notes - Done
 DSys 1 Lecture Notes -
 12:00 - ACE Lecture 
 ACE 1 Flashcards -

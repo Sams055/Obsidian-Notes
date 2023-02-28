@@ -106,3 +106,16 @@ c = 1, n0 = 1, (trivially true)
 - This means it's unprovable
 
 ###### Q12. Given that $f(n) =$ IF even(n) Then n + 3 ELSE $n^2 + 5$, state the Big-Oh behaviour and prove it from the definition 
+f(n) = n + 3
+		$n^2 + 5$
+We work with $n^2 + 5$ as big Oh is looking at the worst case
+$n^2 + 5$.
+Let's say f(n) = O($n^2$)
+Pick n0, c s.t. $n^2 + 5$ <= c$(n^2)$ forall n >= $n_0$
+Let's pick c = 6
+$n^2 + 5 <= 6n^2$
+Let's pick n0 = 1
+1 + 5 <= 6
+6 <= 6
+This holds
+Hence: f(n) = O($n^2$)

@@ -3,7 +3,7 @@ Contents:
 
 #### Divide and Conquer
 ![[Pasted image 20230227112615.png]]
-
+- 
 #### Merge-Sort
 ![[Pasted image 20230227113853.png]]
 
@@ -25,7 +25,7 @@ etc.
 
 #### Merge-Sort Tree
 ![[Pasted image 20230227114139.png]]
-
+- We only consider it as a binary tree for our analysis
 #### Execution Example
 ![[Pasted image 20230227114153.png]]
 
