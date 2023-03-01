@@ -1,6 +1,7 @@
 Contents:
 [[Algorithms, Correctness & Efficiency]]
 
+
 ###### Q1. Prove 5 is O(1)
 - f(n) = 5
 - g(n) = 1

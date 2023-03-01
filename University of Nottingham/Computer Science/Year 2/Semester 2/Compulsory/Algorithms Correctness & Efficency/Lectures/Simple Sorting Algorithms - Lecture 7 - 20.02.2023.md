@@ -64,10 +64,6 @@ SWAP
 etc.
 ###### Complexity
 ![[Pasted image 20230220105514.png]]
-
-
-
-
 ##### Insertion Sort
 ###### Idea
 ![[Pasted image 20230220105552.png]]
