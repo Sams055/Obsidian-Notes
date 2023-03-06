@@ -8,20 +8,20 @@
  [[Distributed Systems]]
 
 ###### Monday:
-ACE 1 Lecture Notes - Done
+ACE 1 Lecture Notes -  Done
 DSys 1 Lecture Notes -
 12:00 - ACE Lecture 
 ACE 1 Flashcards -
 15:00 - LAC Lecture 
 16:00 - DSys Lab 
-DSys Lab Task - Done
+DSys Lab Task - 
 ###### Tuesday:
 09:00 - GRP Lab
 11:00 - DSys Lecture
 DSys 1 Flashcards - 
 13:00 - LAC Tutorial BSS A06
-AI Methods lecture notes - Done
-LAC 1 Revision - Done
+AI Methods lecture notes -
+LAC 1 Revision -
 ###### Wednesday:
 10:00 - ACE Lab
 11:00 - AI Lecture

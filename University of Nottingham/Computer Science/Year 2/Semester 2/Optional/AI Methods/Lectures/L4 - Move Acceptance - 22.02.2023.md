@@ -161,6 +161,7 @@ Contents:
 ###### Conduct Experiments
 ![[Pasted image 20230220113117.png]]
 - Conduct the experiments with all the parameter settings
+- instead of objective values, we are using ranking
 ![[Pasted image 20230220113125.png]]
 
 ###### Analysis - Main Effects Plot
