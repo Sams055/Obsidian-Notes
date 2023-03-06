@@ -36,7 +36,7 @@ Contents:
 ![[Pasted image 20230306113900.png]]
 
 ![[Pasted image 20230306113905.png]]
-
+Example 5:
 ![[Pasted image 20230306113910.png]]
 
 ![[Pasted image 20230306113917.png]]
@@ -54,15 +54,15 @@ Solving Recurrence:
 
 Expectations:
 ![[Pasted image 20230306114100.png]]
-
+- Should be able to use this for most of the sorts
 ### Recurrence Relations using Master Theorem
 #### Master Theorem
 ![[Pasted image 20230306114156.png]]
-
+- Make sure you understand merge sort
 ![[Pasted image 20230306114203.png]]
 
 ![[Pasted image 20230306114245.png]]
-
+- 
 ![[Pasted image 20230306114250.png]]
 
 ![[Pasted image 20230306114256.png]]

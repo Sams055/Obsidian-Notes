@@ -12,7 +12,7 @@
  [[Name Services and DNS - 24.02.2023]]
  [[WWW and HTTP - 28.02.2023]]
  [[HTTP Servers and APIs - 03.03.2023]]
- Physical & Architectural models
+ [[Physical and Architectural Models - 07.03.2023]]
  Indirect Comm'n: Group Comm'n and Pub-Sub
  Indirect Comm'n: Message Queues and Tuple Spaces
  Q&A, revision 2

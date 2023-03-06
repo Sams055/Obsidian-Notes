@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "736ee3e927d3acdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,22 +160,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13f304b30fff496f",
+  "active": "736ee3e927d3acdc",
   "lastOpenFiles": [
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Physical and Architectural Models - 07.03.2023.md",
+    "assets/images/Pasted image 20230306142651.png",
+    "assets/images/Pasted image 20230306142349.png",
+    "assets/images/Pasted image 20230306142340.png",
+    "assets/images/Pasted image 20230306142331.png",
+    "assets/images/Pasted image 20230306142318.png",
+    "assets/images/Pasted image 20230306142310.png",
+    "assets/images/Pasted image 20230306142221.png",
+    "assets/images/Pasted image 20230306142217.png",
+    "assets/images/Pasted image 20230306142203.png",
+    "assets/images/Pasted image 20230306142143.png",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Recurrence Relations - Lecture 11 - 03.03.2023 - 06.03.2023.md",
-    "assets/images/Pasted image 20230306114405.png",
-    "assets/images/Pasted image 20230306114359.png",
-    "assets/images/Pasted image 20230306114354.png",
-    "assets/images/Pasted image 20230306114340.png",
-    "assets/images/Pasted image 20230306114334.png",
-    "assets/images/Pasted image 20230306114328.png",
-    "assets/images/Pasted image 20230306114323.png",
-    "assets/images/Pasted image 20230306114316.png",
-    "assets/images/Pasted image 20230306114309.png",
-    "assets/images/Pasted image 20230306114302.png",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Quicksort - Lecture 10 - 27.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/HTTP Servers and APIs - 03.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/WWW and HTTP - 28.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
@@ -182,8 +197,6 @@
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 9 - 27.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Labs/Lab 2 - More Primitive Operations.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Big-Oh family - Lecture 4b - 17.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Labs/Lab 1 - Primitive Operations.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 8 - 23.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Name Services and DNS - 24.02.2023.md"
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Labs/Lab 1 - Primitive Operations.md"
   ]
 }
