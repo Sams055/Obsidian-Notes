@@ -13,5 +13,7 @@
  [[Lab 1 - Hill Climbing]]
  [[Lab 2 - Application of Iterated Local Search - 16.02.2023]]
  [[Lab 3 - Simulated Annealing]]
- 
- 
+ [[Lab 4 - Genetic and Memetic Algorithms - 02.03.2023]]
+
+##### Revision:
+

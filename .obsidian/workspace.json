@@ -8,31 +8,41 @@
         "type": "tabs",
         "children": [
           {
-            "id": "13f304b30fff496f",
+            "id": "736ee3e927d3acdc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "assets/pdf/Languages and Computation/g52lac-notes.pdf"
+              }
+            }
+          },
+          {
+            "id": "c487512f0de4cdc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "736ee3e927d3acdc",
+            "id": "9ced6e965790bcef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision/Revision Document.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(tabu)",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5,
-    "collapsed": true
+    "width": 413.5
   },
   "right": {
     "id": "1ef53200bfd6b17d",
@@ -99,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision/Revision Document.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision/Revision Document.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision/Revision Document.md"
               }
             }
           }
@@ -160,31 +169,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "736ee3e927d3acdc",
+  "active": "9ced6e965790bcef",
   "lastOpenFiles": [
+    "assets/images/Pasted image 20230307091255.png",
+    "assets/images/Pasted image 20230307091116.png",
+    "assets/images/Pasted image 20230307091048.png",
+    "assets/images/Pasted image 20230307091024.png",
+    "assets/images/Pasted image 20230307090957.png",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision/Revision Document.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 2 - Application of Iterated Local Search - 16.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 1 - Hill Climbing.md",
+    "assets/images/Pasted image 20230307090709.png",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 11 - 06.03.2023.md",
+    "assets/images/Pasted image 20230306152458.png",
+    "assets/images/Pasted image 20230306152252.png",
+    "assets/images/Pasted image 20230306152245.png",
+    "assets/images/Pasted image 20230306152209.png",
+    "assets/pdf/Languages and Computation/g52lac-notes.pdf",
+    "assets/images/Pasted image 20230306152131.png",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 3 - Simulated Annealing.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Physical and Architectural Models - 07.03.2023.md",
-    "assets/images/Pasted image 20230306142651.png",
-    "assets/images/Pasted image 20230306142349.png",
-    "assets/images/Pasted image 20230306142340.png",
-    "assets/images/Pasted image 20230306142331.png",
-    "assets/images/Pasted image 20230306142318.png",
-    "assets/images/Pasted image 20230306142310.png",
-    "assets/images/Pasted image 20230306142221.png",
-    "assets/images/Pasted image 20230306142217.png",
-    "assets/images/Pasted image 20230306142203.png",
-    "assets/images/Pasted image 20230306142143.png",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Recurrence Relations - Lecture 11 - 03.03.2023 - 06.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Quicksort - Lecture 10 - 27.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/HTTP Servers and APIs - 03.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/WWW and HTTP - 28.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L5 - Evolutionary Algorithms I - 01.02.2023.md",
-    "assets/pdf/Languages and Computation/g52lac-notes.pdf",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 10 - 02.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Simple Sorting Algorithms - Lecture 7 - 20.02.2023.md",
@@ -192,11 +208,6 @@
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 2 - 23.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 4.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Exam CW Revision/Revision Doc.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 5.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 9 - 27.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Labs/Lab 2 - More Primitive Operations.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Big-Oh family - Lecture 4b - 17.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Labs/Lab 1 - Primitive Operations.md"
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Exam CW Revision/Revision Doc.md"
   ]
 }
