@@ -25,7 +25,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Year 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "520fdbbb8067c08b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Mentor Scheme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29c49ca65902884b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/Sessions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "67ba93fa72da7565",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/MCS2/15-03-2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -94,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5,
-    "collapsed": true
+    "width": 413.5
   },
   "right": {
     "id": "1ef53200bfd6b17d",
@@ -111,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/MCS2/15-03-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/MCS2/15-03-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/MCS2/15-03-2023.md"
               }
             }
           }
@@ -172,8 +207,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c85947ebebd8122",
+  "active": "67ba93fa72da7565",
   "lastOpenFiles": [
+    "assets/images/Pasted image 20230308140010.png",
+    "assets/images/Pasted image 20230308135934.png",
+    "assets/images/Pasted image 20230308134641.png",
+    "assets/images/Pasted image 20230308134019.png",
+    "assets/images/Pasted image 20230308134012.png",
+    "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/Sessions.md",
+    "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/MCS2/15-03-2023.md",
+    "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/MCS2",
+    "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Mentor Scheme.md",
+    "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions",
+    "University of Nottingham/Computer Science/Year 2/Year 2.md",
+    "University of Nottingham/Computer Science/Year 2/Mentor Scheme",
+    "University of Nottingham/Computer Science/Computer Science.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L6 - Evolutionary Algorithms II - 08.03.2023.md",
     "assets/images/Pasted image 20230308112047.png",
@@ -182,17 +231,12 @@
     "assets/images/Pasted image 20230308111736.png",
     "assets/images/Pasted image 20230308111650.png",
     "assets/images/Pasted image 20230308111627.png",
-    "assets/images/Pasted image 20230308111532.png",
-    "assets/images/Pasted image 20230308111401.png",
-    "assets/images/Pasted image 20230308111222.png",
-    "assets/images/Pasted image 20230308111034.png",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L5 - Evolutionary Algorithms I - 01.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 1 - Hill Climbing.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 2 - Application of Iterated Local Search - 16.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision/Revision Document.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 3 - Simulated Annealing.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Physical and Architectural Models - 07.03.2023.md",
     "assets/pdf/Languages and Computation/g52lac-notes.pdf",
@@ -205,11 +249,6 @@
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Quicksort - Lecture 10 - 27.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/HTTP Servers and APIs - 03.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/WWW and HTTP - 28.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 10 - 02.03.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L4 - Move Acceptance - 22.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Simple Sorting Algorithms - Lecture 7 - 20.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Linked Lists and their efficiency - Lecture 6 - 20.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 2 - 23.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 4.md"
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 10 - 02.03.2023.md"
   ]
 }
