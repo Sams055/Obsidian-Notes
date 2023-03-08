@@ -94,19 +94,29 @@ Contents:
 - MA3 (DBHC) is the best meme choice for F2, F3, F5, F10, F12. (functions with plateaus)
 - For functuiuons F1, F11 (unimodal) and F9, GA performs slightly better than the memetic algorithm MA1, though the performance difference is insignificant
 - Overall, MA2 (RMHC) and MA3 (DBHC) turn out to be the worst and the best meme, respectively among MA0 - MA3
-####
-####
-####
-####
-####
-####
-####
-####
 ### Part 3
-####
-####
-####
-####
+#### Binary Representation for Encoding Permutation
+- Binary representation and classical random initialisation, crossover, and mutation operators are not suitable for encoding permutation
+	- Could cause illegal permutations for TSP
+#### Partially Mapped Crossover (PMX)
+- Builds offspring by
+	- Choosing a subsequence of a tour from one parent
+		- choose two random cut points to server as swapping boundaries
+		- swap segments between cut points
+	- preserving the order and position of as many cities as possible from other parent
+- Exploits important similarities in the value and ordering simulataneously
+- PMX 
+#### Order Crossover (OX)
+- Builds offspring by
+	- choosing a subsequence of a tour from one parent
+	- preserving relative order of cities from other parent
+- Exploits the property that ordering of cities is important, not positions
+- Say parent has order 9-3-4-5-2-1-8-7-6
+- Say offspring has 4-5-6-7
+- Remove offspring values from parents and insert into offspring in the order the parent's remaining values are ordered in
+#### Cycle Crossover (CX)
+- Randomly select a starting point in p1: 1
+- Copy cities form p1 until a cycle is obtained while mapping from p1 to each corresponding city in p2
 ####
 ####
 ####
