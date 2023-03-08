@@ -161,7 +161,14 @@ Contents:
 	- MMA1: a single good meme and two poor performing memes ar eused to test the power of MMAs in identifying the good ones
 	- MMA2: Memes GA, MA0, MA1, MA2, MA3 are used to observe whether MMA will provide some type of synergy between memes
 #### MMA Experiment Summary
-####
+- 
+#### Weaknesses of Evolutionary Algorithms
+- Limited theoretical and mathematical analyses - this is a growing field of study
+	- Scheme theorem andb uilding block hypothesis
+	- Markov chain analysis
+	- Chaos theory
+	- Matingale theory
+	- Runtime analysis with respect various paramater settings
 ####
 ####
 ####
