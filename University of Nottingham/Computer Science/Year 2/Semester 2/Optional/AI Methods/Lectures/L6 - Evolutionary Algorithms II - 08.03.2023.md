@@ -169,6 +169,8 @@ Contents:
 	- Chaos theory
 	- Matingale theory
 	- Runtime analysis with respect various paramater settings
+- Considered slow for online applications and for some large offline problems
+- Nowadays this is circumvented by speedy hardware and parallel/distributed processing
 ####
 ####
 ####
