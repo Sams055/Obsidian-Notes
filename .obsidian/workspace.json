@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 413.5,
+    "collapsed": true
   },
   "right": {
     "id": "1ef53200bfd6b17d",
@@ -173,29 +174,30 @@
   },
   "active": "1c85947ebebd8122",
   "lastOpenFiles": [
+    "assets/images/Pasted image 20230308112047.png",
+    "assets/images/Pasted image 20230308111930.png",
+    "assets/images/Pasted image 20230308111917.png",
+    "assets/images/Pasted image 20230308111736.png",
+    "assets/images/Pasted image 20230308111650.png",
+    "assets/images/Pasted image 20230308111627.png",
+    "assets/images/Pasted image 20230308111532.png",
+    "assets/images/Pasted image 20230308111401.png",
+    "assets/images/Pasted image 20230308111222.png",
+    "assets/images/Pasted image 20230308111034.png",
+    "assets/images/Pasted image 20230308110718.png",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L5 - Evolutionary Algorithms I - 01.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L6 - Evolutionary Algorithms II - 08.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 1 - Hill Climbing.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 2 - Application of Iterated Local Search - 16.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision/Revision Document.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md",
-    "assets/images/Pasted image 20230307133314.png",
-    "assets/images/Pasted image 20230307132715.png",
-    "assets/images/Pasted image 20230307132257.png",
-    "assets/images/Pasted image 20230307132131.png",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 3 - Simulated Annealing.md",
-    "assets/images/Pasted image 20230307130430.png",
-    "assets/images/Pasted image 20230307130420.png",
-    "assets/images/Pasted image 20230307130406.png",
-    "assets/images/Pasted image 20230307130223.png",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Physical and Architectural Models - 07.03.2023.md",
     "assets/pdf/Languages and Computation/g52lac-notes.pdf",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L2 - Heuristic Search Methods & Hill Climbing.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L5 - Evolutionary Algorithms I - 01.02.2023.md",
-    "assets/images/Pasted image 20230307091255.png",
-    "assets/images/Pasted image 20230307091116.png",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Lectures/LAC Lecture 11 - 06.03.2023.md",
@@ -209,7 +211,6 @@
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Simple Sorting Algorithms - Lecture 7 - 20.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Linked Lists and their efficiency - Lecture 6 - 20.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 2 - 23.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 4.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Tutorial/ACE Tutorial 1 - 16.02.2023.md"
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Exercises/LAC Exercise 4.md"
   ]
 }

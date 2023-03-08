@@ -128,20 +128,7 @@ Generic Approach:
 - crossover operator generates 2 new solutions / children
 - Borrow the gene values and decide to mutate or not
 - Apply hill climbing if memetic algorithm
-### Benchmark Functions
-##### Why to use benchmark (test) functions for optimisation
-##### Classification of benchmark (test) functions
-#### Unimodal function sphere function example
-#### Delta Evaluation in function optimisation
-#### unimodal function: step function
-#### Multimodal function rastrigin's function
-#### Multimodal function Ackley's function
-#### Example of sphere function optimisation
-#### Sphere Function Optimisation - Representation
-#### Sphere Function Optimisation - Fitness Evaluation (decoding)
-#### More on Function optimization
-#### Weakness of EAs
-#### Summary
+
 
 
 
