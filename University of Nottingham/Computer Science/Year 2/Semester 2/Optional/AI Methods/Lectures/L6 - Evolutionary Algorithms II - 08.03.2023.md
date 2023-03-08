@@ -117,13 +117,50 @@ Contents:
 #### Cycle Crossover (CX)
 - Randomly select a starting point in p1: 1
 - Copy cities form p1 until a cycle is obtained while mapping from p1 to each corresponding city in p2
-####
-####
-####
-####
-####
-####
-####
+#### GA vs MA for Solving TSP Experiment
+#### Experimental Data
+#### A Classification of memetic algorithms
+- Static
+	- Adaptive Level: External
+		- Basic meta-lamarckian learning / simplerandom
+- Adaptive
+	- Qualitative Adaptation
+		- Adaptive Level: Local
+			- Randomdescent
+			- Randompermdescent
+		- Adaptive Level: Global
+			- Tabu Search
+	- Quantitive Adaptation
+		- Adaptive Level: Local and Global
+- Self-Adaptive
+	THe process of evolution itself makes decisions on the fly at run time
+#### Self Adaptation for Genetic Operators
+- Self Adaptation: Deciding which operators and settings to use ont he fly whenever needed receiving feedback during the evolutionairy search process
+- David used varying probabilities of applying different operators
+- Grefenstette, kakuza, friesleben, hartfelder used subpopulations, each having different set of parameters and operators
+- Spears used an additional bit tto decide whether to apply 2-PTX or UX
+#### Multimeme Memetic Algorithms
+- Introduce memetic material for each individual
+	- Co-evolve genetic and memetic material
+- A meme encodes how to apply an operator, when to apply etc.
+#### Grammar for a Memeplex
+- Find the slide for your own sanity
+#### oh god he's speedrunning
+#### Inheriting Memetic Material - SIM
+- Can still go under mutation and crossover
+- Crossover in this case, is an inheritance mechanism
+#### Mutating Memes during Evolution
+- We have an inovation rate between 0 and 1 which is the probability of mutating the memes
+- Mutation randomly sets the meme option to one of the other options
+#### Measure for Evaluating Meme Performance
+
+#### The rest of this lecture is a clone of the previous ones but we just switch memes
+#### Benchmark functions
+- The general rule of thumb for inovation rate is 0.20
+- Two sets of experiments are performed
+	- MMA1: a single good meme and two poor performing memes ar eused to test the power of MMAs in identifying the good ones
+	- MMA2: Memes GA, MA0, MA1, MA2, MA3 are used to observe whether MMA will provide some type of synergy between memes
+#### MMA Experiment Summary
 ####
 ####
 ####
