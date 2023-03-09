@@ -117,7 +117,15 @@ Contents:
 #### Cycle Crossover (CX)
 - Randomly select a starting point in p1: 1
 - Copy cities form p1 until a cycle is obtained while mapping from p1 to each corresponding city in p2
+
+#### More genetic operators
+![[Pasted image 20230309103532.png]]
+
+![[Pasted image 20230309103543.png]]
+
 #### GA vs MA for Solving TSP Experiment
+![[Pasted image 20230309103604.png]]
+
 #### Experimental Data
 #### A Classification of memetic algorithms
 - Static

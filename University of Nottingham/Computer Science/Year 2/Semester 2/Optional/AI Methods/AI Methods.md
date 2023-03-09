@@ -14,7 +14,9 @@
  [[Lab 2 - Application of Iterated Local Search - 16.02.2023]]
  [[Lab 3 - Simulated Annealing]]
  [[Lab 4 - Genetic and Memetic Algorithms - 02.03.2023]]
+ [[Lab 5 - Multimeme Memetic Algorithms - 09.03.2023]]
  
+
 ##### Revision:
 [[Revision Document]]
 

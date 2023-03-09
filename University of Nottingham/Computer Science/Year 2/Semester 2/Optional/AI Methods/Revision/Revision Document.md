@@ -24,4 +24,4 @@ Contents:
 	- Higher Generation Count - More exploitation
 #### Lab 5
 ![[Pasted image 20230307091255.png]]
-
+[[Lab 5 - Multimeme Memetic Algorithms - 09.03.2023]]
