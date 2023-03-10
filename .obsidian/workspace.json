@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cabfdbab155c102f",
+        "id": "8a9f2a54d3ec0b49",
         "type": "tabs",
         "children": [
           {
-            "id": "6e5b59b61174c5dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 3 - Simulated Annealing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c60d0cd1cc9aa61",
+            "id": "ff4b9dbb23b33757",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "520e2c35acf5e7bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 2 - Application of Iterated Local Search - 16.02.2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5,
-    "collapsed": true
+    "width": 413.5
   },
   "right": {
     "id": "1ef53200bfd6b17d",
@@ -172,8 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c60d0cd1cc9aa61",
+  "active": "ff4b9dbb23b33757",
   "lastOpenFiles": [
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+    "University of Nottingham/Computer Science/Year 2/Year 2.md",
+    "University of Nottingham/Computer Science/Computer Science.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 2 - Application of Iterated Local Search - 16.02.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Indirect Communication 1 - 10.03.2023.md",
     "assets/images/Pasted image 20230310100438.png",
     "assets/images/Pasted image 20230310100424.png",
     "assets/images/Pasted image 20230310100415.png",
@@ -184,24 +164,17 @@
     "assets/images/Pasted image 20230310100326.png",
     "assets/images/Pasted image 20230310100316.png",
     "assets/images/Pasted image 20230310100307.png",
-    "assets/images/Pasted image 20230310100257.png",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 2 - Application of Iterated Local Search - 16.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Indirect Communication 1 - 10.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 3 - Simulated Annealing.md",
     "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/Sessions.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision/Revision Document.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 5 - Multimeme Memetic Algorithms - 09.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L6 - Evolutionary Algorithms II - 08.03.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Year 2.md",
     "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Mentor Scheme.md",
     "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/MCS2/15-03-2023.md",
     "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/MCS2",
     "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions",
     "University of Nottingham/Computer Science/Year 2/Mentor Scheme",
-    "University of Nottingham/Computer Science/Computer Science.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L5 - Evolutionary Algorithms I - 01.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 1 - Hill Climbing.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md",
