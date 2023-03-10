@@ -140,6 +140,10 @@ public class RandomMutation extends SATHeuristic {
 ### Base Output
 #### Graph
 ![[Pasted image 20230310152640.png]]
+
+![[Pasted image 20230310161314.png]]
+
+
 Depth of Search = 0
 Mutational Intensity = 1
 #### Description
