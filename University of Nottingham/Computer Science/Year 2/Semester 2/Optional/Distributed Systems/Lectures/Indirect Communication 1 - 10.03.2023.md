@@ -85,17 +85,20 @@ Contents:
 - Some systems can guarantee success, whereas others do not e.g. best-effort
 #### Subscription (filter) model
 ![[Pasted image 20230310100341.png]]
-
+- These are the most widely used options
 ![[Pasted image 20230310100351.png]]
-
+- Semantic filtering may involve making something look like predicate logic, with a ruleset etc.
+- 
 #### Centralised vs distributed implementations
 ![[Pasted image 20230310100404.png]]
-
+- Centralised = easy to make, easy to break
+- Distributed = hard to make, hard to break
 #### A network of event brokers
 ![[Pasted image 20230310100415.png]]
 
 #### Event routing in a distributed event system
 ![[Pasted image 20230310100424.png]]
-
+- Brokers could be smart and filter messages coming in
+	- Can match subscriptions up in advance
 #### Summary
 ![[Pasted image 20230310100438.png]]
