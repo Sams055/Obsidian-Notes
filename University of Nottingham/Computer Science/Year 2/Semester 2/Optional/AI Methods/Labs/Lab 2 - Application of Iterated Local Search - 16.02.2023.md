@@ -160,7 +160,21 @@ The 2,2 configuration performed much better than the 0,1 configuration. This is 
 The ideal solution is reached by having a good balance of exploitation and exploration which 2,2 accomplishes
 #### 2
 ##### Graph
+![[Pasted image 20230310153506.png]]
+Depth of Search = 2,
+Intensity of Mutation = 2
 ##### Explanation
-#### 3
+The 2,2 configuration works even better when accepting non-worsening moves. This is most likely due to the extra exploration it allows 
+##### However... this is not the best
 ##### Graph
+![[Pasted image 20230310160533.png]]
+Depth of search = 3,
+Intensity of Mutation = 3
 ##### Explanation
+The 3,3 configuration performs the best, most likely because it allows for more exploration and exploitation.
+#### 3
+##### Explanation
+I think the reason why ILS performs better with non-worsening solutions is due to it already being a local search, and therefore being more focused on exploitation. Non-worsening moves provide better exploration than strictly improving moves, hence providing a better balance and therefore allowing us to reach optimal solutions we couldn't before
+
+
+
