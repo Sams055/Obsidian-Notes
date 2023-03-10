@@ -38,44 +38,51 @@ Contents:
 ### Group Communication
 #### Group Communication
 ![[Pasted image 20230310100040.png]]
-
+- A good example is a shared whiteboard with multiple people viewing and drawing on the whiteboard simultaneously
+- If there are multiple individuals which need to be messages, this is group communication
 #### Group programming model
 ![[Pasted image 20230310100051.png]]
-
+- Processes can join or leave a group
+- if you are in a group, a message sent to a group is delivered to *all* member of that group
 #### Group communication options
 ![[Pasted image 20230310100102.png]]
-
+- 
 ![[Pasted image 20230310100110.png]]
-
+- A process may belong to many groups simultaneously in an overlapping group
 #### Implementation issues
 ##### Reliability
 ![[Pasted image 20230310100120.png]]
-
+- Low-level multicast is not reliable (similar to UDP)
+- For group communication to be reliable, it's more complicated than TCP as that only deals with one to one connections.
+- We need to make sure the messages have integrity, validity and get to all the group members
 ##### Ordering
 ![[Pasted image 20230310100129.png]]
-
+- Order should be maintained across the group. However, if messages are interleaved:
+- A sends 1,2,3 at the same time B is sending 4,5,6 and C is sending 7,8,9
+- We could end up with something along the lines of 1,4,2,5,6,7,3,8,9 at D
+- Total order requires us to wait around to check if we managed to get our send in before the others or not
 ##### Group membership management
 ![[Pasted image 20230310100146.png]]
-
+- We need to deal with the failure of group members as well
 ###### The role
 ![[Pasted image 20230310100200.png]]
-
+- Software needs to handle the basic capability of sending a message to all current members
 #### Summary
 ![[Pasted image 20230310100218.png]]
-
+- Group communication is less widely used than other systems.
 ### Publish-subscribe
 #### Publish-Subscribe
 ![[Pasted image 20230310100257.png]]
-
+- More widely used than group systems
 #### The paradigm
 ![[Pasted image 20230310100307.png]]
-
+- Conceptually, you publish an event, and all interested subscribers get a copy of it
 #### Applications of pub-sub
 ![[Pasted image 20230310100316.png]]
-
+- Could be things like updates to the stock exchange, or youtube videos being uploaded
 #### pub-sub characteristics and options
 ![[Pasted image 20230310100326.png]]
-
+- Some systems can guarantee success, whereas others do not e.g. best-effort
 #### Subscription (filter) model
 ![[Pasted image 20230310100341.png]]
 
