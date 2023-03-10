@@ -1,57 +1,166 @@
 Contents:
 [[AI Methods]]
 
-Implementation:
-``` Java
-protected void runMainLoop() {
-
-// TODO
-
-this.problem.copySolution(BACKUP_SOLUTION_INDEX, CURRENT_SOLUTION_INDEX);
-
-for (int i = 0; i < iIntensityOfMutation; i++) {
-
-this.oMutationHeuristic.applyHeuristic(this.problem);
-
-}
-
-for (int i = 0; i < iDepthOfSearch; i++) {
-
-this.oLocalSearchHeuristic.applyHeuristic(this.problem);
-
-}
-
-if (this.problem.getObjectiveFunctionValue(CURRENT_SOLUTION_INDEX) <= this.problem.getObjectiveFunctionValue(BACKUP_SOLUTION_INDEX)){
-
-this.problem.copySolution(CURRENT_SOLUTION_INDEX, BACKUP_SOLUTION_INDEX);
-
-} else {
-
-this.problem.copySolution(BACKUP_SOLUTION_INDEX, CURRENT_SOLUTION_INDEX);
-
-}
-
-}
-```
-
+### Implementation
+#### Iterated Local Search
 ``` java
-public void applyHeuristic(SAT oProblem) {
+package com.aim.lab02;
 
-// TODO
+import java.util.Random;
 
-int val = random.nextInt(oProblem.getNumberOfVariables());
+import uk.ac.nott.cs.aim.domains.chesc2014_SAT.SAT;
+import uk.ac.nott.cs.aim.satheuristics.SATHeuristic;
+import uk.ac.nott.cs.aim.searchmethods.SinglePointSearchMethod;
 
-oProblem.bitFlip(val, BACKUP_SOLUTION_INDEX);
+	
+public class IteratedLocalSearch extends SinglePointSearchMethod {
 
-oProblem.copySolution(BACKUP_SOLUTION_INDEX, CURRENT_SOLUTION_INDEX);
+	// local search / intensification heuristic
+	private SATHeuristic oLocalSearchHeuristic;
+	
+	// mutation / perturbation heuristic
+	private SATHeuristic oMutationHeuristic;
+	
+	// iom parameter setting
+	private int iIntensityOfMutation;
+	
+	// dos parameter setting
+	private int iDepthOfSearch;
+	
+	/**
+	 * 
+	 * @param oProblem The problem to be solved.
+	 * @param oRandom The random number generator, use this one, not your own!
+	 * @param oMutationHeuristic The mutation heuristic.
+	 * @param oLocalSearchHeuristic The local search heuristic.
+	 * @param iIntensityOfMutation The parameter setting for intensity of mutation.
+	 * @param iDepthOfSearch The parameter setting for depth of search.
+	 */
+	public IteratedLocalSearch(SAT oProblem, Random oRandom, SATHeuristic oMutationHeuristic, 
+			SATHeuristic oLocalSearchHeuristic, int iIntensityOfMutation, int iDepthOfSearch) {
+		
+		super(oProblem, oRandom);
+		
+		this.oMutationHeuristic = oMutationHeuristic;
+		this.oLocalSearchHeuristic = oLocalSearchHeuristic;
+		this.iIntensityOfMutation = iIntensityOfMutation;
+		this.iDepthOfSearch = iDepthOfSearch;
+	}
+
+	/**
+	 * 
+	 * Main loop for ILS. The experiment framework will continually call this loop until
+	 * the allocated time has expired.
+	 * 
+	 * -- ITERATED LOCAL SEARCH PSEUDO CODE --
+	 * 
+	 * // syntactic step for the below pseudo code. The solutions in both CURRENT and 
+	 * // BACKUP memory indices are invariantly the same at the start of each loop.
+	 * s' <- s
+	 * 
+	 * // apply mutation heuristic "iIntensityOfMutation" times
+	 * REPEAT intensityOfMutation TIMES:
+	 *     s' <- mutation(s')
+	 * 
+	 * // apply local search heuristic "iDepthOfSearch" times
+	 * REPEAT depthOfSearch TIMES:
+	 *     s' <- localSearch(s')
+	 * 
+	 * // HINT: Remember that the solutions in the CURRENT and BACKUP memory indices should
+	 * //       be the SAME after each application of the "runMainLoop()"!
+	 *
+	 * IF f(s') <= f(s) THEN
+	 *     accept();
+	 * ELIF
+	 *     reject();
+	 * FI
+	 */
+	protected void runMainLoop() {
+		
+		// TODO
+		this.problem.copySolution(BACKUP_SOLUTION_INDEX, CURRENT_SOLUTION_INDEX);
+		for (int i = 0; i < iIntensityOfMutation; i++) {
+			this.oMutationHeuristic.applyHeuristic(this.problem);
+		}
+		for (int i = 0; i < iDepthOfSearch; i++) {
+			this.oLocalSearchHeuristic.applyHeuristic(this.problem);
+		}
+		if (this.problem.getObjectiveFunctionValue(CURRENT_SOLUTION_INDEX) <= this.problem.getObjectiveFunctionValue(BACKUP_SOLUTION_INDEX)){
+			this.problem.copySolution(CURRENT_SOLUTION_INDEX, BACKUP_SOLUTION_INDEX);
+		}
+		
+	}
+	
+	public String toString() {
+		return "Iterated Local Search";
+	}
+}
+
+```
+#### RandomMutation
+```java
+package com.aim.lab02;
+
+import java.util.Random;
+
+import uk.ac.nott.cs.aim.domains.chesc2014_SAT.SAT;
+import uk.ac.nott.cs.aim.satheuristics.SATHeuristic;
+
+public class RandomMutation extends SATHeuristic {
+	
+	public RandomMutation(Random oRandom) {
+		
+		super(oRandom);
+	}
+
+	/**
+	 * PSEUDO-CODE
+	 * i <- random \in [0, N-1];
+	 * s' <- flip(i, s);
+	 * 
+	 * @param oProblem The problem to be solved.
+	 */
+	@Override
+	public void applyHeuristic(SAT oProblem) {
+		
+		// TODO
+		int val = random.nextInt(oProblem.getNumberOfVariables());
+		oProblem.bitFlip(val, BACKUP_SOLUTION_INDEX);
+		oProblem.copySolution(BACKUP_SOLUTION_INDEX, CURRENT_SOLUTION_INDEX);
+	}
+
+	@Override
+	public String getHeuristicName() {
+
+		return "Single-perturbative Random Mutation";
+	}
 
 }
 ```
-![[Pasted image 20230216143352.png]]
-
-0, 1 < configuration
-![[Pasted image 20230216144738.png]]
-
-0, 1 <= configuration
-![[Pasted image 20230216150029.png]]
-
+### Base Output
+#### Graph
+![[Pasted image 20230310152640.png]]
+Depth of Search = 0
+Mutational Intensity = 1
+#### Description
+This is a monstrosity
+my laptop screamed for this...
+i hope you are happy
+i am not
+Configuration:
+Don't FUCKING run this
+### Exercise
+#### 1
+##### Graph
+![[Pasted image 20230310151635.png]]
+Depth of Search = 2, 
+Intensity of Mutation = 2
+##### Explanation
+The 2,2 configuration performed much better than the 0,1 configuration. This is very likely due to a depth of search of 0 having no exploitation, and therefore never reaching an optimal solution.
+The ideal solution is reached by having a good balance of exploitation and exploration which 2,2 accomplishes
+#### 2
+##### Graph
+##### Explanation
+#### 3
+##### Graph
+##### Explanation
