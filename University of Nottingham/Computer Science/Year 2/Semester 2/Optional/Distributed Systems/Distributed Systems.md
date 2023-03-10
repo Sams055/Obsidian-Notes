@@ -13,7 +13,7 @@
  [[WWW and HTTP - 28.02.2023]]
  [[HTTP Servers and APIs - 03.03.2023]]
  [[Physical and Architectural Models - 07.03.2023]]
- Indirect Comm'n: Group Comm'n and Pub-Sub
+ [[Indirect Communication 1 - 10.03.2023]]
  Indirect Comm'n: Message Queues and Tuple Spaces
  Q&A, revision 2
  Overlay Network and P2P
