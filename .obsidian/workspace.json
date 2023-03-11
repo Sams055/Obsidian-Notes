@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Vector Data Type and Amortised Analysis - Lecture 12 - 10.03.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 413.5,
+    "collapsed": true
   },
   "right": {
     "id": "1ef53200bfd6b17d",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Vector Data Type and Amortised Analysis - Lecture 12 - 10.03.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Vector Data Type and Amortised Analysis - Lecture 12 - 10.03.2023.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Vector Data Type and Amortised Analysis - Lecture 12 - 10.03.2023.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md"
               }
             }
           }
@@ -161,6 +162,8 @@
   },
   "active": "5b0c73f476c48dac",
   "lastOpenFiles": [
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Vector Data Type and Amortised Analysis - Lecture 12 - 10.03.2023.md",
     "assets/images/Pasted image 20230310171801.png",
     "assets/images/Pasted image 20230310171753.png",
     "assets/images/Pasted image 20230310171744.png",
@@ -171,9 +174,6 @@
     "assets/images/Pasted image 20230310171648.png",
     "assets/images/Pasted image 20230310171642.png",
     "assets/images/Pasted image 20230310171632.png",
-    "assets/images/Pasted image 20230310171620.png",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Vector Data Type and Amortised Analysis - Lecture 12 - 10.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 2 - Application of Iterated Local Search - 16.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 1 - Hill Climbing.md",

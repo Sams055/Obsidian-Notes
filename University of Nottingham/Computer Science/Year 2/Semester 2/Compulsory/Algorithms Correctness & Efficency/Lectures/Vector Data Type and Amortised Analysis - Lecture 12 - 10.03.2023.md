@@ -34,10 +34,10 @@ Contents:
 ### Amortize
 #### Meaning
 ![[Pasted image 20230310171451.png]]
-
+- spreading the cost
 #### Remarks
 ![[Pasted image 20230310171500.png]]
-
+- Can't be worse than o(sT)
 #### Question
 ![[Pasted image 20230310171508.png]]
 
