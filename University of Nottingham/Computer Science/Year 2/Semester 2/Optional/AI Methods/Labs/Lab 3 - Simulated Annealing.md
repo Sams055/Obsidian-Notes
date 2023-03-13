@@ -1,6 +1,12 @@
 Contents:
 [[AI Methods]]
 
+### Implementation
+### Basic Output
+### Exercises
+
+
+## Old
 Lundy:
 ![[Pasted image 20230223145125.png]]
 Ideal Alpha = Beta - [0.0001]
