@@ -45,7 +45,7 @@ LAC 2 Exercises -
 ###### Back-log:
 - Last Friday ACE Notes & Flashcards -
 - [[Physical and Architectural Models - 07.03.2023]] Flashcards - Done
-- [[Indirect Communication 1 - 10.03.2023]] Flashcards -
+- [[Indirect Communication 1 - 10.03.2023]] Flashcards - In Progress - pub-sub
 ###### On-going Tasks:
 - Group Project Assignment
 - ACE Self-Study Revision
