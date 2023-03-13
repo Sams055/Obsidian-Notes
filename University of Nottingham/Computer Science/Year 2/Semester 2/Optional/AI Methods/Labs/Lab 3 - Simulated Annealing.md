@@ -279,7 +279,35 @@ $\beta = 0.5$
 ![[Pasted image 20230313132123.png]]
 
 ### Exercises
+#### 1
+##### What do we already know?
+- From the lectures, we concluded that the best value of alpha is somewhere between 0.9 - 0.99
+##### Graph
+###### Low Cooling Value
+$\alpha = 0.1$
+![[Pasted image 20230313133001.png]]
 
+###### High Cooling Value
+$\alpha = 0.9$
+![[Pasted image 20230313133148.png]]
+
+###### Ideal Cooling value
+$\alpha = 0.96$ 
+![[Pasted image 20230313133928.png]]
+
+##### Conclusion
+- Anything below 0.9 produces subpar results
+- The best value of $\alpha$ is 0.96, having the best average of 28 and the best value of 24
+- The range is expected, within 0.9-0.99, and shows the typical behaviour of simulated annealing, that is a higher probability of exploration in the beginning when the probability of accepting worse solutions is higher, dwindling as the geometric nature exponentially lowers such a probability to only accepting better moves.
+#### 2
+##### What do we already know?
+
+##### Graph
+##### Conclusion
+#### 3
+##### What do we already know?
+##### Graph
+##### Conclusion
 
 ## Old
 Lundy:
