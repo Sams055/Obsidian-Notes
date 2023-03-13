@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8bf81e861de1d3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f3d9d1efeda2600",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc70641b56a7b831",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Priority Queues & Heaps - Lecture 16 - 13.03.2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Priority Queues & Heaps - Lecture 16 - 13.03.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Priority Queues & Heaps - Lecture 16 - 13.03.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Priority Queues & Heaps - Lecture 16 - 13.03.2023.md"
               }
             }
           }
@@ -147,32 +184,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b0c73f476c48dac",
+  "active": "fc70641b56a7b831",
   "lastOpenFiles": [
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Stacks and Queues by Using Linked Lists - Lecture 15 - 13.03.2023.md",
+    "assets/images/Pasted image 20230313122638.png",
+    "assets/images/Pasted image 20230313122601.png",
+    "assets/images/Pasted image 20230313122550.png",
+    "assets/images/Pasted image 20230313122539.png",
+    "assets/images/Pasted image 20230313122529.png",
+    "assets/images/Pasted image 20230313122524.png",
+    "assets/images/Pasted image 20230313122514.png",
+    "assets/images/Pasted image 20230313122505.png",
+    "assets/images/Pasted image 20230313122452.png",
+    "assets/images/Pasted image 20230313122426.png",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/ADTs and CDTs, Stacks - Lecture 14 - 13.03.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Priority Queues & Heaps - Lecture 16 - 13.03.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Exam CW Revision/Revision Doc.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Vector Data Type and Amortised Analysis - Lecture 13 - 10.03.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Recurrence Relations - Lecture 11 & 12 - 03.03.2023 - 06.03.2023.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Indirect Communication 1 - 10.03.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Algorithms, Correctness & Efficiency.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Physical and Architectural Models - 07.03.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Priority Queues & Heaps - Lecture 12 - 13.03.2023.md",
-    "assets/images/Pasted image 20230313095444.png",
-    "assets/images/Pasted image 20230313095435.png",
-    "assets/images/Pasted image 20230313095421.png",
-    "assets/images/Pasted image 20230313095410.png",
-    "assets/images/Pasted image 20230313095400.png",
-    "assets/images/Pasted image 20230313095352.png",
-    "assets/images/Pasted image 20230313095344.png",
-    "assets/images/Pasted image 20230313095329.png",
-    "assets/images/Pasted image 20230313095324.png",
-    "assets/images/Pasted image 20230313095317.png",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 3 - Simulated Annealing.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision/Revision Document.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 5 - Multimeme Memetic Algorithms - 09.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 2 - Application of Iterated Local Search - 16.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Vector Data Type and Amortised Analysis - Lecture 12 - 10.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 1 - Hill Climbing.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Recurrence Relations - Lecture 11 - 03.03.2023 - 06.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Quicksort - Lecture 10 - 27.02.2023.md",
     "University of Nottingham/Computer Science/Year 2/Year 2.md",
     "University of Nottingham/Computer Science/Computer Science.md",
@@ -184,10 +224,7 @@
     "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions",
     "University of Nottingham/Computer Science/Year 2/Mentor Scheme",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L5 - Evolutionary Algorithms I - 01.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md",
     "assets/pdf/Languages and Computation/g52lac-notes.pdf",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Lectures/L2 - Heuristic Search Methods & Hill Climbing.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Languages and Computation/Languages and Computation.md"
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision"
   ]
 }

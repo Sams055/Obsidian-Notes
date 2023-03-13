@@ -14,9 +14,11 @@
  [[Trees - Terminology, Traversals, Representations, and Properties - Lecture 8 - 20.02.2023]]
  [[Merge Sort - Lecture 9 - 27.02.2023]]
  [[Quicksort - Lecture 10 - 27.02.2023]]
- [[Recurrence Relations - Lecture 11 - 03.03.2023 - 06.03.2023]]
- [[Vector Data Type and Amortised Analysis - Lecture 12 - 10.03.2023]]
- 
+ [[Recurrence Relations - Lecture 11 & 12 - 03.03.2023 - 06.03.2023]]
+ [[Vector Data Type and Amortised Analysis - Lecture 13 - 10.03.2023]]
+ [[ADTs and CDTs, Stacks - Lecture 14 - 13.03.2023]]
+ [[Stacks and Queues by Using Linked Lists - Lecture 15 - 13.03.2023]]
+ [[Priority Queues & Heaps - Lecture 16 - 13.03.2023]]
 ###### Labs:
 [[Lab 1 - Primitive Operations]]
 [[Lab 2 - More Primitive Operations]]

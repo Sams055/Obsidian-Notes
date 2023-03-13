@@ -13,7 +13,7 @@ Contents:
 
 #### Priority Queue ADT
 ![[Pasted image 20230313094615.png]]
-
+- We can use a key and a value to remove values based on key 
 #### Total Order Relations
 ![[Pasted image 20230313094623.png]]
 
@@ -22,6 +22,8 @@ Contents:
 
 #### Simple Implementations, CDT, of a Priority Queue
 ![[Pasted image 20230313094640.png]]
+- Since it's unsorted, we have no choice, we have to scan the whole lot to find the minimum key
+- Trying to avoid this by using cacheing will just make it harder to get to the next key
 
 #### General Remark
 ![[Pasted image 20230313094648.png]]
@@ -32,7 +34,7 @@ Contents:
 ### Heaps
 #### Heaps
 ![[Pasted image 20230313094736.png]]
-
+- Read it top to bottom, left to right.
 #### Note on Terminology
 ![[Pasted image 20230313094748.png]]
 
@@ -47,13 +49,13 @@ Contents:
 
 #### Height of a heap
 ![[Pasted image 20230313094909.png]]
-
+- Height is no more than log(n)
 #### Heaps and Priority Queues
 ![[Pasted image 20230313095031.png]]
 
 #### Insertion into a Heap
 ![[Pasted image 20230313095040.png]]
-S
+- We want to fix the heap order property
 #### Upheap
 ![[Pasted image 20230313095100.png]]
 
