@@ -320,28 +320,16 @@ $\beta = 0.0001$
 - The graph behaves the way it does because Lundy Mees seems to causes a much higher probability to be prolonged for more iterations, thus making the graph show higher and more aggressive areas where it continually accepts worsening solutions.
 #### 3
 ##### What do we already know?
-##### Graph
-##### Conclusion
+###### Best ILS
+![[Pasted image 20230313135327.png]]
 
-## Old
-Lundy:
-![[Pasted image 20230223145125.png]]
-Ideal Alpha = Beta - [0.0001]
-![[Pasted image 20230223145958.png]]
+###### Best SA
 Geometric:
-![[Pasted image 20230223145547.png]]
-Ideal alpha = 0.9 - 0.99 
-Exercise
+![[Pasted image 20230313135435.png]]
+Lundy Meese:
+![[Pasted image 20230313135512.png]]
 
+##### Conclusion
+- Simulated Annealing Performs better overall, however this is over significantly more iterations than iterated local search. All problem instances are difference, hence we can't say one algorithm is definitively better than the other.
+- The reason Simulated Annealing performs better is most likely due to the extra exploration which is done at the start; allowing it to have a greater chance of finding the optimal solution
 
-
-something
-![[Pasted image 20230307130223.png]]
-above = 0.5
-
-
-![[Pasted image 20230307130406.png]]
-
-![[Pasted image 20230307130420.png]]
-
-![[Pasted image 20230307130430.png]]
