@@ -139,8 +139,9 @@ public class RandomMutation extends SATHeuristic {
 ```
 ### Base Output
 #### Graph
+##### The abomination
 ![[Pasted image 20230310152640.png]]
-
+##### The actual graph
 ![[Pasted image 20230310161314.png]]
 
 

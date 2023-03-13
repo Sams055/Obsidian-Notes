@@ -18,7 +18,6 @@ Contents:
 ![[Pasted image 20230306141237.png]]
 - The Internet scale is where we have a computer on every desk
 - The contemporary stage is where we have potentially many computational devices per person
-- 
 ### Architectural Models
 #### Architectural Models
 ![[Pasted image 20230306141343.png]]
@@ -89,6 +88,5 @@ Contents:
 ![[Pasted image 20230306142349.png]]
 - The OS gives us universal communication services e.g. TCP UDP etc.
 - Middleware allows us to access more specific communication paradigms
-- 
 #### Summary
 ![[Pasted image 20230306142651.png]]
