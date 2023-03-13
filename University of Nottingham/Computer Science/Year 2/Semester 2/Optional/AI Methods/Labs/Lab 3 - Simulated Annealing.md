@@ -301,9 +301,23 @@ $\alpha = 0.96$
 - The range is expected, within 0.9-0.99, and shows the typical behaviour of simulated annealing, that is a higher probability of exploration in the beginning when the probability of accepting worse solutions is higher, dwindling as the geometric nature exponentially lowers such a probability to only accepting better moves.
 #### 2
 ##### What do we already know?
-
+- The lecture suggests that the ideal value for $\beta = 0.0001$  
 ##### Graph
+###### Low Cooling Value
+$\beta = 0.1$
+![[Pasted image 20230313134715.png]]
+
+###### High Cooling Value
+$\beta = 0.9$
+![[Pasted image 20230313134549.png]]
+###### Ideal Cooling Value
+$\beta = 0.0001$
+![[Pasted image 20230313134832.png]]
+
 ##### Conclusion
+- Lundy performs better with a lower beta value
+- The ideal value of $\beta$ is 0.0001 which matches our prediction from the lecture
+- The graph behaves the way it does because Lundy Mees seems to causes a much higher probability to be prolonged for more iterations, thus making the graph show higher and more aggressive areas where it continually accepts worsening solutions.
 #### 3
 ##### What do we already know?
 ##### Graph
