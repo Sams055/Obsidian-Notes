@@ -342,7 +342,7 @@ This is:
 
 ##### Answer
 The Alleles perform much more similarly to each other
-Smaller mutations but algorithms are more equal
+Lots of exploration, not much exploitation
 #### Exercise 3
 ##### Console 1
 ![[Pasted image 20230309155643.png]]
@@ -356,5 +356,10 @@ Smaller mutations but algorithms are more equal
 ##### Answer
 The Alleles are massively different
 Very extreme mutations with emphasis on a single algorithm
+High exploitation, low exploration
+## Conclusion
+Low values of innovation = higher exploitation
+High values of innovation = higher exploration
+
 
 
