@@ -78,14 +78,17 @@ public class IteratedLocalSearch extends SinglePointSearchMethod {
 	protected void runMainLoop() {
 		
 		// TODO
-		this.problem.copySolution(BACKUP_SOLUTION_INDEX, CURRENT_SOLUTION_INDEX);
+		double prevEval = problem.getObjectiveFunctionValue(CURRENT_SOLUTION_INDEX);
 		for (int i = 0; i < iIntensityOfMutation; i++) {
 			this.oMutationHeuristic.applyHeuristic(this.problem);
 		}
 		for (int i = 0; i < iDepthOfSearch; i++) {
 			this.oLocalSearchHeuristic.applyHeuristic(this.problem);
 		}
-		if (this.problem.getObjectiveFunctionValue(CURRENT_SOLUTION_INDEX) <= this.problem.getObjectiveFunctionValue(BACKUP_SOLUTION_INDEX)){
+		double newEval = problem.getObjectiveFunctionValue(CURRENT_SOLUTION_INDEX);
+		if (prevEval < newEval){
+			this.problem.copySolution(BACKUP_SOLUTION_INDEX, CURRENT_SOLUTION_INDEX);
+		} else {
 			this.problem.copySolution(CURRENT_SOLUTION_INDEX, BACKUP_SOLUTION_INDEX);
 		}
 		
