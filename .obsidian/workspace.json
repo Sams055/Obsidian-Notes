@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md"
+                "file": "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md"
               }
             }
           }
@@ -149,20 +149,22 @@
   },
   "active": "c47b3c06c7e0955d",
   "lastOpenFiles": [
+    "assets/images/Pasted image 20230314124721.png",
+    "assets/images/Pasted image 20230314124420.png",
+    "assets/images/Pasted image 20230314124358.png",
+    "assets/images/Pasted image 20230314124147.png",
+    "assets/images/Pasted image 20230314124125.png",
+    "assets/images/Pasted image 20230314124037.png",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
+    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
+    "University of Nottingham/Computer Science/Year 2/Year 2.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Distributed Systems.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/Distributed Systems/Lectures/Indirect Communication 2 - 14.03.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Semester 2.md",
     "assets/images/Pasted image 20230314100455.png",
     "assets/images/Pasted image 20230314100433.png",
     "assets/images/Pasted image 20230314100421.png",
     "assets/images/Pasted image 20230314100412.png",
     "assets/images/Pasted image 20230314100356.png",
-    "assets/images/Pasted image 20230314100347.png",
-    "assets/images/Pasted image 20230314100329.png",
-    "assets/images/Pasted image 20230314100313.png",
-    "assets/images/Pasted image 20230314100227.png",
-    "assets/images/Pasted image 20230314100219.png",
-    "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/AI Methods.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 5 - Multimeme Memetic Algorithms - 09.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 4 - Genetic and Memetic Algorithms - 02.03.2023.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 2 - Application of Iterated Local Search - 16.02.2023.md",
@@ -182,7 +184,6 @@
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Revision/Revision Document.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Optional/AI Methods/Labs/Lab 1 - Hill Climbing.md",
     "University of Nottingham/Computer Science/Year 2/Semester 2/Compulsory/Algorithms Correctness & Efficency/Lectures/Quicksort - Lecture 10 - 27.02.2023.md",
-    "University of Nottingham/Computer Science/Year 2/Year 2.md",
     "University of Nottingham/Computer Science/Computer Science.md",
     "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions/MCS2",
     "University of Nottingham/Computer Science/Year 2/Mentor Scheme/Sessions",
