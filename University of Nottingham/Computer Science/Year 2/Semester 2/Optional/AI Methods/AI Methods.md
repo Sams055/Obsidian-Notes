@@ -8,6 +8,8 @@
  [[L4 - Move Acceptance - 22.02.2023]]
  [[L5 - Evolutionary Algorithms I - 01.02.2023]]
  [[L6 - Evolutionary Algorithms II - 08.03.2023]]
+ [[L7 - Evolutionary Algorithms II - 15.03.2023]]
+ 
 ##### Labs:
  [[Lab 0 - Introduction 02.02.2023]]
  [[Lab 1 - Hill Climbing]]

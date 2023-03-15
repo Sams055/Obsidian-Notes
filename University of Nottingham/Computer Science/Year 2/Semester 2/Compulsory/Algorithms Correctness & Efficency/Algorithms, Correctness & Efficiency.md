@@ -19,9 +19,12 @@
  [[ADTs and CDTs, Stacks - Lecture 14 - 13.03.2023]]
  [[Stacks and Queues by Using Linked Lists - Lecture 15 - 13.03.2023]]
  [[Priority Queues & Heaps - Lecture 16 - 13.03.2023]]
+
 ###### Labs:
 [[Lab 1 - Primitive Operations]]
 [[Lab 2 - More Primitive Operations]]
+[[Lab 3 - Vectors and Strategies]]
+
 ###### Tutorials:
 [[ACE Tutorial 1 - 16.02.2023]]
 [[ACE Tutorial 2 - 23.02.2023]]

@@ -361,6 +361,5 @@ High exploitation, low exploration
 Low values of innovation = higher exploitation
 High values of innovation = higher exploration
 
-fuck
 
 
